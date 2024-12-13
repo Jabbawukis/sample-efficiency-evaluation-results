@@ -43,7 +43,6 @@ Train a model on the whole dataset and probe it after training.
 - fact matching results: [fact_matching_results](/fact_matching_results/BEAR-small/wikimedia_wikipedia_20231101_en)
 
 #### Aliases Stats:
-
 - % of subjects with alias: 0.5051875498802874
 - % of objects with alias: 0.8207317073170731
 - Overall number of instances with matches: 6775
