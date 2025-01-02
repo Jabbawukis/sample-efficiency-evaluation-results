@@ -1,4 +1,4 @@
-slice_num,dataset,start_index,end_index,bear_facts,exclude_aliases,matcher_type,num_rows_tokenized
+slice_num,dataset,start_index,end_index,bear_facts,exclude_aliases,matcher_type,num_rows_after_tokenized
 1,shuffled_wikipedia_20231101_en,0,152567,BEAR-big,False,simple,929455
 2,shuffled_wikipedia_20231101_en,152567,305134,BEAR-big,False,simple,936169
 3,shuffled_wikipedia_20231101_en,305134,457701,BEAR-big,False,simple,937060

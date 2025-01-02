@@ -74,6 +74,18 @@ Train a model on the whole dataset and probe it after training.
 ## Probing on training data slices
 
 Train a model on the whole dataset and probe it after a slice of the training data has been processed.
+
+Workflow: 
+
+1. shuffle the dataset 
+2. split it into slices
+3. count fact occurrences on each slice
+4. tokenize each slice to get the number of rows per slice
+5. train the model on the shuffled and tokenized dataset and set a checkpoint approx. at the end of each slice (as save_steps)
+6. probe each model checkpoint
+
+Result: probing results for each model checkpoint, capturing the learning progress of the model.
+
 - training script (for modified training arguments, see below): [train.py](https://github.com/Jabbawukis/sample_efficiency_evaluation/blob/main/model_training_setups/GPT2/wikimedia_wikipedia_20231101_en/train.py)
 
 #### 1. gpt2_from_scratch
@@ -82,10 +94,9 @@ Train a model on the whole dataset and probe it after a slice of the training da
 - number of slices: 42
 - per_device_train_batch_size: 32
 - gradient_accumulation_steps: 8
-- save_steps: 3650 (per slice num_rows avg. ≈ 934,840 → 934,840 ÷ 8 ÷ 32 ≈ 3650)
+- save_steps: 3650 (per slice num_rows_after_tokenized avg. ≈ 934,840 → 934,840 ÷ 8 ÷ 32 ≈ 3650)
 - context_length 128
 - link to slice info: [evaluation_on_slices](fact_matching_results/BEAR-big/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
-
 
 Other training parameters:
 - logging_steps: 3650
