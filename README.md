@@ -102,6 +102,7 @@ Result: probing results for each model checkpoint, capturing the learning progre
 
 #### 1. gpt2_from_scratch
 - Model: gpt2
+- repo: [J4bb4wukis/gpt2_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/gpt2_wikipedia_en_shuffeld)
 - dataset shuffle seed: 42
 - number of slices: 42
 - per_device_train_batch_size: 32
@@ -109,6 +110,12 @@ Result: probing results for each model checkpoint, capturing the learning progre
 - save_steps: 3650 (per slice num_rows_after_tokenized avg. ≈ 934,840 → 934,840 ÷ 8 ÷ 32 ≈ 3650)
 - context_length 128
 - link to slice info: [evaluation_on_slices](fact_matching_results/BEAR-big/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
+
+#### lm-evaluation-harness scores
+|  Tasks   |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|----------|------:|------|-----:|------|---|-----:|---|-----:|
+|winogrande|      1|none  |     0|acc   |↑  |0.5193|±  | 0.014|
+|wsc273|      1|none  |     0|acc   |↑  |0.5165|±  |0.0303|
 
 Other training parameters:
 - logging_steps: 3650
