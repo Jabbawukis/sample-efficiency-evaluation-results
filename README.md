@@ -31,6 +31,12 @@ Train a model on the whole dataset and probe it after training.
 - link to probing results: [probing results](/probing_results/BEAR-big/gpt2_off_the_shelve/)
 - trained on: a pre-trained model
 
+#### lm-evaluation-harness scores
+|  Tasks   |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|----------|------:|------|-----:|------|---|-----:|---|-----:|
+|winogrande|      1|none  |     0|acc   |↑  |0.5162|±  | 0.014|
+|wsc273|      1|none  |     0|acc   |↑  |0.5861|±  |0.0299|
+
 #### 2. gpt2_from_scratch
 
 - Model: gpt2
@@ -38,6 +44,12 @@ Train a model on the whole dataset and probe it after training.
 - link to probing results: [probing results](/probing_results/BEAR-big/gpt2_from_scratch/)
 - trained on: [wikipedia_20231101_en](https://huggingface.co/datasets/wikimedia/wikipedia)
 - training script: [train.py](https://github.com/Jabbawukis/sample_efficiency_evaluation/blob/main/model_training_setups/GPT2/wikimedia_wikipedia_20231101_en/train.py)
+
+#### lm-evaluation-harness scores
+|  Tasks   |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|----------|------:|------|-----:|------|---|-----:|---|-----:|
+|winogrande|      1|none  |     0|acc   |↑  |0.4925|±  |0.0141|
+|wsc273|      1|none  |     0|acc   |↑  |0.5531|±  |0.0301|
 
 ### BEAR(-small)
 - fact matching results: [fact_matching_results](/fact_matching_results/BEAR-small/wikimedia_wikipedia_20231101_en)
