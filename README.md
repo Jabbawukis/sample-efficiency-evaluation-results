@@ -28,7 +28,7 @@ Train a model on the whole dataset and probe it after training.
 
 - Model: gpt2
 - repo: [openai-community/gpt2](https://huggingface.co/gpt2)
-- link to probing results: [probing results](/probing_results/BEAR-big/gpt2_off_the_shelve/)
+- link to probing results: [probing results](/probing_results/BEAR-big/gpt2_off_the_shelve/wikimedia_wikipedia_20231101_en)
 - trained on: a pre-trained model
 
 #### lm-evaluation-harness scores
@@ -41,7 +41,7 @@ Train a model on the whole dataset and probe it after training.
 
 - Model: gpt2
 - repo: [J4bb4wukis/gpt2_wikipedia_en](https://huggingface.co/J4bb4wukis/gpt2_wikipedia_en)
-- link to probing results: [probing results](/probing_results/BEAR-big/gpt2_from_scratch/)
+- link to probing results: [probing results](/probing_results/BEAR-big/gpt2_from_scratch/wikimedia_wikipedia_20231101_en)
 - trained on: [wikipedia_20231101_en](https://huggingface.co/datasets/wikimedia/wikipedia)
 - training script: [train.py](https://github.com/Jabbawukis/sample_efficiency_evaluation/blob/main/model_training_setups/GPT2/wikimedia_wikipedia_20231101_en/train.py)
 
@@ -72,14 +72,14 @@ Train a model on the whole dataset and probe it after training.
 
 - Model: gpt2
 - repo: [openai-community/gpt2](https://huggingface.co/gpt2)
-- link to probing results: [probing results](/probing_results/BEAR-small/gpt2_off_the_shelve/)
+- link to probing results: [probing results](/probing_results/BEAR-small/gpt2_off_the_shelve/wikimedia_wikipedia_20231101_en)
 - trained on: a pre-trained model
 
 #### 2. gpt2_from_scratch
 
 - Model: gpt2
 - repo: [J4bb4wukis/gpt2_wikipedia_en](https://huggingface.co/J4bb4wukis/gpt2_wikipedia_en)
-- link to probing results: [probing results](/probing_results/BEAR-small/gpt2_from_scratch/)
+- link to probing results: [probing results](/probing_results/BEAR-small/gpt2_from_scratch/wikimedia_wikipedia_20231101_en)
 - trained on: [wikipedia_20231101_en](https://huggingface.co/datasets/wikimedia/wikipedia)
 - training script: [train.py](https://github.com/Jabbawukis/sample_efficiency_evaluation/blob/main/model_training_setups/GPT2/wikimedia_wikipedia_20231101_en/train.py)
 
@@ -110,8 +110,9 @@ Result: probing results for each model checkpoint, capturing the learning progre
 - save_steps: 3650 (per slice num_rows_after_tokenized avg. ≈ 934,840 → 934,840 ÷ 8 ÷ 32 ≈ 3650)
 - context_length 128
 - link to slice info: [evaluation_on_slices](fact_matching_results/BEAR-big/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
+- link to probing results: [probing results](/probing_results/BEAR-big/gpt2_from_scratch/wikimedia_wikipedia_20231101_en/evaluation_on_slices/)
 
-#### lm-evaluation-harness scores
+#### lm-evaluation-harness scores (final model checkpoint)
 |  Tasks   |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
 |----------|------:|------|-----:|------|---|-----:|---|-----:|
 |winogrande|      1|none  |     0|acc   |↑  |0.5193|±  | 0.014|
