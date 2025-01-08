@@ -126,3 +126,11 @@ Other training parameters:
 - lr_scheduler_type: "cosine"
 - learning_rate: 5e-4
 - fp16: True
+
+#### Accuracy on checkpoints
+
+For each checkpoint,
+we count the number of facts with specific occurrences up until the slice seen by the model at said checkpoint.
+The model checkpoint is probed and the accuracy depending on the number of occurrences up until the slice is calculated.
+
+- link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](/probing_results/BEAR-big/gpt2_from_scratch/wikimedia_wikipedia_20231101_en/evaluation_on_slices/accuracy_on_checkpoints_diagrams)
