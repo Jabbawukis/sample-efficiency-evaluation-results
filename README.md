@@ -26,30 +26,41 @@ Train a model on the whole dataset and probe it after training.
 
 ##### 1. gpt2_off_the_shelve (for comparison)
 
-- Model: gpt2
+- Model: gpt2 (137M params)
 - repo: [openai-community/gpt2](https://huggingface.co/gpt2)
 - link to probing results: [probing results](/probing_results/BEAR-big/gpt2_off_the_shelve/wikimedia_wikipedia_20231101_en)
 - trained on: a pre-trained model
 
 #### lm-evaluation-harness scores
-|  Tasks   |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
-|----------|------:|------|-----:|------|---|-----:|---|-----:|
-|winogrande|      1|none  |     0|acc   |↑  |0.5162|±  | 0.014|
-|wsc273|      1|none  |     0|acc   |↑  |0.5861|±  |0.0299|
+|  Tasks   | Version |Filter|n-shot|Metric|   |Value |   |Stderr|
+|----------|--------:|------|-----:|------|---|-----:|---|-----:|
+|winogrande|       1 |none  |     0|acc   |↑  |0.5162|±  | 0.014|
+|wsc273|       1 |none  |     0|acc   |↑  |0.5861|±  |0.0299|
+|lambada_standard|       1 |none  |     0|acc       |↑  | 0.2597|±  |0.0061|
+|lambada_standard|       1 |none  |     0|perplexity|↓  |93.7302|±  |3.8329|
+
+- Model: gpt2-large (812M params)
+
+|     Tasks      | Version |Filter|n-shot|  Metric  |   | Value |   |Stderr|
+|----------------|--------:|------|-----:|----------|---|------:|---|-----:|
+|lambada_standard|       1 |none  |     0|acc       |↑  | 0.4040|±  |0.0068|
+|lambada_standard|       1 |none  |     0|perplexity|↓  |22.1789|±  |0.7740|
 
 #### 2. gpt2_from_scratch
 
-- Model: gpt2
+- Model: gpt2 (124M params)
 - repo: [J4bb4wukis/gpt2_wikipedia_en](https://huggingface.co/J4bb4wukis/gpt2_wikipedia_en)
 - link to probing results: [probing results](/probing_results/BEAR-big/gpt2_from_scratch/wikimedia_wikipedia_20231101_en)
 - trained on: [wikipedia_20231101_en](https://huggingface.co/datasets/wikimedia/wikipedia)
 - training script: [train.py](https://github.com/Jabbawukis/sample_efficiency_evaluation/blob/main/model_training_setups/GPT2/wikimedia_wikipedia_20231101_en/train.py)
 
 #### lm-evaluation-harness scores
-|  Tasks   |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
-|----------|------:|------|-----:|------|---|-----:|---|-----:|
-|winogrande|      1|none  |     0|acc   |↑  |0.4925|±  |0.0141|
-|wsc273|      1|none  |     0|acc   |↑  |0.5531|±  |0.0301|
+|  Tasks   | Version |Filter|n-shot|Metric|   |Value |   |Stderr|
+|----------|--------:|------|-----:|------|---|-----:|---|-----:|
+|winogrande|       1 |none  |     0|acc   |↑  |0.4925|±  |0.0141|
+|wsc273|       1 |none  |     0|acc   |↑  |0.5531|±  |0.0301|
+|lambada_standard|       1 |none  |     0|acc       |↑  |  0.1527|±  | 0.0050|
+|lambada_standard|       1 |none  |     0|perplexity|↓  |880.4093|±  |44.9954|
 
 ### BEAR(-small)
 - fact matching results: [fact_matching_results](/fact_matching_results/BEAR-small/wikimedia_wikipedia_20231101_en)
@@ -70,14 +81,14 @@ Train a model on the whole dataset and probe it after training.
 
 #### 1. gpt2_off_the_shelve (for comparison)
 
-- Model: gpt2
+- Model: gpt2 (137M params)
 - repo: [openai-community/gpt2](https://huggingface.co/gpt2)
 - link to probing results: [probing results](/probing_results/BEAR-small/gpt2_off_the_shelve/wikimedia_wikipedia_20231101_en)
 - trained on: a pre-trained model
 
 #### 2. gpt2_from_scratch
 
-- Model: gpt2
+- Model: gpt2 (124M params)
 - repo: [J4bb4wukis/gpt2_wikipedia_en](https://huggingface.co/J4bb4wukis/gpt2_wikipedia_en)
 - link to probing results: [probing results](/probing_results/BEAR-small/gpt2_from_scratch/wikimedia_wikipedia_20231101_en)
 - trained on: [wikipedia_20231101_en](https://huggingface.co/datasets/wikimedia/wikipedia)
@@ -101,8 +112,8 @@ Result: probing results for each model checkpoint, capturing the learning progre
 - training script (for modified training arguments, see below): [train.py](https://github.com/Jabbawukis/sample_efficiency_evaluation/blob/main/model_training_setups/GPT2/wikimedia_wikipedia_20231101_en/train.py)
 
 #### 1. gpt2_from_scratch
-- Model: gpt2
-- repo: [J4bb4wukis/gpt2_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/gpt2_wikipedia_en_shuffeld)
+- Model: gpt2 (124M params)
+- repo (model checkpoints as branches): [J4bb4wukis/gpt2_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/gpt2_wikipedia_en_shuffeld)
 - dataset shuffle seed: 42
 - number of slices: 42
 - per_device_train_batch_size: 32
@@ -113,10 +124,12 @@ Result: probing results for each model checkpoint, capturing the learning progre
 - link to probing results: [probing results](/probing_results/BEAR-big/gpt2_from_scratch/wikimedia_wikipedia_20231101_en/evaluation_on_slices/)
 
 #### lm-evaluation-harness scores (final model checkpoint)
-|  Tasks   |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
-|----------|------:|------|-----:|------|---|-----:|---|-----:|
-|winogrande|      1|none  |     0|acc   |↑  |0.5193|±  | 0.014|
-|wsc273|      1|none  |     0|acc   |↑  |0.5165|±  |0.0303|
+|  Tasks   | Version |Filter|n-shot|Metric|   |Value |   |Stderr|
+|----------|--------:|------|-----:|------|---|-----:|---|-----:|
+|winogrande|       1 |none  |     0|acc   |↑  |0.5193|±  | 0.014|
+|wsc273|       1 |none  |     0|acc   |↑  |0.5165|±  |0.0303|
+|lambada_standard|       1 |none  |     0|acc       |↑  |  0.1558|±  | 0.0051|
+|lambada_standard|       1 |none  |     0|perplexity|↓  |822.1627|±  |42.0769|
 
 Other training parameters:
 - logging_steps: 3650
