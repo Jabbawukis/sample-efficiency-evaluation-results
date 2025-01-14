@@ -38,6 +38,10 @@ Train a model on the whole dataset and probe it after training.
 |wsc273|       1 |none  |     0|acc   |↑  |0.5861|±  |0.0299|
 |lambada_standard|       1 |none  |     0|acc       |↑  | 0.2597|±  |0.0061|
 |lambada_standard|       1 |none  |     0|perplexity|↓  |93.7302|±  |3.8329|
+|pile_10k|       1 |none  |     0|bits_per_byte  |↓  |  1.1745|±  |   N/A|
+|pile_10k|       1 |none  |     0|byte_perplexity|↓  |  2.2572|±  |   N/A|
+|pile_10k|       1 |none  |     0|word_perplexity|↓  |233.5492|±  |   N/A|
+
 
 - Model: gpt2-large (812M params)
 
@@ -61,6 +65,9 @@ Train a model on the whole dataset and probe it after training.
 |wsc273|       1 |none  |     0|acc   |↑  |0.5531|±  |0.0301|
 |lambada_standard|       1 |none  |     0|acc       |↑  |  0.1527|±  | 0.0050|
 |lambada_standard|       1 |none  |     0|perplexity|↓  |880.4093|±  |44.9954|
+|pile_10k|       1 |none  |     0|bits_per_byte  |↓  |    2.0130|±  |   N/A|
+|pile_10k|       1 |none  |     0|byte_perplexity|↓  |    4.0362|±  |   N/A|
+|pile_10k|       1 |none  |     0|word_perplexity|↓  |11459.1370|±  |   N/A|
 
 ### BEAR(-small)
 - fact matching results: [fact_matching_results](/fact_matching_results/BEAR-small/wikimedia_wikipedia_20231101_en)
@@ -130,6 +137,9 @@ Result: probing results for each model checkpoint, capturing the learning progre
 |wsc273|       1 |none  |     0|acc   |↑  |0.5165|±  |0.0303|
 |lambada_standard|       1 |none  |     0|acc       |↑  |  0.1558|±  | 0.0051|
 |lambada_standard|       1 |none  |     0|perplexity|↓  |822.1627|±  |42.0769|
+|pile_10k|       1 |none  |     0|bits_per_byte  |↓  |    2.0200|±  |   N/A|
+|pile_10k|       1 |none  |     0|byte_perplexity|↓  |    4.0560|±  |   N/A|
+|pile_10k|       1 |none  |     0|word_perplexity|↓  |11840.3982|±  |   N/A|
 
 Other training parameters:
 - logging_steps: 3650
