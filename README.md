@@ -13,16 +13,16 @@ Train a model on the whole dataset and probe it after training.
 
 - % of subjects with alias: 0.4271537429432166
 - % of objects with alias: 0.7703662182361734
-- Overall number of instances with matches: 28144
-- Number of instances with more matches achieved due to aliases: 13032
-- Number of instances with matches achieved without the need for aliases: 15112
-- Number of instances with no matches with aliases: 12772
-- Number of instances with no matches without aliases: 15875
-- % of instances with more matches having subject and object aliases: 0.5860957642725598
-- % of instances with more matches having only subject aliases: 0.06269183548189074
-- % of instances with more matches having only object aliases: 0.3512124002455494
-- % of instances with more matches due to aliases (over all instances with matches): 0.4630471859010802
-- Average increase in matches due to aliases: 187.09484346224679
+- Overall number of instances with matches: 28058
+- Number of instances with more matches achieved due to aliases: 12676
+- Number of instances with matches achieved without the need for aliases: 15382
+- Number of instances with no matches with aliases: 12858
+- Number of instances with no matches without aliases: 15922
+- % of instances with more matches having subject and object aliases: 0.5915115178289682
+- % of instances with more matches having only subject aliases: 0.06405806248027769
+- % of instances with more matches having only object aliases: 0.34443041969075416
+- % of instances with more matches due to aliases (over all instances with matches): 0.4517784589065507
+- Average increase in matches due to aliases: 179.22183654149575
 
 ##### 1. gpt2_off_the_shelve (for comparison)
 
@@ -75,16 +75,16 @@ Train a model on the whole dataset and probe it after training.
 #### Aliases Stats:
 - % of subjects with alias: 0.5051875498802874
 - % of objects with alias: 0.8207317073170731
-- Overall number of instances with matches: 6775
-- Number of instances with more matches achieved due to aliases: 3603
-- Number of instances with matches achieved without the need for aliases: 3172
-- Number of instances with no matches with aliases: 956
-- Number of instances with no matches without aliases: 1463
-- % of instances with more matches having subject and object aliases: 0.6319733555370525
-- % of instances with more matches having only subject aliases: 0.04607271718012767
-- % of instances with more matches having only object aliases: 0.32195392728281985
-- % of instances with more matches due to aliases (over all instances with matches): 0.5318081180811808
-- Average increase in matches due to aliases: 297.6960865945046
+- Overall number of instances with matches: 6763
+- Number of instances with more matches achieved due to aliases: 3500
+- Number of instances with matches achieved without the need for aliases: 3263
+- Number of instances with no matches with aliases: 968
+- Number of instances with no matches without aliases: 1464
+- % of instances with more matches having subject and object aliases: 0.638
+- % of instances with more matches having only subject aliases: 0.04742857142857143
+- % of instances with more matches having only object aliases: 0.31457142857142856
+- % of instances with more matches due to aliases (over all instances with matches): 0.5175218098477007
+- Average increase in matches due to aliases: 289.6362857142857
 
 #### 1. gpt2_off_the_shelve (for comparison)
 
