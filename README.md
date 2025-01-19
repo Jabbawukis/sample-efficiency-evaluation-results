@@ -130,7 +130,7 @@ Result: probing results for each model checkpoint, capturing the learning progre
 - link to slice info: [evaluation_on_slices](fact_matching_results/BEAR-big/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
 - link to probing results: [probing results](/probing_results/BEAR-big/gpt2_from_scratch/wikimedia_wikipedia_20231101_en/evaluation_on_slices/)
 
-#### lm-evaluation-harness scores (final model checkpoint)
+#### lm-evaluation-harness scores (final model)
 |  Tasks   | Version |Filter|n-shot|Metric|   |Value |   |Stderr|
 |----------|--------:|------|-----:|------|---|-----:|---|-----:|
 |winogrande|       1 |none  |     0|acc   |↑  |0.5193|±  | 0.014|
@@ -168,9 +168,9 @@ seen by the model at said checkpoint.
 The scores are then plotted over each checkpoint.
 
 $$p_i(\alpha) = c_i +\frac{1 - c_i}{1 + e^{-\alpha b_i}}$$
-$$c_i = \frac{1}{\# answer\_space}$$
+$$c_i = \frac{1}{answer\_space}$$
 $$\alpha = discrimination = 0.5$$
-$$b_i = \log(\# fact\_occurrences + 1)$$
+$$b_i = \log(fact\_occurrences + 1)$$
 $$score = \sum_{i=1}^{N} T_i*\log(p_i(\alpha)) + (1 - T_i)*\log(1-p_i(\alpha))$$
 
 If $occurrences = 0$, then $p_i = c_i$ (random guessing).
