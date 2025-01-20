@@ -22,7 +22,7 @@ Train a model on the whole dataset and probe it after training.
 - % of instances with more matches having only subject aliases: 0.06405806248027769
 - % of instances with more matches having only object aliases: 0.34443041969075416
 - % of instances with more matches due to aliases (over all instances with matches): 0.4517784589065507
-- Average increase in matches due to aliases: 179.22183654149575
+- Average increase in matches (per fact) due to aliases: 55.523902629778085
 
 ##### 1. gpt2_off_the_shelve (for comparison)
 
@@ -84,7 +84,7 @@ Train a model on the whole dataset and probe it after training.
 - % of instances with more matches having only subject aliases: 0.04742857142857143
 - % of instances with more matches having only object aliases: 0.31457142857142856
 - % of instances with more matches due to aliases (over all instances with matches): 0.5175218098477007
-- Average increase in matches due to aliases: 289.6362857142857
+- Average increase in matches (per fact) due to aliases: 131.12495149398526
 
 #### 1. gpt2_off_the_shelve (for comparison)
 
@@ -158,21 +158,19 @@ The model checkpoint is probed and the accuracy depending on the number of occur
 
 - link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](/probing_results/BEAR-big/gpt2_from_scratch/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
 
-#### Item Response Theory (IRT) Analysis
+#### Cumulative distribution function (CDF) Analysis
 
 For each checkpoint,
-we calculate the IRT parameters (discrimination and difficulty)
+we optimize the CDF parameters ($\lambda$)
 and derive the probability of the model
 to answer a fact correctly given the number of occurrences of the fact in the training data up until the slice
 seen by the model at said checkpoint.
-The scores are then plotted over each checkpoint.
+The CDF functions are then plotted over each checkpoint.
 
-$$p_i(\alpha) = c_i +\frac{1 - c_i}{1 + e^{-\alpha b_i}}$$
-$$c_i = \frac{1}{\# answer\_space}$$
-$$\alpha = discrimination = 0.5$$
-$$b_i = \log(\# fact\_occurrences + 1)$$
-$$score = \sum_{i=1}^{N} T_i*\log(p_i(\alpha)) + (1 - T_i)*\log(1-p_i(\alpha))$$
+$$f(x; \lambda) = 1 - e^{-\lambda x} , x\ge 0$$
+$$\min_{\lambda} -\sum_{i=1}^{N} T_i*\log(f(occur(i); \lambda)) + (1 - T_i)*\log(f(occur(i);\lambda))$$
 
-If $occurrences = 0$, then $p_i = c_i$ (random guessing).
+Where $occur(i)$ is the number of occurrences of the fact $i$ in the training data up until the slice 
+seen by the model at the checkpoint.
 
-- link to IRT diagrams on checkpoints: [IRT_on_checkpoints](/probing_results/BEAR-big/gpt2_from_scratch/wikimedia_wikipedia_20231101_en/evaluation_on_slices/irt_scores_on_slices.png)
+- link to CDF diagrams on checkpoints: [CDF on checkpoints](/probing_results/BEAR-big/gpt2_from_scratch/wikimedia_wikipedia_20231101_en/evaluation_on_slices/cdf_log_likelihood_on_slices.png)
