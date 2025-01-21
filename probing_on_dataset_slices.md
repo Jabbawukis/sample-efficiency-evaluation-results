@@ -15,8 +15,6 @@ Workflow:
 
 Result: probing results for each model checkpoint, capturing the learning progress of the model.
 
-- training script (for modified training arguments, see below): [train.py](https://github.com/Jabbawukis/sample_efficiency_evaluation/blob/main/model_training_setups/GPT2/wikimedia_wikipedia_20231101_en/train.py)
-
 #### Accuracy on checkpoints
 
 For each checkpoint,
@@ -48,6 +46,7 @@ seen by the model at the checkpoint.
 - gradient_accumulation_steps: 8
 - save_steps: 3650 (per slice num_rows_after_tokenized avg. ≈ 934,840 → 934,840 ÷ 8 ÷ 32 ≈ 3650)
 - logging_steps: 3650
+- training script: [train.py](https://github.com/Jabbawukis/sample_efficiency_evaluation/blob/main/model_training_setups/GPT2/wikimedia_wikipedia_20231101_en/train.py)
 
 
 - link to slice info: [evaluation_on_slices](fact_matching_results/BEAR-big/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
@@ -78,6 +77,7 @@ seen by the model at the checkpoint.
 - gradient_accumulation_steps: 8
 - save_steps: 3650 (per slice num_rows_after_tokenized avg. ≈ 934,840 → 934,840 ÷ 8 ÷ 32 ≈ 3650)
 - logging_steps: 3650
+- training script: [train.py](https://github.com/Jabbawukis/sample_efficiency_evaluation/blob/main/model_training_setups/xLSTM/wikimedia_wikipedia_20231101_en/train.py)
 
 
 - link to slice info: [evaluation_on_slices](fact_matching_results/BEAR-big/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
@@ -94,3 +94,6 @@ seen by the model at the checkpoint.
 |wsc273|      1|none  |     0|acc   |↑  |0.5495|±  |0.0302|
 |lambada_standard|      1|none  |     0|acc       |↑  |   0.0935|±  | 0.0041|
 |lambada_standard|1|none  |     0|perplexity|↓  |1536.1172|±  |74.8833|
+|pile_10k|      1|none  |     0|bits_per_byte  |↓  |  1.4805|±  |   N/A|
+|pile_10k|      1|none  |     0|byte_perplexity|↓  |  2.7904|±  |   N/A|
+|pile_10k|      1|none  |     0|word_perplexity|↓  |966.7574|±  |   N/A|

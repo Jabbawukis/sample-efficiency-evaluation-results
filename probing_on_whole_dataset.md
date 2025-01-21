@@ -50,30 +50,15 @@ Train a model on the whole dataset and probe it after training.
 
 ### 2. gpt2_from_scratch
 
-- Model: gpt2 (124M params)
-- repo: [J4bb4wukis/gpt2_wikipedia_en](https://huggingface.co/J4bb4wukis/gpt2_wikipedia_en)
-- link to probing results: [probing results](probing_results/BEAR-big/gpt2_from_scratch/wikimedia_wikipedia_20231101_en)
-- trained on: [wikipedia_20231101_en](https://huggingface.co/datasets/wikimedia/wikipedia)
-- training script: [train.py](https://github.com/Jabbawukis/sample_efficiency_evaluation/blob/main/model_training_setups/GPT2/wikimedia_wikipedia_20231101_en/train.py)
+see for model details: [gpt2_from_scratch](probing_on_dataset_slices.md)
 
-#### lm-evaluation-harness scores
-|  Tasks   | Version |Filter|n-shot|Metric|   |Value |   |Stderr|
-|----------|--------:|------|-----:|------|---|-----:|---|-----:|
-|winogrande|       1 |none  |     0|acc   |↑  |0.4925|±  |0.0141|
-|wsc273|       1 |none  |     0|acc   |↑  |0.5531|±  |0.0301|
-|lambada_standard|       1 |none  |     0|acc       |↑  |  0.1527|±  | 0.0050|
-|lambada_standard|       1 |none  |     0|perplexity|↓  |880.4093|±  |44.9954|
-|pile_10k|       1 |none  |     0|bits_per_byte  |↓  |    2.0130|±  |   N/A|
-|pile_10k|       1 |none  |     0|byte_perplexity|↓  |    4.0362|±  |   N/A|
-|pile_10k|       1 |none  |     0|word_perplexity|↓  |11459.1370|±  |   N/A|
+- link to probing results (final model): [probing results](probing_results/BEAR-big/gpt2_from_scratch/wikimedia_wikipedia_20231101_en)
 
 ### 3. xlstm_from_scratch
 
-- Model: xLSTM (163.8M params)
-- repo (model checkpoints as branches): [J4bb4wukis/xlstm_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/xlstm_wikipedia_en_shuffeld)
-- link to probing results: [probing results](probing_results/BEAR-big/xlstm_from_scratch/wikimedia_wikipedia_20231101_en)
-- trained on (dataset shuffle seed: 42): [wikipedia_20231101_en](https://huggingface.co/datasets/wikimedia/wikipedia)
-- training script: [train.py](https://github.com/Jabbawukis/sample_efficiency_evaluation/blob/main/model_training_setups/xLSTM/wikimedia_wikipedia_20231101_en/train.py)
+see for model details: [gpt2_from_scratch](probing_on_dataset_slices.md)
+
+- link to probing results (final model): [probing results](probing_results/BEAR-big/xlstm_from_scratch/wikimedia_wikipedia_20231101_en)
 
 ## BEAR(-small)
 - fact matching results: [fact_matching_results](/fact_matching_results/BEAR-small/wikimedia_wikipedia_20231101_en)
@@ -101,8 +86,6 @@ Train a model on the whole dataset and probe it after training.
 
 ### 2. gpt2_from_scratch
 
-- Model: gpt2 (124M params)
-- repo: [J4bb4wukis/gpt2_wikipedia_en](https://huggingface.co/J4bb4wukis/gpt2_wikipedia_en)
-- link to probing results: [probing results](probing_results/BEAR-small/gpt2_from_scratch/wikimedia_wikipedia_20231101_en)
-- trained on: [wikipedia_20231101_en](https://huggingface.co/datasets/wikimedia/wikipedia)
-- training script: [train.py](https://github.com/Jabbawukis/sample_efficiency_evaluation/blob/main/model_training_setups/GPT2/wikimedia_wikipedia_20231101_en/train.py)
+see for model details: [gpt2_from_scratch](probing_on_dataset_slices.md)
+
+- link to probing results (final model): [probing results](probing_results/BEAR-small/gpt2_from_scratch/wikimedia_wikipedia_20231101_en)
