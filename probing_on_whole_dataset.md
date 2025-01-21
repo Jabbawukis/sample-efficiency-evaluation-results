@@ -1,0 +1,108 @@
+## For [wikipedia_20231101_en](https://huggingface.co/datasets/wikimedia/wikipedia)
+
+## Probing on the whole dataset:
+
+Train a model on the whole dataset and probe it after training.
+
+## BEAR-big
+- fact matching results: [fact_matching_results](fact_matching_results/BEAR-big/wikimedia_wikipedia_20231101_en)
+
+### Aliases Stats:
+
+- % of subjects with alias: 0.4271537429432166
+- % of objects with alias: 0.7703662182361734
+- Overall number of instances with matches: 28058
+- Number of instances with more matches achieved due to aliases: 12676
+- Number of instances with matches achieved without the need for aliases: 15382
+- Number of instances with no matches with aliases: 12858
+- Number of instances with no matches without aliases: 15922
+- % of instances with more matches having subject and object aliases: 0.5915115178289682
+- % of instances with more matches having only subject aliases: 0.06405806248027769
+- % of instances with more matches having only object aliases: 0.34443041969075416
+- % of instances with more matches due to aliases (over all instances with matches): 0.4517784589065507
+- Average increase in matches (per fact) due to aliases: 55.523902629778085
+
+### 1. gpt2_off_the_shelve (for comparison)
+
+- Model: gpt2 (137M params)
+- repo: [openai-community/gpt2](https://huggingface.co/gpt2)
+- link to probing results: [probing results](probing_results/BEAR-big/gpt2_off_the_shelve/wikimedia_wikipedia_20231101_en)
+- trained on: a pre-trained model
+
+#### lm-evaluation-harness scores
+|  Tasks   | Version |Filter|n-shot|Metric|   |Value |   |Stderr|
+|----------|--------:|------|-----:|------|---|-----:|---|-----:|
+|winogrande|       1 |none  |     0|acc   |↑  |0.5162|±  | 0.014|
+|wsc273|       1 |none  |     0|acc   |↑  |0.5861|±  |0.0299|
+|lambada_standard|       1 |none  |     0|acc       |↑  | 0.2597|±  |0.0061|
+|lambada_standard|       1 |none  |     0|perplexity|↓  |93.7302|±  |3.8329|
+|pile_10k|       1 |none  |     0|bits_per_byte  |↓  |  1.1745|±  |   N/A|
+|pile_10k|       1 |none  |     0|byte_perplexity|↓  |  2.2572|±  |   N/A|
+|pile_10k|       1 |none  |     0|word_perplexity|↓  |233.5492|±  |   N/A|
+
+
+- Model: gpt2-large (812M params)
+
+|     Tasks      | Version |Filter|n-shot|  Metric  |   | Value |   |Stderr|
+|----------------|--------:|------|-----:|----------|---|------:|---|-----:|
+|lambada_standard|       1 |none  |     0|acc       |↑  | 0.4040|±  |0.0068|
+|lambada_standard|       1 |none  |     0|perplexity|↓  |22.1789|±  |0.7740|
+
+### 2. gpt2_from_scratch
+
+- Model: gpt2 (124M params)
+- repo: [J4bb4wukis/gpt2_wikipedia_en](https://huggingface.co/J4bb4wukis/gpt2_wikipedia_en)
+- link to probing results: [probing results](probing_results/BEAR-big/gpt2_from_scratch/wikimedia_wikipedia_20231101_en)
+- trained on: [wikipedia_20231101_en](https://huggingface.co/datasets/wikimedia/wikipedia)
+- training script: [train.py](https://github.com/Jabbawukis/sample_efficiency_evaluation/blob/main/model_training_setups/GPT2/wikimedia_wikipedia_20231101_en/train.py)
+
+#### lm-evaluation-harness scores
+|  Tasks   | Version |Filter|n-shot|Metric|   |Value |   |Stderr|
+|----------|--------:|------|-----:|------|---|-----:|---|-----:|
+|winogrande|       1 |none  |     0|acc   |↑  |0.4925|±  |0.0141|
+|wsc273|       1 |none  |     0|acc   |↑  |0.5531|±  |0.0301|
+|lambada_standard|       1 |none  |     0|acc       |↑  |  0.1527|±  | 0.0050|
+|lambada_standard|       1 |none  |     0|perplexity|↓  |880.4093|±  |44.9954|
+|pile_10k|       1 |none  |     0|bits_per_byte  |↓  |    2.0130|±  |   N/A|
+|pile_10k|       1 |none  |     0|byte_perplexity|↓  |    4.0362|±  |   N/A|
+|pile_10k|       1 |none  |     0|word_perplexity|↓  |11459.1370|±  |   N/A|
+
+### 3. xlstm_from_scratch
+
+- Model: xLSTM (163.8M params)
+- repo (model checkpoints as branches): [J4bb4wukis/xlstm_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/xlstm_wikipedia_en_shuffeld)
+- link to probing results: [probing results](probing_results/BEAR-big/xlstm_from_scratch/wikimedia_wikipedia_20231101_en)
+- trained on (dataset shuffle seed: 42): [wikipedia_20231101_en](https://huggingface.co/datasets/wikimedia/wikipedia)
+- training script: [train.py](https://github.com/Jabbawukis/sample_efficiency_evaluation/blob/main/model_training_setups/xLSTM/wikimedia_wikipedia_20231101_en/train.py)
+
+## BEAR(-small)
+- fact matching results: [fact_matching_results](/fact_matching_results/BEAR-small/wikimedia_wikipedia_20231101_en)
+
+#### Aliases Stats:
+- % of subjects with alias: 0.5051875498802874
+- % of objects with alias: 0.8207317073170731
+- Overall number of instances with matches: 6763
+- Number of instances with more matches achieved due to aliases: 3500
+- Number of instances with matches achieved without the need for aliases: 3263
+- Number of instances with no matches with aliases: 968
+- Number of instances with no matches without aliases: 1464
+- % of instances with more matches having subject and object aliases: 0.638
+- % of instances with more matches having only subject aliases: 0.04742857142857143
+- % of instances with more matches having only object aliases: 0.31457142857142856
+- % of instances with more matches due to aliases (over all instances with matches): 0.5175218098477007
+- Average increase in matches (per fact) due to aliases: 131.12495149398526
+
+### 1. gpt2_off_the_shelve (for comparison)
+
+- Model: gpt2 (137M params)
+- repo: [openai-community/gpt2](https://huggingface.co/gpt2)
+- link to probing results: [probing results](probing_results/BEAR-small/gpt2_off_the_shelve/wikimedia_wikipedia_20231101_en)
+- trained on: a pre-trained model
+
+### 2. gpt2_from_scratch
+
+- Model: gpt2 (124M params)
+- repo: [J4bb4wukis/gpt2_wikipedia_en](https://huggingface.co/J4bb4wukis/gpt2_wikipedia_en)
+- link to probing results: [probing results](probing_results/BEAR-small/gpt2_from_scratch/wikimedia_wikipedia_20231101_en)
+- trained on: [wikipedia_20231101_en](https://huggingface.co/datasets/wikimedia/wikipedia)
+- training script: [train.py](https://github.com/Jabbawukis/sample_efficiency_evaluation/blob/main/model_training_setups/GPT2/wikimedia_wikipedia_20231101_en/train.py)
