@@ -69,7 +69,7 @@ seen by the model at the checkpoint.
 
 ### 2. xlstm_from_scratch
 
-- Model: xLSTM (163.8M params)
+- Model: xLSTM (247M params with GPT2 tokenizer vocab size, else, 163.8M params if using the xLSTM tokenizer vocab size)
 - repo (model checkpoints as branches): [J4bb4wukis/xlstm_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/xlstm_wikipedia_en_shuffeld)
 - dataset shuffle seed: 42
 - number of slices: 42
