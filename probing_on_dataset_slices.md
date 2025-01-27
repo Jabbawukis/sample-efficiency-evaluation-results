@@ -120,9 +120,12 @@ seen by the model at the checkpoint.
 - link to CDF diagrams on checkpoints: [CDF on checkpoints](probing_results/BEAR-big/mamba2_from_scratch/wikimedia_wikipedia_20231101_en/evaluation_on_slices/cdf_log_likelihood_on_slices.png)
 
 #### lm-evaluation-harness scores (final model)
-|  Tasks   |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|  Tasks   |Version |Filter|n-shot|Metric|   |Value |   |Stderr|
 |----------|------:|------|-----:|------|---|-----:|---|-----:|
-|winogrande|      1|none  |     0|acc   |↑  |0.502|±  |0.0141|
-|wsc273|      1|none  |     0|acc   |↑  |0.5092|±  |0.0303|
-|lambada_standard|      1|none  |     0|acc       |↑  |   0.0768|±  |  0.0037|
-|lambada_standard|      1|none  |     0|perplexity|↓  |2183.7652|±  |109.3855|
+|winogrande|     1 |none  |     0|acc   |↑  |0.502|±  |0.0141|
+|wsc273|     1 |none  |     0|acc   |↑  |0.5092|±  |0.0303|
+|lambada_standard|     1 |none  |     0|acc       |↑  |   0.0768|±  |  0.0037|
+|lambada_standard|     1 |none  |     0|perplexity|↓  |2183.7652|±  |109.3855|
+|pile_10k|     1 |none  |     0|bits_per_byte  |↓  |   1.5435|±  |   N/A|
+|pile_10k|     1 |none  |     0|byte_perplexity|↓  |   2.9149|±  |   N/A|
+|pile_10k|     1 |none  |     0|word_perplexity|↓  |1295.2241|±  |   N/A|
