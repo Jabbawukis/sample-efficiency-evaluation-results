@@ -97,3 +97,32 @@ seen by the model at the checkpoint.
 |pile_10k|      1|none  |     0|bits_per_byte  |↓  |  1.4805|±  |   N/A|
 |pile_10k|      1|none  |     0|byte_perplexity|↓  |  2.7904|±  |   N/A|
 |pile_10k|      1|none  |     0|word_perplexity|↓  |966.7574|±  |   N/A|
+
+
+### 2. mamba2_from_scratch
+
+- Model: Mamba2 (172M params with GPT2 tokenizer vocab size, else, 130M params if using the author config)
+- repo (model checkpoints as branches): [J4bb4wukis/mamba2_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/mamba2_wikipedia_en_shuffeld)
+- dataset shuffle seed: 42
+- number of slices: 42
+- per_device_train_batch_size: 32
+- gradient_accumulation_steps: 8
+- save_steps: 3650 (per slice num_rows_after_tokenized avg. ≈ 934,840 → 934,840 ÷ 8 ÷ 32 ≈ 3650)
+- logging_steps: 3650
+- training script: [train.py](https://github.com/Jabbawukis/sample_efficiency_evaluation/blob/main/model_training_setups/Mamba2/wikimedia_wikipedia_20231101_en/train.py)
+
+
+- link to slice info: [evaluation_on_slices](fact_matching_results/BEAR-big/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
+- link to probing results: [probing results](probing_results/BEAR-big/mamba2_from_scratch/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
+
+
+- link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-big/mamba2_from_scratch/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
+- link to CDF diagrams on checkpoints: [CDF on checkpoints](probing_results/BEAR-big/mamba2_from_scratch/wikimedia_wikipedia_20231101_en/evaluation_on_slices/cdf_log_likelihood_on_slices.png)
+
+#### lm-evaluation-harness scores (final model)
+|  Tasks   |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|----------|------:|------|-----:|------|---|-----:|---|-----:|
+|winogrande|      1|none  |     0|acc   |↑  |0.502|±  |0.0141|
+|wsc273|      1|none  |     0|acc   |↑  |0.5092|±  |0.0303|
+|lambada_standard|      1|none  |     0|acc       |↑  |   0.0768|±  |  0.0037|
+|lambada_standard|      1|none  |     0|perplexity|↓  |2183.7652|±  |109.3855|
