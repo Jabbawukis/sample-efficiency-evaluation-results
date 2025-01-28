@@ -4,6 +4,7 @@
 
 Train a model on the whole dataset and probe it after a slice of the training data has been processed.
 
+
 Workflow: 
 
 1. shuffle the dataset 
