@@ -28,14 +28,27 @@ For each checkpoint,
 we optimize the CDF parameters ($\lambda$)
 and derive the probability of the model
 to answer a fact correctly given the number of occurrences of the fact in the training data up until the slice
-seen by the model at said checkpoint.
-The CDF functions are then plotted over each checkpoint.
+seen by the model at said checkpoint. Additionally, we optimize the maximum possible probability a model can achieve on a 
+fact given the number of occurrences of the fact in the training data up until the slice seen by the model at said checkpoint.
+The minimum possible probability is set to $\frac{1}{\text{answer space}}$.
 
 $$f(x; \lambda) = 1 - e^{-\lambda x} , x\ge 0$$
-$$\min_{\lambda} -\sum_{i=1}^{N} T_i*\log(f(occur(i); \lambda)) + (1 - T_i)*\log(f(occur(i);\lambda))$$
+$$mapped(i;x;\lambda) = min\_prob(i) + (max\_prob(i) - min\_prob(i)) * f(x; \lambda) $$
 
-Where $occur(i)$ is the number of occurrences of the fact $i$ in the training data up until the slice 
-seen by the model at the checkpoint.
+The CDF parameters are optimized by minimizing the negative log-likelihood of the model's predictions up until the slice seen by the model:
+$$\min_{\lambda; max\_prob}LL(\lambda; max\_prob) -\sum_{i=1}^{N} T_i*\log(mapped(i;occur(i); \lambda)) + (1 - T_i)*\log(mapped(i;occur(i);\lambda))$$
+
+Where:
+- $occur(i)$ is the number of occurrences of the fact $i$ in the training data up until the slice 
+seen by the model at the checkpoint. $T_i$ is the target value for the fact $i$ (1 if the model answered correctly, 0 otherwise).
+- $mapped(i;occur(i);\lambda)$ is the probability of the model to answer a fact $i$ correctly given the number of occurrences $occur(i)$ of the fact,
+mapped to the interval $[min\_prob(i), max\_prob(i)]$.
+- $min\_prob(i)$ is the minimum possible probability a model can achieve on a fact $i$.
+
+After the optimization, models with a higher $\lambda$, and thus a steeper curve for the plotted CDF
+are considered to have a better sample efficiency. The probability of the model to answer a fact correctly for
+low occurrences of a fact in the training data is higher.
+
 ## BEAR-big
 
 ### 1. gpt2_from_scratch
@@ -55,7 +68,6 @@ seen by the model at the checkpoint.
 
 
 - link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-big/gpt2_from_scratch/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
-- link to CDF diagrams on checkpoints: [CDF on checkpoints](probing_results/BEAR-big/gpt2_from_scratch/wikimedia_wikipedia_20231101_en/evaluation_on_slices/cdf_log_likelihood_on_slices.png)
 
 #### lm-evaluation-harness scores (final model)
 |  Tasks   | Version |Filter|n-shot|Metric|   |Value |   |Stderr|
@@ -70,7 +82,7 @@ seen by the model at the checkpoint.
 
 ### 2. xlstm_from_scratch
 
-- Model: xLSTM (247M params with GPT2 tokenizer vocab size, else, 163.8M params if using the xLSTM tokenizer vocab size)
+- Model: xLSTM (247M params with GPT2 tokenizer vocab size, else, 163.8M params if using the author config)
 - repo (model checkpoints as branches): [J4bb4wukis/xlstm_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/xlstm_wikipedia_en_shuffeld)
 - dataset shuffle seed: 42
 - number of slices: 42
@@ -86,7 +98,6 @@ seen by the model at the checkpoint.
 
 
 - link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-big/xlstm_from_scratch/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
-- link to CDF diagrams on checkpoints: [CDF on checkpoints](probing_results/BEAR-big/xlstm_from_scratch/wikimedia_wikipedia_20231101_en/evaluation_on_slices/cdf_log_likelihood_on_slices.png)
 
 #### lm-evaluation-harness scores (final model)
 |  Tasks   |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
@@ -118,7 +129,6 @@ seen by the model at the checkpoint.
 
 
 - link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-big/mamba2_from_scratch/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
-- link to CDF diagrams on checkpoints: [CDF on checkpoints](probing_results/BEAR-big/mamba2_from_scratch/wikimedia_wikipedia_20231101_en/evaluation_on_slices/cdf_log_likelihood_on_slices.png)
 
 #### lm-evaluation-harness scores (final model)
 |  Tasks   |Version |Filter|n-shot|Metric|   |Value |   |Stderr|
