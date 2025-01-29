@@ -23,11 +23,11 @@ Train a model on the whole dataset and probe it after training.
 - % of instances with more matches due to aliases (over all instances with matches): 0.4517784589065507
 - Average increase in matches (per fact) due to aliases: 55.523902629778085
 
-### 1. gpt2_off_the_shelve (for comparison)
+### 1. gpt2_137m_off_the_shelve (for comparison)
 
-- Model: gpt2 (137M params)
+- Model: GPT2 (137M params)
 - repo: [openai-community/gpt2](https://huggingface.co/gpt2)
-- link to probing results: [probing results](probing_results/BEAR-big/gpt2_off_the_shelve/wikimedia_wikipedia_20231101_en/accuracy_statistics.png)
+- link to probing results: [probing results](probing_results/BEAR-big/gpt2_137m_off_the_shelve/wikimedia_wikipedia_20231101_en/accuracy_statistics.png)
 - trained on: a pre-trained model
 
 #### lm-evaluation-harness scores
@@ -49,23 +49,23 @@ Train a model on the whole dataset and probe it after training.
 |lambada_standard|       1 |none  |     0|acc       |↑  | 0.4040|±  |0.0068|
 |lambada_standard|       1 |none  |     0|perplexity|↓  |22.1789|±  |0.7740|
 
-### 2. gpt2_from_scratch
+### 2. gpt2_124m
 
-see for model details: [gpt2_from_scratch](probing_on_dataset_slices.md)
+see for model details: [gpt2_124m](probing_on_dataset_slices.md)
 
-- link to probing results (final model): [probing results](probing_results/BEAR-big/gpt2_from_scratch/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_model.png)
+- link to probing results (final model): [probing results](probing_results/BEAR-big/gpt2_124m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_model.png)
 
-### 3. xlstm_from_scratch
+### 3. xlstm_247m
 
-see for model details: [gpt2_from_scratch](probing_on_dataset_slices.md)
+see for model details: [xlstm_247m](probing_on_dataset_slices.md)
 
-- link to probing results (final model): [probing results](probing_results/BEAR-big/xlstm_from_scratch/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_model.png)
+- link to probing results (final model): [probing results](probing_results/BEAR-big/xlstm_247m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_model.png)
 
-### 3. mamba2_from_scratch
+### 3. mamba2_172m
 
-see for model details: [mamba2_from_scratch](probing_on_dataset_slices.md)
+see for model details: [mamba2_172m](probing_on_dataset_slices.md)
 
-- link to probing results (final model): [probing results](probing_results/BEAR-big/mamba2_from_scratch/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_model.png)
+- link to probing results (final model): [probing results](probing_results/BEAR-big/mamba2_172m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_model.png)
 
 ## BEAR(-small)
 - fact matching results: [fact_matching_results](/fact_matching_results/BEAR-small/wikimedia_wikipedia_20231101_en)
@@ -84,27 +84,27 @@ see for model details: [mamba2_from_scratch](probing_on_dataset_slices.md)
 - % of instances with more matches due to aliases (over all instances with matches): 0.5175218098477007
 - Average increase in matches (per fact) due to aliases: 131.12495149398526
 
-### 1. gpt2_off_the_shelve (for comparison)
+### 1. gpt2_137m_off_the_shelve (for comparison)
 
-- Model: gpt2 (137M params)
+- Model: GPT2 (137M params)
 - repo: [openai-community/gpt2](https://huggingface.co/gpt2)
-- link to probing results: [probing results](probing_results/BEAR-small/gpt2_off_the_shelve/wikimedia_wikipedia_20231101_en/accuracy_statistics.png)
+- link to probing results: [probing results](probing_results/BEAR-small/gpt2_137m_off_the_shelve/wikimedia_wikipedia_20231101_en/accuracy_statistics.png)
 - trained on: a pre-trained model
 
-### 2. gpt2_from_scratch
+### 2. gpt2_124m
 
-see for model details: [gpt2_from_scratch](probing_on_dataset_slices.md)
+see for model details: [gpt2_124m](probing_on_dataset_slices.md)
 
-- link to probing results (final model): [probing results](probing_results/BEAR-small/gpt2_from_scratch/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_model.png)
+- link to probing results (final model): [probing results](probing_results/BEAR-small/gpt2_124m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_model.png)
 
-### 3. xlstm_from_scratch
+### 3. xlstm_247m
 
-see for model details: [gpt2_from_scratch](probing_on_dataset_slices.md)
+see for model details: [xlstm_247m](probing_on_dataset_slices.md)
 
-- link to probing results (final model): [probing results](probing_results/BEAR-small/xlstm_from_scratch/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_model.png)
+- link to probing results (final model): [probing results](probing_results/BEAR-small/xlstm_247m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_model.png)
 
-### 3. mamba2_from_scratch
+### 3. mamba2_172m
 
-see for model details: [mamba2_from_scratch](probing_on_dataset_slices.md)
+see for model details: [mamba2_172m](probing_on_dataset_slices.md)
 
-- link to probing results (final model): [probing results](probing_results/BEAR-small/mamba2_from_scratch/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_model.png)
+- link to probing results (final model): [probing results](probing_results/BEAR-small/mamba2_172m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_model.png)

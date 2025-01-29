@@ -22,20 +22,19 @@ For each checkpoint,
 we count the number of facts with specific occurrences up until the slice seen by the model at said checkpoint.
 The model checkpoint is probed and the accuracy depending on the number of occurrences up until the slice is calculated.
 
-#### Cumulative distribution function (CDF) Analysis
+#### Correct Answer Probability Analysis
 
-For each checkpoint,
-we optimize the CDF parameters ($\lambda$)
-and derive the probability of the model
+For each checkpoint, derive the probability of the model
 to answer a fact correctly given the number of occurrences of the fact in the training data up until the slice
-seen by the model at said checkpoint. Additionally, we optimize the maximum possible probability a model can achieve on a 
-fact given the number of occurrences of the fact in the training data up until the slice seen by the model at said checkpoint.
-The minimum possible probability is set to $\frac{1}{\text{answer space}}$.
+seen by the model at said checkpoint. 
+
+We optimize ...
 
 $$f(x; \lambda) = 1 - e^{-\lambda x} , x\ge 0$$
 $$mapped(i;x;\lambda) = min\_prob(i) + (max\_prob(i) - min\_prob(i)) * f(x; \lambda) $$
 
-The CDF parameters are optimized by minimizing the negative log-likelihood of the model's predictions up until the slice seen by the model:
+The parameters are optimized by minimizing the negative log-likelihood of the model's predictions up until the slice seen by the model:
+
 $$\min_{\lambda; max\_prob}LL(\lambda; max\_prob) -\sum_{i=1}^{N} T_i*\log(mapped(i;occur(i); \lambda)) + (1 - T_i)*\log(mapped(i;occur(i);\lambda))$$
 
 Where:
@@ -45,14 +44,16 @@ seen by the model at the checkpoint. $T_i$ is the target value for the fact $i$ 
 mapped to the interval $[min\_prob(i), max\_prob(i)]$.
 - $min\_prob(i)$ is the minimum possible probability a model can achieve on a fact $i$.
 
-After the optimization, models with a higher $\lambda$, and thus a steeper curve for the plotted CDF
+After the optimization, models with a higher ..., and thus a steeper curve for the plotted probability function
 are considered to have a better sample efficiency. The probability of the model to answer a fact correctly for
 low occurrences of a fact in the training data is higher.
 
 ## BEAR-big
 
-### 1. gpt2_from_scratch
-- Model: gpt2 (124M params)
+- fact matching results on slices: [fact_matching_results](fact_matching_results/BEAR-big/wikimedia_wikipedia_20231101_en/evaluation_on_slices/)
+
+### 1. gpt2_124m
+- Model: GPT2 (124M params)
 - repo (model checkpoints as branches): [J4bb4wukis/gpt2_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/gpt2_wikipedia_en_shuffeld)
 - dataset shuffle seed: 42
 - number of slices: 42
@@ -64,10 +65,10 @@ low occurrences of a fact in the training data is higher.
 
 
 - link to slice info: [evaluation_on_slices](fact_matching_results/BEAR-big/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
-- link to probing results: [probing results](probing_results/BEAR-big/gpt2_from_scratch/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
+- link to probing results: [probing results](probing_results/BEAR-big/gpt2_124m/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
 
 
-- link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-big/gpt2_from_scratch/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
+- link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-big/gpt2_124m/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
 
 #### lm-evaluation-harness scores (final model)
 |  Tasks   | Version |Filter|n-shot|Metric|   |Value |   |Stderr|
@@ -80,7 +81,7 @@ low occurrences of a fact in the training data is higher.
 |pile_10k|       1 |none  |     0|byte_perplexity|↓  |    4.0560|±  |   N/A|
 |pile_10k|       1 |none  |     0|word_perplexity|↓  |11840.3982|±  |   N/A|
 
-### 2. xlstm_from_scratch
+### 2. xlstm_247m
 
 - Model: xLSTM (247M params with GPT2 tokenizer vocab size, else, 163.8M params if using the author config)
 - repo (model checkpoints as branches): [J4bb4wukis/xlstm_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/xlstm_wikipedia_en_shuffeld)
@@ -94,10 +95,10 @@ low occurrences of a fact in the training data is higher.
 
 
 - link to slice info: [evaluation_on_slices](fact_matching_results/BEAR-big/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
-- link to probing results: [probing results](probing_results/BEAR-big/xlstm_from_scratch/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
+- link to probing results: [probing results](probing_results/BEAR-big/xlstm_247m/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
 
 
-- link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-big/xlstm_from_scratch/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
+- link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-big/xlstm_247m/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
 
 #### lm-evaluation-harness scores (final model)
 |  Tasks   |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
@@ -111,7 +112,7 @@ low occurrences of a fact in the training data is higher.
 |pile_10k|      1|none  |     0|word_perplexity|↓  |966.7574|±  |   N/A|
 
 
-### 2. mamba2_from_scratch
+### 2. mamba2_172m
 
 - Model: Mamba2 (172M params with GPT2 tokenizer vocab size, else, 130M params if using the author config)
 - repo (model checkpoints as branches): [J4bb4wukis/mamba2_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/mamba2_wikipedia_en_shuffeld)
@@ -125,10 +126,10 @@ low occurrences of a fact in the training data is higher.
 
 
 - link to slice info: [evaluation_on_slices](fact_matching_results/BEAR-big/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
-- link to probing results: [probing results](probing_results/BEAR-big/mamba2_from_scratch/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
+- link to probing results: [probing results](probing_results/BEAR-big/mamba2_172m/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
 
 
-- link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-big/mamba2_from_scratch/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
+- link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-big/mamba2_172m/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
 
 #### lm-evaluation-harness scores (final model)
 |  Tasks   |Version |Filter|n-shot|Metric|   |Value |   |Stderr|
