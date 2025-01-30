@@ -51,16 +51,16 @@ low occurrences of a fact in the training data is higher.
 ## BEAR-big
 
 - fact matching results on slices: [fact_matching_results](fact_matching_results/BEAR-big/wikimedia_wikipedia_20231101_en/evaluation_on_slices/)
-
-### 1. gpt2_124m
-- Model: GPT2 (124M params)
-- repo (model checkpoints as branches): [J4bb4wukis/gpt2_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/gpt2_wikipedia_en_shuffeld)
 - dataset shuffle seed: 42
 - number of slices: 42
 - per_device_train_batch_size: 32
 - gradient_accumulation_steps: 8
 - save_steps: 3650 (per slice num_rows_after_tokenized avg. ≈ 934,840 → 934,840 ÷ 8 ÷ 32 ≈ 3650)
 - logging_steps: 3650
+
+### 1. gpt2_124m
+- Model: GPT2 (124M params)
+- repo (model checkpoints as branches): [J4bb4wukis/gpt2_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/gpt2_wikipedia_en_shuffeld)
 - training script: [train.py](https://github.com/Jabbawukis/sample_efficiency_evaluation/blob/main/model_training_setups/GPT2/wikimedia_wikipedia_20231101_en/train.py)
 
 
@@ -85,12 +85,6 @@ low occurrences of a fact in the training data is higher.
 
 - Model: xLSTM (247M params with GPT2 tokenizer vocab size, else, 163.8M params if using the author config)
 - repo (model checkpoints as branches): [J4bb4wukis/xlstm_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/xlstm_wikipedia_en_shuffeld)
-- dataset shuffle seed: 42
-- number of slices: 42
-- per_device_train_batch_size: 32
-- gradient_accumulation_steps: 8
-- save_steps: 3650 (per slice num_rows_after_tokenized avg. ≈ 934,840 → 934,840 ÷ 8 ÷ 32 ≈ 3650)
-- logging_steps: 3650
 - training script: [train.py](https://github.com/Jabbawukis/sample_efficiency_evaluation/blob/main/model_training_setups/xLSTM/wikimedia_wikipedia_20231101_en/train.py)
 
 
@@ -116,12 +110,6 @@ low occurrences of a fact in the training data is higher.
 
 - Model: Mamba2 (172M params with GPT2 tokenizer vocab size, else, 130M params if using the author config)
 - repo (model checkpoints as branches): [J4bb4wukis/mamba2_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/mamba2_wikipedia_en_shuffeld)
-- dataset shuffle seed: 42
-- number of slices: 42
-- per_device_train_batch_size: 32
-- gradient_accumulation_steps: 8
-- save_steps: 3650 (per slice num_rows_after_tokenized avg. ≈ 934,840 → 934,840 ÷ 8 ÷ 32 ≈ 3650)
-- logging_steps: 3650
 - training script: [train.py](https://github.com/Jabbawukis/sample_efficiency_evaluation/blob/main/model_training_setups/Mamba2/wikimedia_wikipedia_20231101_en/train.py)
 
 
