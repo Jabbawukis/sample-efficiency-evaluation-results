@@ -109,7 +109,7 @@ see for model details: [mamba2_172m](probing_on_dataset_slices.md)
 
 - link to probing results (final model): [probing results](probing_results/BEAR-small/mamba2_172m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_model.png)
 
-### 3. gpt2_209m
+### 5. gpt2_209m
 
 see for model details: [gpt2_209m](probing_on_dataset_slices.md)
 

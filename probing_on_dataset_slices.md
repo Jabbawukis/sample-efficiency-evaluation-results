@@ -130,6 +130,9 @@ low occurrences of a fact in the training data is higher.
 - n_head=16
 - n_layer=24
 
+- link to probing results: [probing results](probing_results/BEAR-big/gpt2_209m/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
+- link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-big/gpt2_209m/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
+
 #### lm-evaluation-harness scores (final model)
 |  Tasks   |  Version |Filter|n-shot|Metric|   |Value |   |Stderr|
 |----------|---------:|------|-----:|------|---|-----:|---|-----:|
