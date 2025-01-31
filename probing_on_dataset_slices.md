@@ -126,8 +126,7 @@ low occurrences of a fact in the training data is higher.
 - repo (model checkpoints as branches): [J4bb4wukis/gpt2_209m_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/gpt2_209m_wikipedia_en_shuffeld)
 - training script: [train.py](https://github.com/Jabbawukis/sample_efficiency_evaluation/blob/main/model_training_setups/GPT2/wikimedia_wikipedia_20231101_en/train.py)
 
-#### Adjusted training parameters
-- n_embd=768
+###### Adjusted training parameters
 - n_head=16
 - n_layer=24
 
@@ -138,3 +137,6 @@ low occurrences of a fact in the training data is higher.
 |wsc273|        1 |none  |     0|acc   |↑  |0.5311|±  |0.0303|
 |lambada_standard|        1 |none  |     0|acc       |↑  |  0.1663|±  | 0.0052|
 |lambada_standard|        1 |none  |     0|perplexity|↓  |652.0058|±  |33.1575|
+|pile_10k|      1|none  |     0|bits_per_byte  |↓  |    2.0620|±  |   N/A|
+|pile_10k|      1|none  |     0|byte_perplexity|↓  |    4.1758|±  |   N/A|
+|pile_10k|      1|none  |     0|word_perplexity|↓  |14389.4299|±  |   N/A|
