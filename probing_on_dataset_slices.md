@@ -51,6 +51,7 @@ low occurrences of a fact in the training data is higher.
 ## BEAR-big
 
 - fact matching results on slices: [fact_matching_results](fact_matching_results/BEAR-big/wikimedia_wikipedia_20231101_en/evaluation_on_slices/)
+- link to slice info: [evaluation_on_slices](fact_matching_results/BEAR-big/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
 - dataset shuffle seed: 42
 - number of slices: 42
 - per_device_train_batch_size: 32
@@ -60,14 +61,11 @@ low occurrences of a fact in the training data is higher.
 
 ### 1. gpt2_124m
 - Model: GPT2 (124M params)
-- repo (model checkpoints as branches): [J4bb4wukis/gpt2_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/gpt2_wikipedia_en_shuffeld)
+- repo (model checkpoints as branches): [J4bb4wukis/gpt2_124m_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/gpt2_124m_wikipedia_en_shuffeld)
 - training script: [train.py](https://github.com/Jabbawukis/sample_efficiency_evaluation/blob/main/model_training_setups/GPT2/wikimedia_wikipedia_20231101_en/train.py)
 
 
-- link to slice info: [evaluation_on_slices](fact_matching_results/BEAR-big/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
 - link to probing results: [probing results](probing_results/BEAR-big/gpt2_124m/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
-
-
 - link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-big/gpt2_124m/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
 
 #### lm-evaluation-harness scores (final model)
@@ -84,14 +82,10 @@ low occurrences of a fact in the training data is higher.
 ### 2. xlstm_247m
 
 - Model: xLSTM (247M params with GPT2 tokenizer vocab size, else, 163.8M params if using the author config)
-- repo (model checkpoints as branches): [J4bb4wukis/xlstm_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/xlstm_wikipedia_en_shuffeld)
+- repo (model checkpoints as branches): [J4bb4wukis/xlstm_247m_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/xlstm_247m_wikipedia_en_shuffeld)
 - training script: [train.py](https://github.com/Jabbawukis/sample_efficiency_evaluation/blob/main/model_training_setups/xLSTM/wikimedia_wikipedia_20231101_en/train.py)
 
-
-- link to slice info: [evaluation_on_slices](fact_matching_results/BEAR-big/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
 - link to probing results: [probing results](probing_results/BEAR-big/xlstm_247m/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
-
-
 - link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-big/xlstm_247m/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
 
 #### lm-evaluation-harness scores (final model)
@@ -106,17 +100,13 @@ low occurrences of a fact in the training data is higher.
 |pile_10k|      1|none  |     0|word_perplexity|↓  |966.7574|±  |   N/A|
 
 
-### 2. mamba2_172m
-
+### 3. mamba2_172m
 - Model: Mamba2 (172M params with GPT2 tokenizer vocab size, else, 130M params if using the author config)
-- repo (model checkpoints as branches): [J4bb4wukis/mamba2_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/mamba2_wikipedia_en_shuffeld)
+- repo (model checkpoints as branches): [J4bb4wukis/mamba2_127m_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/mamba2_127m_wikipedia_en_shuffeld)
 - training script: [train.py](https://github.com/Jabbawukis/sample_efficiency_evaluation/blob/main/model_training_setups/Mamba2/wikimedia_wikipedia_20231101_en/train.py)
 
 
-- link to slice info: [evaluation_on_slices](fact_matching_results/BEAR-big/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
 - link to probing results: [probing results](probing_results/BEAR-big/mamba2_172m/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
-
-
 - link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-big/mamba2_172m/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
 
 #### lm-evaluation-harness scores (final model)
@@ -129,3 +119,22 @@ low occurrences of a fact in the training data is higher.
 |pile_10k|     1 |none  |     0|bits_per_byte  |↓  |   1.5435|±  |   N/A|
 |pile_10k|     1 |none  |     0|byte_perplexity|↓  |   2.9149|±  |   N/A|
 |pile_10k|     1 |none  |     0|word_perplexity|↓  |1295.2241|±  |   N/A|
+
+
+### 4. gpt2_209m
+- Model: GPT2 (209M params)
+- repo (model checkpoints as branches): [J4bb4wukis/gpt2_209m_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/gpt2_209m_wikipedia_en_shuffeld)
+- training script: [train.py](https://github.com/Jabbawukis/sample_efficiency_evaluation/blob/main/model_training_setups/GPT2/wikimedia_wikipedia_20231101_en/train.py)
+
+#### Adjusted training parameters
+- n_embd=768
+- n_head=16
+- n_layer=24
+
+#### lm-evaluation-harness scores (final model)
+|  Tasks   |  Version |Filter|n-shot|Metric|   |Value |   |Stderr|
+|----------|---------:|------|-----:|------|---|-----:|---|-----:|
+|winogrande|        1 |none  |     0|acc   |↑  |0.5036|±  |0.0141|
+|wsc273|        1 |none  |     0|acc   |↑  |0.5311|±  |0.0303|
+|lambada_standard|        1 |none  |     0|acc       |↑  |  0.1663|±  | 0.0052|
+|lambada_standard|        1 |none  |     0|perplexity|↓  |652.0058|±  |33.1575|
