@@ -190,7 +190,7 @@
             "obj_id": "Q57643",
             "obj_label": "Lee Hsien Loong",
             "obj_aliases": [],
-            "occurrences": 385
+            "occurrences": 387
         },
         "Q1041": {
             "subj_label": "Senegal",
@@ -390,7 +390,7 @@
             "obj_id": "Q1058",
             "obj_label": "Narendra Modi",
             "obj_aliases": [],
-            "occurrences": 1450
+            "occurrences": 1451
         },
         "Q36": {
             "subj_label": "Poland",
@@ -3348,7 +3348,7 @@
             "obj_id": "Q43303",
             "obj_label": "Malcolm X",
             "obj_aliases": [],
-            "occurrences": 62
+            "occurrences": 63
         },
         "Q467000": {
             "subj_label": "Sandra Roelofs",
@@ -3510,7 +3510,7 @@
             "obj_id": "Q16",
             "obj_label": "Canada",
             "obj_aliases": [],
-            "occurrences": 430
+            "occurrences": 431
         },
         "Q125133": {
             "subj_label": "Víctor Jara",
@@ -3702,7 +3702,7 @@
             "obj_id": "Q117",
             "obj_label": "Ghana",
             "obj_aliases": [],
-            "occurrences": 34
+            "occurrences": 35
         },
         "Q205545": {
             "subj_label": "Eleftherios Venizelos",
@@ -3806,7 +3806,7 @@
             "obj_id": "Q801",
             "obj_label": "Israel",
             "obj_aliases": [],
-            "occurrences": 817
+            "occurrences": 818
         },
         "Q93181": {
             "subj_label": "Ehud Olmert",
@@ -3910,7 +3910,7 @@
             "obj_id": "Q96",
             "obj_label": "Mexico",
             "obj_aliases": [],
-            "occurrences": 291
+            "occurrences": 292
         },
         "Q5588": {
             "subj_label": "Frida Kahlo",
@@ -3926,7 +3926,7 @@
             "obj_id": "Q96",
             "obj_label": "Mexico",
             "obj_aliases": [],
-            "occurrences": 454
+            "occurrences": 455
         },
         "Q485635": {
             "subj_label": "Keith Haring",
@@ -3974,7 +3974,7 @@
             "obj_id": "Q1033",
             "obj_label": "Nigeria",
             "obj_aliases": [],
-            "occurrences": 191
+            "occurrences": 192
         },
         "Q166984": {
             "subj_label": "Mikel John Obi",
@@ -4014,7 +4014,7 @@
             "obj_id": "Q843",
             "obj_label": "Pakistan",
             "obj_aliases": [],
-            "occurrences": 116
+            "occurrences": 117
         },
         "Q57373": {
             "subj_label": "Asif Ali Zardari",
@@ -4070,7 +4070,7 @@
             "obj_id": "Q419",
             "obj_label": "Peru",
             "obj_aliases": [],
-            "occurrences": 196
+            "occurrences": 197
         },
         "Q381027": {
             "subj_label": "Pedro Pablo Kuczynski",
@@ -4094,7 +4094,7 @@
             "obj_id": "Q928",
             "obj_label": "the Philippines",
             "obj_aliases": [],
-            "occurrences": 54
+            "occurrences": 55
         },
         "Q1844358": {
             "subj_label": "Hidilyn Diaz",
@@ -4134,7 +4134,7 @@
             "obj_id": "Q928",
             "obj_label": "the Philippines",
             "obj_aliases": [],
-            "occurrences": 218
+            "occurrences": 219
         },
         "Q7175463": {
             "subj_label": "Peter Lim",
@@ -4222,7 +4222,7 @@
             "obj_id": "Q258",
             "obj_label": "South Africa",
             "obj_aliases": [],
-            "occurrences": 1195
+            "occurrences": 1197
         },
         "Q151813": {
             "subj_label": "F. W. de Klerk",
@@ -4584,7 +4584,7 @@
             "obj_id": "Q15",
             "obj_label": "Africa",
             "obj_aliases": [],
-            "occurrences": 7630
+            "occurrences": 7632
         },
         "Q117": {
             "subj_label": "Ghana",
@@ -4592,7 +4592,7 @@
             "obj_id": "Q15",
             "obj_label": "Africa",
             "obj_aliases": [],
-            "occurrences": 6360
+            "occurrences": 6361
         },
         "Q1027": {
             "subj_label": "Mauritius",
@@ -4600,7 +4600,7 @@
             "obj_id": "Q15",
             "obj_label": "Africa",
             "obj_aliases": [],
-            "occurrences": 2390
+            "occurrences": 2391
         },
         "Q217169": {
             "subj_label": "Rhodesia",
@@ -4616,7 +4616,7 @@
             "obj_id": "Q15",
             "obj_label": "Africa",
             "obj_aliases": [],
-            "occurrences": 752
+            "occurrences": 754
         },
         "Q965": {
             "subj_label": "Burkina Faso",
@@ -4624,7 +4624,7 @@
             "obj_id": "Q15",
             "obj_label": "Africa",
             "obj_aliases": [],
-            "occurrences": 1835
+            "occurrences": 1838
         },
         "Q912": {
             "subj_label": "Mali",
@@ -4632,7 +4632,7 @@
             "obj_id": "Q15",
             "obj_label": "Africa",
             "obj_aliases": [],
-            "occurrences": 2864
+            "occurrences": 2865
         },
         "Q115": {
             "subj_label": "Ethiopia",
@@ -4640,7 +4640,7 @@
             "obj_id": "Q15",
             "obj_label": "Africa",
             "obj_aliases": [],
-            "occurrences": 6030
+            "occurrences": 6032
         },
         "Q963": {
             "subj_label": "Botswana",
@@ -4648,7 +4648,7 @@
             "obj_id": "Q15",
             "obj_label": "Africa",
             "obj_aliases": [],
-            "occurrences": 4465
+            "occurrences": 4468
         },
         "Q1036": {
             "subj_label": "Uganda",
@@ -4656,7 +4656,7 @@
             "obj_id": "Q15",
             "obj_label": "Africa",
             "obj_aliases": [],
-            "occurrences": 6545
+            "occurrences": 6549
         },
         "Q986": {
             "subj_label": "Eritrea",
@@ -4680,7 +4680,7 @@
             "obj_id": "Q15",
             "obj_label": "Africa",
             "obj_aliases": [],
-            "occurrences": 2743
+            "occurrences": 2746
         },
         "Q948": {
             "subj_label": "Tunisia",
@@ -4688,7 +4688,7 @@
             "obj_id": "Q15",
             "obj_label": "Africa",
             "obj_aliases": [],
-            "occurrences": 4251
+            "occurrences": 4255
         },
         "Q1033": {
             "subj_label": "Nigeria",
@@ -4696,7 +4696,7 @@
             "obj_id": "Q15",
             "obj_label": "Africa",
             "obj_aliases": [],
-            "occurrences": 9773
+            "occurrences": 9777
         },
         "Q1041": {
             "subj_label": "Senegal",
@@ -4704,7 +4704,7 @@
             "obj_id": "Q15",
             "obj_label": "Africa",
             "obj_aliases": [],
-            "occurrences": 4260
+            "occurrences": 4261
         },
         "Q962": {
             "subj_label": "Benin",
@@ -4712,7 +4712,7 @@
             "obj_id": "Q15",
             "obj_label": "Africa",
             "obj_aliases": [],
-            "occurrences": 1940
+            "occurrences": 1941
         },
         "Q924": {
             "subj_label": "Tanzania",
@@ -4720,7 +4720,7 @@
             "obj_id": "Q15",
             "obj_label": "Africa",
             "obj_aliases": [],
-            "occurrences": 7673
+            "occurrences": 7675
         },
         "Q1014": {
             "subj_label": "Liberia",
@@ -4728,7 +4728,7 @@
             "obj_id": "Q15",
             "obj_label": "Africa",
             "obj_aliases": [],
-            "occurrences": 2399
+            "occurrences": 2401
         },
         "Q7296": {
             "subj_label": "Mount Kilimanjaro",
@@ -4760,7 +4760,7 @@
             "obj_id": "Q15",
             "obj_label": "Africa",
             "obj_aliases": [],
-            "occurrences": 1079
+            "occurrences": 1080
         },
         "Q1025": {
             "subj_label": "Mauritania",
@@ -4768,7 +4768,7 @@
             "obj_id": "Q15",
             "obj_label": "Africa",
             "obj_aliases": [],
-            "occurrences": 1479
+            "occurrences": 1481
         },
         "Q885118": {
             "subj_label": "Blood Falls",
@@ -4832,7 +4832,7 @@
             "obj_id": "Q51",
             "obj_label": "Antarctica",
             "obj_aliases": [],
-            "occurrences": 200
+            "occurrences": 201
         },
         "Q384811": {
             "subj_label": "Don Juan Pond",
@@ -4920,7 +4920,7 @@
             "obj_id": "Q51",
             "obj_label": "Antarctica",
             "obj_aliases": [],
-            "occurrences": 1305
+            "occurrences": 1306
         },
         "Q200255": {
             "subj_label": "Ross Ice Shelf",
@@ -4976,7 +4976,7 @@
             "obj_id": "Q48",
             "obj_label": "Asia",
             "obj_aliases": [],
-            "occurrences": 6103
+            "occurrences": 6108
         },
         "Q14773": {
             "subj_label": "Macau",
@@ -4984,7 +4984,7 @@
             "obj_id": "Q48",
             "obj_label": "Asia",
             "obj_aliases": [],
-            "occurrences": 821
+            "occurrences": 823
         },
         "Q1156": {
             "subj_label": "Mumbai",
@@ -4992,7 +4992,7 @@
             "obj_id": "Q48",
             "obj_label": "Asia",
             "obj_aliases": [],
-            "occurrences": 625
+            "occurrences": 626
         },
         "Q826": {
             "subj_label": "Maldives",
@@ -5024,7 +5024,7 @@
             "obj_id": "Q48",
             "obj_label": "Asia",
             "obj_aliases": [],
-            "occurrences": 3511
+            "occurrences": 3515
         },
         "Q805": {
             "subj_label": "Yemen",
@@ -5032,7 +5032,7 @@
             "obj_id": "Q48",
             "obj_label": "Asia",
             "obj_aliases": [],
-            "occurrences": 847
+            "occurrences": 848
         },
         "Q874": {
             "subj_label": "Turkmenistan",
@@ -5072,7 +5072,7 @@
             "obj_id": "Q48",
             "obj_label": "Asia",
             "obj_aliases": [],
-            "occurrences": 6840
+            "occurrences": 6842
         },
         "Q1437": {
             "subj_label": "Rajasthan",
@@ -5144,7 +5144,7 @@
             "obj_id": "Q48",
             "obj_label": "Asia",
             "obj_aliases": [],
-            "occurrences": 7450
+            "occurrences": 7459
         },
         "Q851": {
             "subj_label": "Saudi Arabia",
@@ -5152,7 +5152,7 @@
             "obj_id": "Q48",
             "obj_label": "Asia",
             "obj_aliases": [],
-            "occurrences": 1360
+            "occurrences": 1362
         },
         "Q1498": {
             "subj_label": "Uttar Pradesh",
@@ -5160,7 +5160,7 @@
             "obj_id": "Q48",
             "obj_label": "Asia",
             "obj_aliases": [],
-            "occurrences": 232
+            "occurrences": 234
         },
         "Q869": {
             "subj_label": "Thailand",
@@ -5168,7 +5168,7 @@
             "obj_id": "Q48",
             "obj_label": "Asia",
             "obj_aliases": [],
-            "occurrences": 6320
+            "occurrences": 6322
         },
         "Q142": {
             "subj_label": "France",
@@ -5176,7 +5176,7 @@
             "obj_id": "Q46",
             "obj_label": "Europe",
             "obj_aliases": [],
-            "occurrences": 21217
+            "occurrences": 21231
         },
         "Q235": {
             "subj_label": "Monaco",
@@ -5184,7 +5184,7 @@
             "obj_id": "Q46",
             "obj_label": "Europe",
             "obj_aliases": [],
-            "occurrences": 828
+            "occurrences": 829
         },
         "Q38872": {
             "subj_label": "Prussia",
@@ -5200,7 +5200,7 @@
             "obj_id": "Q46",
             "obj_label": "Europe",
             "obj_aliases": [],
-            "occurrences": 9626
+            "occurrences": 9633
         },
         "Q28": {
             "subj_label": "Hungary",
@@ -5208,7 +5208,7 @@
             "obj_id": "Q46",
             "obj_label": "Europe",
             "obj_aliases": [],
-            "occurrences": 5052
+            "occurrences": 5053
         },
         "Q38": {
             "subj_label": "Italy",
@@ -5216,7 +5216,7 @@
             "obj_id": "Q46",
             "obj_label": "Europe",
             "obj_aliases": [],
-            "occurrences": 14747
+            "occurrences": 14763
         },
         "Q237": {
             "subj_label": "Vatican City",
@@ -5224,7 +5224,7 @@
             "obj_id": "Q46",
             "obj_label": "Europe",
             "obj_aliases": [],
-            "occurrences": 254
+            "occurrences": 255
         },
         "Q215": {
             "subj_label": "Slovenia",
@@ -5232,7 +5232,7 @@
             "obj_id": "Q46",
             "obj_label": "Europe",
             "obj_aliases": [],
-            "occurrences": 2078
+            "occurrences": 2080
         },
         "Q90": {
             "subj_label": "Paris",
@@ -5240,7 +5240,7 @@
             "obj_id": "Q46",
             "obj_label": "Europe",
             "obj_aliases": [],
-            "occurrences": 7646
+            "occurrences": 7650
         },
         "Q5705": {
             "subj_label": "Catalonia",
@@ -5248,7 +5248,7 @@
             "obj_id": "Q46",
             "obj_label": "Europe",
             "obj_aliases": [],
-            "occurrences": 470
+            "occurrences": 471
         },
         "Q403": {
             "subj_label": "Serbia",
@@ -5256,7 +5256,7 @@
             "obj_id": "Q46",
             "obj_label": "Europe",
             "obj_aliases": [],
-            "occurrences": 3072
+            "occurrences": 3073
         },
         "Q26": {
             "subj_label": "Northern Ireland",
@@ -5264,7 +5264,7 @@
             "obj_id": "Q46",
             "obj_label": "Europe",
             "obj_aliases": [],
-            "occurrences": 1082
+            "occurrences": 1084
         },
         "Q214": {
             "subj_label": "Slovakia",
@@ -5272,7 +5272,7 @@
             "obj_id": "Q46",
             "obj_label": "Europe",
             "obj_aliases": [],
-            "occurrences": 2252
+            "occurrences": 2254
         },
         "Q9676": {
             "subj_label": "Isle of Man",
@@ -5288,7 +5288,7 @@
             "obj_id": "Q46",
             "obj_label": "Europe",
             "obj_aliases": [],
-            "occurrences": 5971
+            "occurrences": 5982
         },
         "Q228": {
             "subj_label": "Andorra",
@@ -5328,7 +5328,7 @@
             "obj_id": "Q46",
             "obj_label": "Europe",
             "obj_aliases": [],
-            "occurrences": 6278
+            "occurrences": 6286
         },
         "Q212": {
             "subj_label": "Ukraine",
@@ -5336,7 +5336,7 @@
             "obj_id": "Q46",
             "obj_label": "Europe",
             "obj_aliases": [],
-            "occurrences": 5174
+            "occurrences": 5175
         },
         "Q236": {
             "subj_label": "Montenegro",
@@ -5344,7 +5344,7 @@
             "obj_id": "Q46",
             "obj_label": "Europe",
             "obj_aliases": [],
-            "occurrences": 1365
+            "occurrences": 1367
         },
         "Q21": {
             "subj_label": "England",
@@ -5352,7 +5352,7 @@
             "obj_id": "Q46",
             "obj_label": "Europe",
             "obj_aliases": [],
-            "occurrences": 9526
+            "occurrences": 9539
         },
         "Q183": {
             "subj_label": "Germany",
@@ -5360,7 +5360,7 @@
             "obj_id": "Q46",
             "obj_label": "Europe",
             "obj_aliases": [],
-            "occurrences": 22023
+            "occurrences": 22048
         },
         "Q217": {
             "subj_label": "Moldova",
@@ -5368,7 +5368,7 @@
             "obj_id": "Q46",
             "obj_label": "Europe",
             "obj_aliases": [],
-            "occurrences": 1119
+            "occurrences": 1120
         },
         "Q172": {
             "subj_label": "Toronto",
@@ -5376,7 +5376,7 @@
             "obj_id": "Q49",
             "obj_label": "North America",
             "obj_aliases": [],
-            "occurrences": 1427
+            "occurrences": 1429
         },
         "Q179997": {
             "subj_label": "Thirteen Colonies",
@@ -5384,7 +5384,7 @@
             "obj_id": "Q49",
             "obj_label": "North America",
             "obj_aliases": [],
-            "occurrences": 197
+            "occurrences": 199
         },
         "Q778": {
             "subj_label": "The Bahamas",
@@ -5408,7 +5408,7 @@
             "obj_id": "Q49",
             "obj_label": "North America",
             "obj_aliases": [],
-            "occurrences": 707
+            "occurrences": 708
         },
         "Q1439": {
             "subj_label": "Texas",
@@ -5424,7 +5424,7 @@
             "obj_id": "Q49",
             "obj_label": "North America",
             "obj_aliases": [],
-            "occurrences": 1104
+            "occurrences": 1105
         },
         "Q1393": {
             "subj_label": "Delaware",
@@ -5432,7 +5432,7 @@
             "obj_id": "Q49",
             "obj_label": "North America",
             "obj_aliases": [],
-            "occurrences": 293
+            "occurrences": 296
         },
         "Q35525": {
             "subj_label": "White House",
@@ -5456,7 +5456,7 @@
             "obj_id": "Q49",
             "obj_label": "North America",
             "obj_aliases": [],
-            "occurrences": 934
+            "occurrences": 936
         },
         "Q1497": {
             "subj_label": "Mississippi River",
@@ -5472,7 +5472,7 @@
             "obj_id": "Q49",
             "obj_label": "North America",
             "obj_aliases": [],
-            "occurrences": 529
+            "occurrences": 530
         },
         "Q1342": {
             "subj_label": "Pittsburgh",
@@ -5488,7 +5488,7 @@
             "obj_id": "Q49",
             "obj_label": "North America",
             "obj_aliases": [],
-            "occurrences": 327
+            "occurrences": 332
         },
         "Q24639": {
             "subj_label": "Vancouver",
@@ -5496,7 +5496,7 @@
             "obj_id": "Q49",
             "obj_label": "North America",
             "obj_aliases": [],
-            "occurrences": 807
+            "occurrences": 808
         },
         "Q1408": {
             "subj_label": "New Jersey",
@@ -5512,7 +5512,7 @@
             "obj_id": "Q49",
             "obj_label": "North America",
             "obj_aliases": [],
-            "occurrences": 1108
+            "occurrences": 1109
         },
         "Q244": {
             "subj_label": "Barbados",
@@ -5536,7 +5536,7 @@
             "obj_id": "Q49",
             "obj_label": "North America",
             "obj_aliases": [],
-            "occurrences": 956
+            "occurrences": 957
         },
         "Q790": {
             "subj_label": "Haiti",
@@ -5552,7 +5552,7 @@
             "obj_id": "Q49",
             "obj_label": "North America",
             "obj_aliases": [],
-            "occurrences": 1132
+            "occurrences": 1133
         },
         "Q797": {
             "subj_label": "Alaska",
@@ -5560,7 +5560,7 @@
             "obj_id": "Q49",
             "obj_label": "North America",
             "obj_aliases": [],
-            "occurrences": 1971
+            "occurrences": 1972
         },
         "Q1973": {
             "subj_label": "British Columbia",
@@ -5568,7 +5568,7 @@
             "obj_id": "Q49",
             "obj_label": "North America",
             "obj_aliases": [],
-            "occurrences": 2600
+            "occurrences": 2603
         },
         "Q25279": {
             "subj_label": "Curaçao",
@@ -5592,7 +5592,7 @@
             "obj_id": "Q18",
             "obj_label": "South America",
             "obj_aliases": [],
-            "occurrences": 6097
+            "occurrences": 6100
         },
         "Q334738": {
             "subj_label": "Margarita Island",
@@ -5616,7 +5616,7 @@
             "obj_id": "Q18",
             "obj_label": "South America",
             "obj_aliases": [],
-            "occurrences": 3357
+            "occurrences": 3359
         },
         "Q1001339": {
             "subj_label": "Puerto Natales",
@@ -5648,7 +5648,7 @@
             "obj_id": "Q18",
             "obj_label": "South America",
             "obj_aliases": [],
-            "occurrences": 212
+            "occurrences": 216
         },
         "Q2166850": {
             "subj_label": "Triple Frontier",
@@ -5672,7 +5672,7 @@
             "obj_id": "Q18",
             "obj_label": "South America",
             "obj_aliases": [],
-            "occurrences": 867
+            "occurrences": 869
         },
         "Q4361": {
             "subj_label": "Curitiba",
@@ -5712,7 +5712,7 @@
             "obj_id": "Q18",
             "obj_label": "South America",
             "obj_aliases": [],
-            "occurrences": 8765
+            "occurrences": 8770
         },
         "Q233351": {
             "subj_label": "Nevado del Ruiz",
@@ -5728,7 +5728,7 @@
             "obj_id": "Q18",
             "obj_label": "South America",
             "obj_aliases": [],
-            "occurrences": 3056
+            "occurrences": 3057
         },
         "Q589911": {
             "subj_label": "Essequibo River",
@@ -5760,7 +5760,7 @@
             "obj_id": "Q18",
             "obj_label": "South America",
             "obj_aliases": [],
-            "occurrences": 1439
+            "occurrences": 1441
         },
         "Q118574": {
             "subj_label": "Altiplano",
@@ -5778,7 +5778,7 @@
             "obj_id": "Q1348",
             "obj_label": "Kolkata",
             "obj_aliases": [],
-            "occurrences": 3847
+            "occurrences": 3860
         },
         "Q1028": {
             "subj_label": "Morocco",
@@ -5786,7 +5786,7 @@
             "obj_id": "Q3551",
             "obj_label": "Rabat",
             "obj_aliases": [],
-            "occurrences": 1833
+            "occurrences": 1834
         },
         "Q3177715": {
             "subj_label": "Pagaruyung Kingdom",
@@ -5810,7 +5810,7 @@
             "obj_id": "Q30340",
             "obj_label": "Zhengzhou",
             "obj_aliases": [],
-            "occurrences": 707
+            "occurrences": 708
         },
         "Q958": {
             "subj_label": "South Sudan",
@@ -5818,7 +5818,7 @@
             "obj_id": "Q1947",
             "obj_label": "Juba",
             "obj_aliases": [],
-            "occurrences": 620
+            "occurrences": 621
         },
         "Q170603": {
             "subj_label": "Viceroyalty of New Spain",
@@ -5842,7 +5842,7 @@
             "obj_id": "Q3616",
             "obj_label": "Tehran",
             "obj_aliases": [],
-            "occurrences": 9949
+            "occurrences": 9965
         },
         "Q843": {
             "subj_label": "Pakistan",
@@ -5850,7 +5850,7 @@
             "obj_id": "Q1362",
             "obj_label": "Islamabad",
             "obj_aliases": [],
-            "occurrences": 3541
+            "occurrences": 3544
         },
         "Q1246": {
             "subj_label": "Kosovo",
@@ -5866,7 +5866,7 @@
             "obj_id": "Q2656",
             "obj_label": "Palermo",
             "obj_aliases": [],
-            "occurrences": 2194
+            "occurrences": 2200
         },
         "Q133083": {
             "subj_label": "Gauteng",
@@ -5874,7 +5874,7 @@
             "obj_id": "Q34647",
             "obj_label": "Johannesburg",
             "obj_aliases": [],
-            "occurrences": 747
+            "occurrences": 749
         },
         "Q114": {
             "subj_label": "Kenya",
@@ -5882,7 +5882,7 @@
             "obj_id": "Q3870",
             "obj_label": "Nairobi",
             "obj_aliases": [],
-            "occurrences": 5674
+            "occurrences": 5685
         },
         "Q639491": {
             "subj_label": "Lagunes region",
@@ -5898,7 +5898,7 @@
             "obj_id": "Q3861",
             "obj_label": "Doha",
             "obj_aliases": [],
-            "occurrences": 4900
+            "occurrences": 4904
         },
         "Q265": {
             "subj_label": "Uzbekistan",
@@ -5922,7 +5922,7 @@
             "obj_id": "Q1355",
             "obj_label": "Bengaluru",
             "obj_aliases": [],
-            "occurrences": 711
+            "occurrences": 712
         },
         "Q912": {
             "subj_label": "Mali",
@@ -5930,7 +5930,7 @@
             "obj_id": "Q3703",
             "obj_label": "Bamako",
             "obj_aliases": [],
-            "occurrences": 1147
+            "occurrences": 1150
         },
         "Q486229": {
             "subj_label": "Hennepin County",
@@ -5938,7 +5938,7 @@
             "obj_id": "Q36091",
             "obj_label": "Minneapolis",
             "obj_aliases": [],
-            "occurrences": 565
+            "occurrences": 568
         },
         "Q30": {
             "subj_label": "United States of America",
@@ -5946,7 +5946,7 @@
             "obj_id": "Q61",
             "obj_label": "Washington, D.C.",
             "obj_aliases": [],
-            "occurrences": 150
+            "occurrences": 154
         },
         "Q48026": {
             "subj_label": "South West England",
@@ -5962,7 +5962,7 @@
             "obj_id": "Q5826",
             "obj_label": "Xi'an",
             "obj_aliases": [],
-            "occurrences": 931
+            "occurrences": 932
         },
         "Q1311980": {
             "subj_label": "Adrianople Vilayet",
@@ -5978,7 +5978,7 @@
             "obj_id": "Q1449",
             "obj_label": "Genoa",
             "obj_aliases": [],
-            "occurrences": 742
+            "occurrences": 749
         },
         "Q217230": {
             "subj_label": "Empire of Brazil",
@@ -6002,7 +6002,7 @@
             "obj_id": "Q3711",
             "obj_label": "Belgrade",
             "obj_aliases": [],
-            "occurrences": 10223
+            "occurrences": 10241
         },
         "Q881": {
             "subj_label": "Vietnam",
@@ -6010,7 +6010,7 @@
             "obj_id": "Q1858",
             "obj_label": "Hanoi",
             "obj_aliases": [],
-            "occurrences": 3945
+            "occurrences": 3952
         },
         "Q17152": {
             "subj_label": "Central Macedonia",
@@ -6018,7 +6018,7 @@
             "obj_id": "Q17151",
             "obj_label": "Thessaloniki",
             "obj_aliases": [],
-            "occurrences": 174
+            "occurrences": 204
         },
         "Q36074": {
             "subj_label": "Queensland",
@@ -6026,7 +6026,7 @@
             "obj_id": "Q34932",
             "obj_label": "Brisbane",
             "obj_aliases": [],
-            "occurrences": 14873
+            "occurrences": 14883
         },
         "Q2002279": {
             "subj_label": "Portuguese Guinea",
@@ -6042,7 +6042,7 @@
             "obj_id": "Q3921",
             "obj_label": "Harare",
             "obj_aliases": [],
-            "occurrences": 2396
+            "occurrences": 2400
         },
         "Q93366": {
             "subj_label": "Biscay",
@@ -6050,7 +6050,7 @@
             "obj_id": "Q8692",
             "obj_label": "Bilbao",
             "obj_aliases": [],
-            "occurrences": 675
+            "occurrences": 679
         },
         "Q1009": {
             "subj_label": "Cameroon",
@@ -6074,7 +6074,7 @@
             "obj_id": "Q37100",
             "obj_label": "Auckland",
             "obj_aliases": [],
-            "occurrences": 102
+            "occurrences": 103
         },
         "Q148": {
             "subj_label": "People's Republic of China",
@@ -6082,7 +6082,7 @@
             "obj_id": "Q956",
             "obj_label": "Beijing",
             "obj_aliases": [],
-            "occurrences": 1379
+            "occurrences": 1380
         },
         "Q811": {
             "subj_label": "Nicaragua",
@@ -6090,7 +6090,7 @@
             "obj_id": "Q3274",
             "obj_label": "Managua",
             "obj_aliases": [],
-            "occurrences": 1185
+            "occurrences": 1187
         },
         "Q1006": {
             "subj_label": "Guinea",
@@ -6122,7 +6122,7 @@
             "obj_id": "Q1773",
             "obj_label": "Riga",
             "obj_aliases": [],
-            "occurrences": 4670
+            "occurrences": 4671
         },
         "Q37": {
             "subj_label": "Lithuania",
@@ -6130,7 +6130,7 @@
             "obj_id": "Q216",
             "obj_label": "Vilnius",
             "obj_aliases": [],
-            "occurrences": 4573
+            "occurrences": 4576
         },
         "Q54159": {
             "subj_label": "Lesser Poland Voivodeship",
@@ -6138,7 +6138,7 @@
             "obj_id": "Q31487",
             "obj_label": "Kraków",
             "obj_aliases": [],
-            "occurrences": 496
+            "occurrences": 498
         },
         "Q347": {
             "subj_label": "Liechtenstein",
@@ -6162,7 +6162,7 @@
             "obj_id": "Q1720",
             "obj_label": "Mainz",
             "obj_aliases": [],
-            "occurrences": 454
+            "occurrences": 455
         },
         "Q156291": {
             "subj_label": "Allegheny County",
@@ -6170,7 +6170,7 @@
             "obj_id": "Q1342",
             "obj_label": "Pittsburgh",
             "obj_aliases": [],
-            "occurrences": 1350
+            "occurrences": 1351
         },
         "Q865": {
             "subj_label": "Taiwan",
@@ -6178,7 +6178,7 @@
             "obj_id": "Q1867",
             "obj_label": "Taipei",
             "obj_aliases": [],
-            "occurrences": 9494
+            "occurrences": 9501
         },
         "Q7603765": {
             "subj_label": "State of Malta",
@@ -6194,7 +6194,7 @@
             "obj_id": "Q1953",
             "obj_label": "Yerevan",
             "obj_aliases": [],
-            "occurrences": 3768
+            "occurrences": 3770
         },
         "Q863": {
             "subj_label": "Tajikistan",
@@ -6202,7 +6202,7 @@
             "obj_id": "Q9365",
             "obj_label": "Dushanbe",
             "obj_aliases": [],
-            "occurrences": 765
+            "occurrences": 766
         },
         "Q797": {
             "subj_label": "Alaska",
@@ -6210,7 +6210,7 @@
             "obj_id": "Q29445",
             "obj_label": "Juneau",
             "obj_aliases": [],
-            "occurrences": 1709
+            "occurrences": 1711
         },
         "Q917": {
             "subj_label": "Bhutan",
@@ -6218,7 +6218,7 @@
             "obj_id": "Q9270",
             "obj_label": "Thimphu",
             "obj_aliases": [],
-            "occurrences": 475
+            "occurrences": 476
         },
         "Q25": {
             "subj_label": "Wales",
@@ -6226,7 +6226,7 @@
             "obj_id": "Q10690",
             "obj_label": "Cardiff",
             "obj_aliases": [],
-            "occurrences": 9974
+            "occurrences": 9991
         },
         "Q23100": {
             "subj_label": "Merseyside",
@@ -6234,7 +6234,7 @@
             "obj_id": "Q24826",
             "obj_label": "Liverpool",
             "obj_aliases": [],
-            "occurrences": 2098
+            "occurrences": 2108
         },
         "Q378004": {
             "subj_label": "Forêts",
@@ -6300,7 +6300,7 @@
             "obj_id": "Q9043",
             "obj_label": "Norwegian",
             "obj_aliases": [],
-            "occurrences": 560
+            "occurrences": 561
         },
         "Q178897": {
             "subj_label": "Latin Empire",
@@ -6372,7 +6372,7 @@
             "obj_id": "Q9610",
             "obj_label": "Bengali",
             "obj_aliases": [],
-            "occurrences": 2799
+            "occurrences": 2800
         },
         "Q680997": {
             "subj_label": "Principality of Lower Pannonia",
@@ -6396,7 +6396,7 @@
             "obj_id": "Q9078",
             "obj_label": "Latvian",
             "obj_aliases": [],
-            "occurrences": 3119
+            "occurrences": 3122
         },
         "Q36": {
             "subj_label": "Poland",
@@ -6404,7 +6404,7 @@
             "obj_id": "Q809",
             "obj_label": "Polish",
             "obj_aliases": [],
-            "occurrences": 38282
+            "occurrences": 38326
         },
         "Q38": {
             "subj_label": "Italy",
@@ -6412,7 +6412,7 @@
             "obj_id": "Q652",
             "obj_label": "Italian",
             "obj_aliases": [],
-            "occurrences": 49464
+            "occurrences": 49533
         },
         "Q10985042": {
             "subj_label": "March of Montferrat",
@@ -6468,7 +6468,7 @@
             "obj_id": "Q294",
             "obj_label": "Icelandic",
             "obj_aliases": [],
-            "occurrences": 1034
+            "occurrences": 1038
         },
         "Q75613": {
             "subj_label": "Almoravid dynasty",
@@ -6484,7 +6484,7 @@
             "obj_id": "Q9228",
             "obj_label": "Burmese",
             "obj_aliases": [],
-            "occurrences": 3450
+            "occurrences": 3452
         },
         "Q5069920": {
             "subj_label": "Champaknagar",
@@ -6556,7 +6556,7 @@
             "obj_id": "Q9292",
             "obj_label": "Azerbaijani",
             "obj_aliases": [],
-            "occurrences": 2192
+            "occurrences": 2196
         },
         "Q497019": {
             "subj_label": "Praia",
@@ -6572,7 +6572,7 @@
             "obj_id": "Q9027",
             "obj_label": "Swedish",
             "obj_aliases": [],
-            "occurrences": 28717
+            "occurrences": 28741
         },
         "Q178665": {
             "subj_label": "Mitanni",
@@ -6604,7 +6604,7 @@
             "obj_id": "Q9299",
             "obj_label": "Serbian",
             "obj_aliases": [],
-            "occurrences": 8422
+            "occurrences": 8449
         },
         "Q853477": {
             "subj_label": "Lan Xang",
@@ -6652,7 +6652,7 @@
             "obj_id": "Q1571",
             "obj_label": "Marathi",
             "obj_aliases": [],
-            "occurrences": 2524
+            "occurrences": 2529
         },
         "Q220110": {
             "subj_label": "Rohan",
@@ -6676,7 +6676,7 @@
             "obj_id": "Q36236",
             "obj_label": "Malayalam",
             "obj_aliases": [],
-            "occurrences": 502
+            "occurrences": 504
         },
         "Q1139762": {
             "subj_label": "Kanem-Bornu Empire",
@@ -6716,7 +6716,7 @@
             "obj_id": "Q8798",
             "obj_label": "Ukrainian",
             "obj_aliases": [],
-            "occurrences": 27125
+            "occurrences": 27148
         },
         "Q1437": {
             "subj_label": "Rajasthan",
@@ -6724,7 +6724,7 @@
             "obj_id": "Q1568",
             "obj_label": "Hindi",
             "obj_aliases": [],
-            "occurrences": 452
+            "occurrences": 453
         },
         "Q193229": {
             "subj_label": "Visoko",
@@ -6878,7 +6878,7 @@
             "obj_id": "Q868",
             "obj_label": "Aristotle",
             "obj_aliases": [],
-            "occurrences": 90
+            "occurrences": 91
         },
         "Q7757110": {
             "subj_label": "The Pilgrim's Regress",
@@ -7870,7 +7870,7 @@
             "obj_id": "Q38392",
             "obj_label": "William Faulkner",
             "obj_aliases": [],
-            "occurrences": 18
+            "occurrences": 19
         },
         "Q1823273": {
             "subj_label": "Light in August",
@@ -8256,7 +8256,7 @@
             "obj_id": "Q146055",
             "obj_label": "Eighteenth Dynasty of Egypt",
             "obj_aliases": [],
-            "occurrences": 19
+            "occurrences": 20
         },
         "Q158003": {
             "subj_label": "Smenkhkare",
@@ -9234,7 +9234,7 @@
             "obj_id": "Q312657",
             "obj_label": "Chuck Jones",
             "obj_aliases": [],
-            "occurrences": 7
+            "occurrences": 8
         },
         "Q65058737": {
             "subj_label": "Richard Jewell",
@@ -9258,7 +9258,7 @@
             "obj_id": "Q43203",
             "obj_label": "Clint Eastwood",
             "obj_aliases": [],
-            "occurrences": 47
+            "occurrences": 48
         },
         "Q741196": {
             "subj_label": "Heartbreak Ridge",
@@ -10018,7 +10018,7 @@
             "obj_id": "Q51566",
             "obj_label": "Spike Lee",
             "obj_aliases": [],
-            "occurrences": 31
+            "occurrences": 32
         },
         "Q508410": {
             "subj_label": "He Got Game",
@@ -10338,7 +10338,7 @@
             "obj_id": "Q25089",
             "obj_label": "Woody Allen",
             "obj_aliases": [],
-            "occurrences": 75
+            "occurrences": 77
         }
     },
     "P58": {
@@ -10428,7 +10428,7 @@
             "obj_id": "Q8006",
             "obj_label": "Akira Kurosawa",
             "obj_aliases": [],
-            "occurrences": 55
+            "occurrences": 57
         },
         "Q854990": {
             "subj_label": "Kagemusha",
@@ -10444,7 +10444,7 @@
             "obj_id": "Q25089",
             "obj_label": "Woody Allen",
             "obj_aliases": [],
-            "occurrences": 75
+            "occurrences": 77
         },
         "Q845057": {
             "subj_label": "Hannah and Her Sisters",
@@ -10876,7 +10876,7 @@
             "obj_id": "Q55210",
             "obj_label": "Abbas Kiarostami",
             "obj_aliases": [],
-            "occurrences": 16
+            "occurrences": 17
         },
         "Q2485167": {
             "subj_label": "Through the Olive Trees",
@@ -11164,7 +11164,7 @@
             "obj_id": "Q56093",
             "obj_label": "Blake Edwards",
             "obj_aliases": [],
-            "occurrences": 26
+            "occurrences": 27
         },
         "Q921042": {
             "subj_label": "Inspector Clouseau",
@@ -11276,7 +11276,7 @@
             "obj_id": "Q50764",
             "obj_label": "Éric Rohmer",
             "obj_aliases": [],
-            "occurrences": 10
+            "occurrences": 11
         },
         "Q1094852": {
             "subj_label": "Claire's Knee",
@@ -11918,7 +11918,7 @@
             "obj_id": "Q21578",
             "obj_label": "Princeton University",
             "obj_aliases": [],
-            "occurrences": 12
+            "occurrences": 14
         },
         "Q512382": {
             "subj_label": "Leonard Hofstadter",
@@ -13216,7 +13216,7 @@
             "obj_id": "Q179682",
             "obj_label": "Björn Ulvaeus",
             "obj_aliases": [],
-            "occurrences": 16
+            "occurrences": 17
         },
         "Q1033015": {
             "subj_label": "Candide",
@@ -13378,7 +13378,7 @@
             "obj_id": "Q194280",
             "obj_label": "Hugh Hefner",
             "obj_aliases": [],
-            "occurrences": 411
+            "occurrences": 412
         },
         "Q6785412": {
             "subj_label": "Masterpieces: The Best Science Fiction of the Century",
@@ -14156,7 +14156,7 @@
             "obj_id": "Q652",
             "obj_label": "Italian",
             "obj_aliases": [],
-            "occurrences": 410
+            "occurrences": 411
         },
         "Q170726": {
             "subj_label": "Enrico Caruso",
@@ -14172,7 +14172,7 @@
             "obj_id": "Q652",
             "obj_label": "Italian",
             "obj_aliases": [],
-            "occurrences": 1329
+            "occurrences": 1330
         },
         "Q47563": {
             "subj_label": "Matteo Renzi",
@@ -14252,7 +14252,7 @@
             "obj_id": "Q9176",
             "obj_label": "Korean",
             "obj_aliases": [],
-            "occurrences": 26
+            "occurrences": 27
         },
         "Q234066": {
             "subj_label": "Hyuna",
@@ -14452,7 +14452,7 @@
             "obj_id": "Q7737",
             "obj_label": "Russian",
             "obj_aliases": [],
-            "occurrences": 207
+            "occurrences": 208
         },
         "Q11666": {
             "subj_label": "Maria Sharapova",
@@ -14468,7 +14468,7 @@
             "obj_id": "Q7737",
             "obj_label": "Russian",
             "obj_aliases": [],
-            "occurrences": 4019
+            "occurrences": 4020
         },
         "Q27645": {
             "subj_label": "Mikhail Bakunin",
@@ -14556,7 +14556,7 @@
             "obj_id": "Q1321",
             "obj_label": "Spanish",
             "obj_aliases": [],
-            "occurrences": 304
+            "occurrences": 305
         },
         "Q11256": {
             "subj_label": "Fidel Castro",
@@ -15590,7 +15590,7 @@
             "obj_id": "Q164280",
             "obj_label": "subfamily",
             "obj_aliases": [],
-            "occurrences": 20
+            "occurrences": 21
         },
         "Q122431": {
             "subj_label": "Cervinae",
@@ -16792,7 +16792,7 @@
             "obj_id": "Q41506",
             "obj_label": "Stanford University",
             "obj_aliases": [],
-            "occurrences": 18
+            "occurrences": 19
         },
         "Q705525": {
             "subj_label": "Peter Thiel",
@@ -17240,7 +17240,7 @@
             "obj_id": "Q126399",
             "obj_label": "Warner Bros.",
             "obj_aliases": [],
-            "occurrences": 39
+            "occurrences": 40
         },
         "Q93188": {
             "subj_label": "Errol Flynn",
@@ -17248,7 +17248,7 @@
             "obj_id": "Q126399",
             "obj_label": "Warner Bros.",
             "obj_aliases": [],
-            "occurrences": 40
+            "occurrences": 41
         },
         "Q108510": {
             "subj_label": "James Garner",
@@ -17410,7 +17410,7 @@
             "obj_id": "Q387157",
             "obj_label": "Rocket Mortgage FieldHouse",
             "obj_aliases": [],
-            "occurrences": 16
+            "occurrences": 17
         },
         "Q170558": {
             "subj_label": "Minnesota Timberwolves",
@@ -17868,7 +17868,7 @@
             "obj_id": "Q23239",
             "obj_label": "Amtrak",
             "obj_aliases": [],
-            "occurrences": 909
+            "occurrences": 912
         },
         "Q3095511": {
             "subj_label": "Oakland Coliseum station",
@@ -18220,7 +18220,7 @@
             "obj_id": "Q81965",
             "obj_label": "General Motors",
             "obj_aliases": [],
-            "occurrences": 209
+            "occurrences": 214
         },
         "Q519560": {
             "subj_label": "North American Aviation",
@@ -19102,7 +19102,7 @@
             "obj_id": "Q414",
             "obj_label": "Argentina",
             "obj_aliases": [],
-            "occurrences": 454
+            "occurrences": 477
         },
         "Q44764": {
             "subj_label": "Province of Jujuy",
@@ -19126,7 +19126,7 @@
             "obj_id": "Q414",
             "obj_label": "Argentina",
             "obj_aliases": [],
-            "occurrences": 2144
+            "occurrences": 2180
         },
         "Q44762": {
             "subj_label": "Entre Ríos Province",
@@ -19134,7 +19134,7 @@
             "obj_id": "Q414",
             "obj_label": "Argentina",
             "obj_aliases": [],
-            "occurrences": 391
+            "occurrences": 394
         },
         "Q44761": {
             "subj_label": "Formosa Province",
@@ -19142,7 +19142,7 @@
             "obj_id": "Q414",
             "obj_label": "Argentina",
             "obj_aliases": [],
-            "occurrences": 108
+            "occurrences": 111
         },
         "Q2012430": {
             "subj_label": "Smolyan Province",
@@ -19190,7 +19190,7 @@
             "obj_id": "Q219",
             "obj_label": "Bulgaria",
             "obj_aliases": [],
-            "occurrences": 403
+            "occurrences": 408
         },
         "Q272747": {
             "subj_label": "La Guajira Department",
@@ -19198,7 +19198,7 @@
             "obj_id": "Q739",
             "obj_label": "Colombia",
             "obj_aliases": [],
-            "occurrences": 78
+            "occurrences": 80
         },
         "Q121233": {
             "subj_label": "Boyacá Department",
@@ -19222,7 +19222,7 @@
             "obj_id": "Q739",
             "obj_label": "Colombia",
             "obj_aliases": [],
-            "occurrences": 290
+            "occurrences": 294
         },
         "Q230602": {
             "subj_label": "Cauca Department",
@@ -19230,7 +19230,7 @@
             "obj_id": "Q739",
             "obj_label": "Colombia",
             "obj_aliases": [],
-            "occurrences": 398
+            "occurrences": 420
         },
         "Q44724": {
             "subj_label": "Amazonas Department",
@@ -19278,7 +19278,7 @@
             "obj_id": "Q224",
             "obj_label": "Croatia",
             "obj_aliases": [],
-            "occurrences": 441
+            "occurrences": 443
         },
         "Q58159": {
             "subj_label": "Osijek-Baranja County",
@@ -19350,7 +19350,7 @@
             "obj_id": "Q79",
             "obj_label": "Egypt",
             "obj_aliases": [],
-            "occurrences": 60
+            "occurrences": 61
         },
         "Q29965": {
             "subj_label": "Asyut Governorate",
@@ -19398,7 +19398,7 @@
             "obj_id": "Q28",
             "obj_label": "Hungary",
             "obj_aliases": [],
-            "occurrences": 401
+            "occurrences": 404
         },
         "Q188612": {
             "subj_label": "Pest County",
@@ -19406,7 +19406,7 @@
             "obj_id": "Q28",
             "obj_label": "Hungary",
             "obj_aliases": [],
-            "occurrences": 395
+            "occurrences": 399
         },
         "Q191604": {
             "subj_label": "Heves County",
@@ -19414,7 +19414,7 @@
             "obj_id": "Q28",
             "obj_label": "Hungary",
             "obj_aliases": [],
-            "occurrences": 222
+            "occurrences": 223
         },
         "Q15226853": {
             "subj_label": "Hungarian-Turkish Friendship Park",
@@ -19430,7 +19430,7 @@
             "obj_id": "Q28",
             "obj_label": "Hungary",
             "obj_aliases": [],
-            "occurrences": 344
+            "occurrences": 345
         },
         "Q5094": {
             "subj_label": "North Maluku",
@@ -19438,7 +19438,7 @@
             "obj_id": "Q252",
             "obj_label": "Indonesia",
             "obj_aliases": [],
-            "occurrences": 227
+            "occurrences": 235
         },
         "Q1823": {
             "subj_label": "Aceh",
@@ -19446,7 +19446,7 @@
             "obj_id": "Q252",
             "obj_label": "Indonesia",
             "obj_aliases": [],
-            "occurrences": 1128
+            "occurrences": 1129
         },
         "Q3916": {
             "subj_label": "West Kalimantan",
@@ -19454,7 +19454,7 @@
             "obj_id": "Q252",
             "obj_label": "Indonesia",
             "obj_aliases": [],
-            "occurrences": 334
+            "occurrences": 336
         },
         "Q2223": {
             "subj_label": "Riau Islands",
@@ -19478,7 +19478,7 @@
             "obj_id": "Q252",
             "obj_label": "Indonesia",
             "obj_aliases": [],
-            "occurrences": 617
+            "occurrences": 625
         },
         "Q120730": {
             "subj_label": "Kyōto Prefecture",
@@ -19494,7 +19494,7 @@
             "obj_id": "Q17",
             "obj_label": "Japan",
             "obj_aliases": [],
-            "occurrences": 1575
+            "occurrences": 1577
         },
         "Q71699": {
             "subj_label": "Aomori Prefecture",
@@ -19502,7 +19502,7 @@
             "obj_id": "Q17",
             "obj_label": "Japan",
             "obj_aliases": [],
-            "occurrences": 1073
+            "occurrences": 1074
         },
         "Q13991": {
             "subj_label": "Shikoku",
@@ -19526,7 +19526,7 @@
             "obj_id": "Q17",
             "obj_label": "Japan",
             "obj_aliases": [],
-            "occurrences": 930
+            "occurrences": 931
         },
         "Q463959": {
             "subj_label": "Taraba State",
@@ -19542,7 +19542,7 @@
             "obj_id": "Q1033",
             "obj_label": "Nigeria",
             "obj_aliases": [],
-            "occurrences": 558
+            "occurrences": 560
         },
         "Q145793": {
             "subj_label": "Zamfara State",
@@ -19558,7 +19558,7 @@
             "obj_id": "Q1033",
             "obj_label": "Nigeria",
             "obj_aliases": [],
-            "occurrences": 676
+            "occurrences": 678
         },
         "Q836645": {
             "subj_label": "Nasarawa State",
@@ -19566,7 +19566,7 @@
             "obj_id": "Q1033",
             "obj_label": "Nigeria",
             "obj_aliases": [],
-            "occurrences": 197
+            "occurrences": 198
         },
         "Q503905": {
             "subj_label": "Oyo State",
@@ -19574,7 +19574,7 @@
             "obj_id": "Q1033",
             "obj_label": "Nigeria",
             "obj_aliases": [],
-            "occurrences": 441
+            "occurrences": 442
         },
         "Q50614": {
             "subj_label": "Østfold",
@@ -19614,7 +19614,7 @@
             "obj_id": "Q20",
             "obj_label": "Norway",
             "obj_aliases": [],
-            "occurrences": 1712
+            "occurrences": 1715
         },
         "Q50632": {
             "subj_label": "Finnmark",
@@ -19622,7 +19622,7 @@
             "obj_id": "Q20",
             "obj_label": "Norway",
             "obj_aliases": [],
-            "occurrences": 1853
+            "occurrences": 1860
         },
         "Q37211": {
             "subj_label": "Sindh",
@@ -19630,7 +19630,7 @@
             "obj_id": "Q843",
             "obj_label": "Pakistan",
             "obj_aliases": [],
-            "occurrences": 5583
+            "occurrences": 5584
         },
         "Q4700804": {
             "subj_label": "Akhtar Colony",
@@ -19662,7 +19662,7 @@
             "obj_id": "Q843",
             "obj_label": "Pakistan",
             "obj_aliases": [],
-            "occurrences": 310
+            "occurrences": 313
         },
         "Q3696019": {
             "subj_label": "Takht-e-Sulaiman",
@@ -19678,7 +19678,7 @@
             "obj_id": "Q218",
             "obj_label": "Romania",
             "obj_aliases": [],
-            "occurrences": 234
+            "occurrences": 235
         },
         "Q181513": {
             "subj_label": "Bistrița-Năsăud County",
@@ -19694,7 +19694,7 @@
             "obj_id": "Q218",
             "obj_label": "Romania",
             "obj_aliases": [],
-            "occurrences": 501
+            "occurrences": 502
         },
         "Q182624": {
             "subj_label": "Cluj County",
@@ -19710,7 +19710,7 @@
             "obj_id": "Q218",
             "obj_label": "Romania",
             "obj_aliases": [],
-            "occurrences": 379
+            "occurrences": 383
         },
         "Q178861": {
             "subj_label": "Botoșani County",
@@ -19806,7 +19806,7 @@
             "obj_id": "Q884",
             "obj_label": "South Korea",
             "obj_aliases": [],
-            "occurrences": 1827
+            "occurrences": 1830
         },
         "Q41283": {
             "subj_label": "Gwangju",
@@ -19822,7 +19822,7 @@
             "obj_id": "Q34",
             "obj_label": "Sweden",
             "obj_aliases": [],
-            "occurrences": 301
+            "occurrences": 305
         },
         "Q103686": {
             "subj_label": "Norrbotten County",
@@ -19846,7 +19846,7 @@
             "obj_id": "Q34",
             "obj_label": "Sweden",
             "obj_aliases": [],
-            "occurrences": 1111
+            "occurrences": 1115
         },
         "Q103732": {
             "subj_label": "Dalarna County",
@@ -19854,7 +19854,7 @@
             "obj_id": "Q34",
             "obj_label": "Sweden",
             "obj_aliases": [],
-            "occurrences": 377
+            "occurrences": 378
         },
         "Q106789": {
             "subj_label": "Värmland County",
@@ -19862,7 +19862,7 @@
             "obj_id": "Q34",
             "obj_label": "Sweden",
             "obj_aliases": [],
-            "occurrences": 230
+            "occurrences": 232
         },
         "Q11933": {
             "subj_label": "Canton of Zug",
@@ -19870,7 +19870,7 @@
             "obj_id": "Q39",
             "obj_label": "Switzerland",
             "obj_aliases": [],
-            "occurrences": 114
+            "occurrences": 116
         },
         "Q12746": {
             "subj_label": "Canton of St. Gallen",
@@ -19878,7 +19878,7 @@
             "obj_id": "Q39",
             "obj_label": "Switzerland",
             "obj_aliases": [],
-            "occurrences": 478
+            "occurrences": 554
         },
         "Q12121": {
             "subj_label": "Canton of Lucerne",
@@ -19886,7 +19886,7 @@
             "obj_id": "Q39",
             "obj_label": "Switzerland",
             "obj_aliases": [],
-            "occurrences": 327
+            "occurrences": 329
         },
         "Q834": {
             "subj_label": "Canton of Valais",
@@ -19894,7 +19894,7 @@
             "obj_id": "Q39",
             "obj_label": "Switzerland",
             "obj_aliases": [],
-            "occurrences": 485
+            "occurrences": 486
         },
         "Q12640": {
             "subj_label": "canton of Fribourg",
@@ -19902,7 +19902,7 @@
             "obj_id": "Q39",
             "obj_label": "Switzerland",
             "obj_aliases": [],
-            "occurrences": 462
+            "occurrences": 464
         },
         "Q12738": {
             "subj_label": "Canton of Neuchâtel",
@@ -19950,7 +19950,7 @@
             "obj_id": "Q858",
             "obj_label": "Syria",
             "obj_aliases": [],
-            "occurrences": 124
+            "occurrences": 125
         },
         "Q3326600": {
             "subj_label": "Tunip",
@@ -20014,7 +20014,7 @@
             "obj_id": "Q212",
             "obj_label": "Ukraine",
             "obj_aliases": [],
-            "occurrences": 332
+            "occurrences": 333
         },
         "Q168856": {
             "subj_label": "Chernivtsi Oblast",
@@ -20022,7 +20022,7 @@
             "obj_id": "Q212",
             "obj_label": "Ukraine",
             "obj_aliases": [],
-            "occurrences": 609
+            "occurrences": 610
         },
         "Q181633": {
             "subj_label": "Mykolaiv Oblast",
@@ -20046,7 +20046,7 @@
             "obj_id": "Q212",
             "obj_label": "Ukraine",
             "obj_aliases": [],
-            "occurrences": 389
+            "occurrences": 390
         },
         "Q2682584": {
             "subj_label": "Yaniv railway station",
@@ -20102,7 +20102,7 @@
             "obj_id": "Q30",
             "obj_label": "the United States of America",
             "obj_aliases": [],
-            "occurrences": 82
+            "occurrences": 83
         },
         "Q16594": {
             "subj_label": "Montevideo Department",
@@ -20110,7 +20110,7 @@
             "obj_id": "Q77",
             "obj_label": "Uruguay",
             "obj_aliases": [],
-            "occurrences": 31
+            "occurrences": 32
         },
         "Q331196": {
             "subj_label": "Maldonado Department",
@@ -20118,7 +20118,7 @@
             "obj_id": "Q77",
             "obj_label": "Uruguay",
             "obj_aliases": [],
-            "occurrences": 163
+            "occurrences": 168
         },
         "Q16580": {
             "subj_label": "Colonia Department",
@@ -20126,7 +20126,7 @@
             "obj_id": "Q77",
             "obj_label": "Uruguay",
             "obj_aliases": [],
-            "occurrences": 119
+            "occurrences": 125
         },
         "Q16577": {
             "subj_label": "Canelones Department",
@@ -20134,7 +20134,7 @@
             "obj_id": "Q77",
             "obj_label": "Uruguay",
             "obj_aliases": [],
-            "occurrences": 260
+            "occurrences": 288
         },
         "Q460435": {
             "subj_label": "Lavalleja Department",
@@ -20142,7 +20142,7 @@
             "obj_id": "Q77",
             "obj_label": "Uruguay",
             "obj_aliases": [],
-            "occurrences": 38
+            "occurrences": 40
         },
         "Q16603": {
             "subj_label": "Artigas Department",
@@ -20150,7 +20150,7 @@
             "obj_id": "Q77",
             "obj_label": "Uruguay",
             "obj_aliases": [],
-            "occurrences": 105
+            "occurrences": 111
         },
         "Q2943": {
             "subj_label": "Sistine Chapel",
@@ -20190,7 +20190,7 @@
             "obj_id": "Q237",
             "obj_label": "Vatican City",
             "obj_aliases": [],
-            "occurrences": 0
+            "occurrences": 1
         },
         "Q4540172": {
             "subj_label": "Mater Ecclesiae",
@@ -20552,7 +20552,7 @@
             "obj_id": "Q356359",
             "obj_label": "Indian Navy",
             "obj_aliases": [],
-            "occurrences": 26
+            "occurrences": 22
         },
         "Q5972559": {
             "subj_label": "INS Kochi",
@@ -21410,7 +21410,7 @@
             "obj_id": "Q8349",
             "obj_label": "\"Weird Al\" Yankovic",
             "obj_aliases": [],
-            "occurrences": 19
+            "occurrences": 22
         },
         "Q2398496": {
             "subj_label": "Amish Paradise",
@@ -21706,7 +21706,7 @@
             "obj_id": "Q6078",
             "obj_label": "Dr. Dre",
             "obj_aliases": [],
-            "occurrences": 121
+            "occurrences": 125
         },
         "Q370983": {
             "subj_label": "Still D.R.E.",
@@ -21730,7 +21730,7 @@
             "obj_id": "Q6078",
             "obj_label": "Dr. Dre",
             "obj_aliases": [],
-            "occurrences": 32
+            "occurrences": 33
         },
         "Q19602856": {
             "subj_label": "To Pimp a Butterfly",
@@ -22602,7 +22602,7 @@
             "obj_id": "Q185610",
             "obj_label": "will.i.am",
             "obj_aliases": [],
-            "occurrences": 24
+            "occurrences": 4
         }
     },
     "P170": {
@@ -22660,7 +22660,7 @@
             "obj_id": "Q5686",
             "obj_label": "Charles Dickens",
             "obj_aliases": [],
-            "occurrences": 193
+            "occurrences": 194
         },
         "Q5400904": {
             "subj_label": "Estella",
@@ -25664,7 +25664,7 @@
             "obj_id": "Q2831",
             "obj_label": "Michael Jackson",
             "obj_aliases": [],
-            "occurrences": 24
+            "occurrences": 25
         },
         "Q300976": {
             "subj_label": "You Rock My World",
@@ -27996,7 +27996,7 @@
             "obj_id": "Q1497",
             "obj_label": "Mississippi River",
             "obj_aliases": [],
-            "occurrences": 17
+            "occurrences": 18
         },
         "Q4532572": {
             "subj_label": "Hernando de Soto Bridge",
@@ -28340,7 +28340,7 @@
             "obj_id": "Q19686",
             "obj_label": "River Thames",
             "obj_aliases": [],
-            "occurrences": 15
+            "occurrences": 16
         },
         "Q1130666": {
             "subj_label": "Lambeth Bridge",
@@ -28654,7 +28654,7 @@
             "obj_id": "Q312",
             "obj_label": "Apple Inc.",
             "obj_aliases": [],
-            "occurrences": 165
+            "occurrences": 186
         },
         "Q20962060": {
             "subj_label": "iPad Pro",
@@ -28662,7 +28662,7 @@
             "obj_id": "Q312",
             "obj_label": "Apple Inc.",
             "obj_aliases": [],
-            "occurrences": 14
+            "occurrences": 15
         },
         "Q150307": {
             "subj_label": "iPad 2",
@@ -29270,7 +29270,7 @@
             "obj_id": "Q2283",
             "obj_label": "Microsoft",
             "obj_aliases": [],
-            "occurrences": 1966
+            "occurrences": 1968
         },
         "Q978185": {
             "subj_label": "TypeScript",
@@ -30240,7 +30240,7 @@
             "obj_id": "Q23594",
             "obj_label": "Homeland",
             "obj_aliases": [],
-            "occurrences": 8
+            "occurrences": 9
         },
         "Q6764180": {
             "subj_label": "Marine One",
@@ -30712,7 +30712,7 @@
             "obj_id": "Q886",
             "obj_label": "The Simpsons",
             "obj_aliases": [],
-            "occurrences": 20
+            "occurrences": 23
         },
         "Q1195919": {
             "subj_label": "Bart Gets an \"F\"",
@@ -30912,7 +30912,7 @@
             "obj_id": "Q2744",
             "obj_label": "The X-Files",
             "obj_aliases": [],
-            "occurrences": 218
+            "occurrences": 238
         },
         "Q9003263": {
             "subj_label": "Herrenvolk",
@@ -30944,7 +30944,7 @@
             "obj_id": "Q2744",
             "obj_label": "The X-Files",
             "obj_aliases": [],
-            "occurrences": 20
+            "occurrences": 24
         },
         "Q887569": {
             "subj_label": "The Cat Concerto",
@@ -31628,7 +31628,7 @@
             "obj_id": "Q37776",
             "obj_label": "Besançon",
             "obj_aliases": [],
-            "occurrences": 14
+            "occurrences": 15
         },
         "Q186935": {
             "subj_label": "Ahuachapán",
@@ -31636,7 +31636,7 @@
             "obj_id": "Q3070",
             "obj_label": "San José",
             "obj_aliases": [],
-            "occurrences": 2
+            "occurrences": 3
         },
         "Q184883": {
             "subj_label": "Moulins",
@@ -32198,7 +32198,7 @@
             "obj_id": "Q44725",
             "obj_label": "Bering Sea",
             "obj_aliases": [],
-            "occurrences": 31
+            "occurrences": 32
         },
         "Q108223": {
             "subj_label": "Belize City",
@@ -32694,7 +32694,7 @@
             "obj_id": "Q1497",
             "obj_label": "Mississippi River",
             "obj_aliases": [],
-            "occurrences": 72
+            "occurrences": 73
         },
         "Q493787": {
             "subj_label": "Vicksburg",
@@ -32710,7 +32710,7 @@
             "obj_id": "Q1497",
             "obj_label": "Mississippi River",
             "obj_aliases": [],
-            "occurrences": 573
+            "occurrences": 578
         },
         "Q1612": {
             "subj_label": "Arkansas",
@@ -33046,7 +33046,7 @@
             "obj_id": "Q1471",
             "obj_label": "Seine",
             "obj_aliases": [],
-            "occurrences": 140
+            "occurrences": 141
         },
         "Q236736": {
             "subj_label": "Vernon",
@@ -33062,7 +33062,7 @@
             "obj_id": "Q1471",
             "obj_label": "Seine",
             "obj_aliases": [],
-            "occurrences": 93
+            "occurrences": 94
         },
         "Q19491": {
             "subj_label": "Nha Trang",
@@ -34000,7 +34000,7 @@
             "obj_id": "Q127552",
             "obj_label": "Pixar",
             "obj_aliases": [],
-            "occurrences": 114
+            "occurrences": 115
         },
         "Q1179049": {
             "subj_label": "Day & Night",
@@ -34610,7 +34610,7 @@
             "obj_id": "Q16",
             "obj_label": "Canada",
             "obj_aliases": [],
-            "occurrences": 728
+            "occurrences": 729
         },
         "Q946611": {
             "subj_label": "The State",
@@ -35082,7 +35082,7 @@
             "obj_id": "Q55",
             "obj_label": "the Netherlands",
             "obj_aliases": [],
-            "occurrences": 114
+            "occurrences": 115
         },
         "Q933287": {
             "subj_label": "The Silent Force",
@@ -35618,7 +35618,7 @@
             "obj_id": "Q30",
             "obj_label": "the United States of America",
             "obj_aliases": [],
-            "occurrences": 21
+            "occurrences": 23
         },
         "Q212340": {
             "subj_label": "To Kill a Mockingbird",
@@ -37030,7 +37030,7 @@
             "obj_id": "Q7411",
             "obj_label": "Dutch",
             "obj_aliases": [],
-            "occurrences": 946
+            "occurrences": 948
         },
         "Q7130896": {
             "subj_label": "Pangako Sa ’Yo",
@@ -37566,7 +37566,7 @@
             "obj_id": "Q809",
             "obj_label": "Polish",
             "obj_aliases": [],
-            "occurrences": 138
+            "occurrences": 149
         },
         "Q2339978": {
             "subj_label": "Mother Joan of the Angels",
@@ -37582,7 +37582,7 @@
             "obj_id": "Q809",
             "obj_label": "Polish",
             "obj_aliases": [],
-            "occurrences": 158
+            "occurrences": 159
         },
         "Q960920": {
             "subj_label": "The Deluge",
@@ -37910,7 +37910,7 @@
             "obj_id": "Q9217",
             "obj_label": "Thai",
             "obj_aliases": [],
-            "occurrences": 4
+            "occurrences": 5
         },
         "Q2878330": {
             "subj_label": "4bia",
@@ -40788,7 +40788,7 @@
             "obj_id": "Q589410",
             "obj_label": "halfback",
             "obj_aliases": [],
-            "occurrences": 32
+            "occurrences": 33
         },
         "Q3530742": {
             "subj_label": "Tom Harmon",
@@ -41092,7 +41092,7 @@
             "obj_id": "Q622747",
             "obj_label": "quarterback",
             "obj_aliases": [],
-            "occurrences": 332
+            "occurrences": 333
         },
         "Q348011": {
             "subj_label": "Joe Montana",
@@ -42360,7 +42360,7 @@
             "obj_id": "Q708290",
             "obj_label": "Cartoon Network",
             "obj_aliases": [],
-            "occurrences": 142
+            "occurrences": 143
         },
         "Q19881740": {
             "subj_label": "We Bare Bears",
@@ -42416,7 +42416,7 @@
             "obj_id": "Q131439",
             "obj_label": "Comedy Central",
             "obj_aliases": [],
-            "occurrences": 281
+            "occurrences": 282
         },
         "Q55635444": {
             "subj_label": "The Owl House",
@@ -42552,7 +42552,7 @@
             "obj_id": "Q166419",
             "obj_label": "Fox Broadcasting Company",
             "obj_aliases": [],
-            "occurrences": 5
+            "occurrences": 6
         },
         "Q28429653": {
             "subj_label": "The Orville",
@@ -42752,7 +42752,7 @@
             "obj_id": "Q1630304",
             "obj_label": "Hulu",
             "obj_aliases": [],
-            "occurrences": 15
+            "occurrences": 16
         },
         "Q31176615": {
             "subj_label": "Welcome to Waikiki",
@@ -43546,7 +43546,7 @@
             "obj_id": "Q166400",
             "obj_label": "European Broadcasting Union",
             "obj_aliases": [],
-            "occurrences": 11
+            "occurrences": 12
         },
         "Q2280893": {
             "subj_label": "BHRT",
@@ -44122,7 +44122,7 @@
             "obj_id": "Q458620",
             "obj_label": "Peace Corps",
             "obj_aliases": [],
-            "occurrences": 0
+            "occurrences": 1
         },
         "Q319111": {
             "subj_label": "Chris Dodd",
@@ -44852,7 +44852,7 @@
             "obj_id": "Q9617",
             "obj_label": "Arsenal F.C.",
             "obj_aliases": [],
-            "occurrences": 25
+            "occurrences": 26
         },
         "Q245085": {
             "subj_label": "Ewood Park",
@@ -46504,7 +46504,7 @@
             "obj_id": "Q3388",
             "obj_label": "Grossglockner",
             "obj_aliases": [],
-            "occurrences": 36
+            "occurrences": 37
         },
         "Q717": {
             "subj_label": "Venezuela",
@@ -47082,7 +47082,7 @@
             "obj_id": "Q131479",
             "obj_label": "Dominican Order",
             "obj_aliases": [],
-            "occurrences": 49
+            "occurrences": 50
         },
         "Q25240": {
             "subj_label": "Trinle Gyatso",
@@ -47578,7 +47578,7 @@
             "obj_id": "Q733658",
             "obj_label": "Poor Clares",
             "obj_aliases": [],
-            "occurrences": 29
+            "occurrences": 30
         },
         "Q236882": {
             "subj_label": "Joanna la Beltraneja",
@@ -47594,7 +47594,7 @@
             "obj_id": "Q733658",
             "obj_label": "Poor Clares",
             "obj_aliases": [],
-            "occurrences": 11
+            "occurrences": 12
         },
         "Q286537": {
             "subj_label": "Constance of Sicily",
@@ -47778,7 +47778,7 @@
             "obj_id": "Q36380",
             "obj_label": "Society of Jesus",
             "obj_aliases": [],
-            "occurrences": 143
+            "occurrences": 144
         },
         "Q310307": {
             "subj_label": "Aloysius Gonzaga",
@@ -47980,7 +47980,7 @@
             "obj_id": "Q5386",
             "obj_label": "auto racing",
             "obj_aliases": [],
-            "occurrences": 78
+            "occurrences": 79
         },
         "Q82652": {
             "subj_label": "Felipe Massa Diaz",
@@ -48060,7 +48060,7 @@
             "obj_id": "Q5369",
             "obj_label": "baseball",
             "obj_aliases": [],
-            "occurrences": 5541
+            "occurrences": 5544
         },
         "Q334634": {
             "subj_label": "Los Angeles Dodgers",
@@ -48068,7 +48068,7 @@
             "obj_id": "Q5369",
             "obj_label": "baseball",
             "obj_aliases": [],
-            "occurrences": 3555
+            "occurrences": 3557
         },
         "Q246782": {
             "subj_label": "Chicago Cubs",
@@ -48076,7 +48076,7 @@
             "obj_id": "Q5369",
             "obj_label": "baseball",
             "obj_aliases": [],
-            "occurrences": 5467
+            "occurrences": 5468
         },
         "Q517958": {
             "subj_label": "Field of Dreams",
@@ -48092,7 +48092,7 @@
             "obj_id": "Q5369",
             "obj_label": "baseball",
             "obj_aliases": [],
-            "occurrences": 6217
+            "occurrences": 6233
         },
         "Q263886": {
             "subj_label": "Natalie Cook",
@@ -48356,7 +48356,7 @@
             "obj_id": "Q5377",
             "obj_label": "golf",
             "obj_aliases": [],
-            "occurrences": 429
+            "occurrences": 431
         },
         "Q311638": {
             "subj_label": "Caddyshack",
@@ -48396,7 +48396,7 @@
             "obj_id": "Q187916",
             "obj_label": "horse racing",
             "obj_aliases": [],
-            "occurrences": 227
+            "occurrences": 229
         },
         "Q1528430": {
             "subj_label": "Arrecina Tertulla",
@@ -48564,7 +48564,7 @@
             "obj_id": "Q114466",
             "obj_label": "mixed martial arts",
             "obj_aliases": [],
-            "occurrences": 406
+            "occurrences": 407
         },
         "Q215447": {
             "subj_label": "CM Punk",
@@ -49430,7 +49430,7 @@
             "obj_id": "Q47447",
             "obj_label": "Ed Sheeran",
             "obj_aliases": [],
-            "occurrences": 75
+            "occurrences": 80
         },
         "Q28969048": {
             "subj_label": "Galway Girl",
@@ -50254,7 +50254,7 @@
             "obj_id": "Q26876",
             "obj_label": "Taylor Swift",
             "obj_aliases": [],
-            "occurrences": 74
+            "occurrences": 77
         }
     },
     "P1303": {
@@ -51128,7 +51128,7 @@
             "obj_id": "Q320002",
             "obj_label": "sampler",
             "obj_aliases": [],
-            "occurrences": 0
+            "occurrences": 1
         },
         "Q246929": {
             "subj_label": "DJ Khalil",
@@ -51466,7 +51466,7 @@
             "obj_id": "Q971",
             "obj_label": "Republic of the Congo",
             "obj_aliases": [],
-            "occurrences": 660
+            "occurrences": 661
         },
         "Q35381": {
             "subj_label": "Colombo",
@@ -51474,7 +51474,7 @@
             "obj_id": "Q854",
             "obj_label": "Sri Lanka",
             "obj_aliases": [],
-            "occurrences": 4983
+            "occurrences": 4998
         },
         "Q3820": {
             "subj_label": "Beirut",
@@ -51482,7 +51482,7 @@
             "obj_id": "Q822",
             "obj_label": "Lebanon",
             "obj_aliases": [],
-            "occurrences": 5956
+            "occurrences": 5964
         },
         "Q3889": {
             "subj_label": "Maputo",
@@ -51490,7 +51490,7 @@
             "obj_id": "Q1029",
             "obj_label": "Mozambique",
             "obj_aliases": [],
-            "occurrences": 1158
+            "occurrences": 1161
         },
         "Q3909": {
             "subj_label": "Maseru",
@@ -51498,7 +51498,7 @@
             "obj_id": "Q1013",
             "obj_label": "Lesotho",
             "obj_aliases": [],
-            "occurrences": 332
+            "occurrences": 333
         },
         "Q1085": {
             "subj_label": "Prague",
@@ -51506,7 +51506,7 @@
             "obj_id": "Q213",
             "obj_label": "Czech Republic",
             "obj_aliases": [],
-            "occurrences": 6914
+            "occurrences": 6919
         },
         "Q3904": {
             "subj_label": "Mbabane",
@@ -51514,7 +51514,7 @@
             "obj_id": "Q1050",
             "obj_label": "Eswatini",
             "obj_aliases": [],
-            "occurrences": 158
+            "occurrences": 160
         },
         "Q2449": {
             "subj_label": "Mogadishu",
@@ -51522,7 +51522,7 @@
             "obj_id": "Q1045",
             "obj_label": "Somalia",
             "obj_aliases": [],
-            "occurrences": 1455
+            "occurrences": 1457
         },
         "Q3799": {
             "subj_label": "Porto-Novo",
@@ -51538,7 +51538,7 @@
             "obj_id": "Q17",
             "obj_label": "Japan",
             "obj_aliases": [],
-            "occurrences": 39244
+            "occurrences": 39284
         },
         "Q3866": {
             "subj_label": "Dodoma",
@@ -51546,7 +51546,7 @@
             "obj_id": "Q924",
             "obj_label": "Tanzania",
             "obj_aliases": [],
-            "occurrences": 415
+            "occurrences": 416
         },
         "Q1486": {
             "subj_label": "Buenos Aires",
@@ -51554,7 +51554,7 @@
             "obj_id": "Q414",
             "obj_label": "Argentina",
             "obj_aliases": [],
-            "occurrences": 15365
+            "occurrences": 15407
         },
         "Q1953": {
             "subj_label": "Yerevan",
@@ -51562,7 +51562,7 @@
             "obj_id": "Q399",
             "obj_label": "Armenia",
             "obj_aliases": [],
-            "occurrences": 3766
+            "occurrences": 3768
         },
         "Q36262": {
             "subj_label": "Saint John's",
@@ -51578,7 +51578,7 @@
             "obj_id": "Q117",
             "obj_label": "Ghana",
             "obj_aliases": [],
-            "occurrences": 4250
+            "occurrences": 4265
         },
         "Q3604": {
             "subj_label": "Djibouti",
@@ -51594,7 +51594,7 @@
             "obj_id": "Q769",
             "obj_label": "Grenada",
             "obj_aliases": [],
-            "occurrences": 226
+            "occurrences": 227
         },
         "Q3818": {
             "subj_label": "Malabo",
@@ -51610,7 +51610,7 @@
             "obj_id": "Q750",
             "obj_label": "Bolivia",
             "obj_aliases": [],
-            "occurrences": 2728
+            "occurrences": 2732
         },
         "Q9248": {
             "subj_label": "Baku",
@@ -51618,7 +51618,7 @@
             "obj_id": "Q227",
             "obj_label": "Azerbaijan",
             "obj_aliases": [],
-            "occurrences": 6856
+            "occurrences": 6858
         },
         "Q3921": {
             "subj_label": "Harare",
@@ -51626,7 +51626,7 @@
             "obj_id": "Q954",
             "obj_label": "Zimbabwe",
             "obj_aliases": [],
-            "occurrences": 2391
+            "occurrences": 2401
         },
         "Q9270": {
             "subj_label": "Thimphu",
@@ -51634,7 +51634,7 @@
             "obj_id": "Q917",
             "obj_label": "Bhutan",
             "obj_aliases": [],
-            "occurrences": 474
+            "occurrences": 475
         },
         "Q270": {
             "subj_label": "Warsaw",
@@ -51642,7 +51642,7 @@
             "obj_id": "Q36",
             "obj_label": "Poland",
             "obj_aliases": [],
-            "occurrences": 12716
+            "occurrences": 12727
         },
         "Q3832": {
             "subj_label": "Bangui",
@@ -51650,7 +51650,7 @@
             "obj_id": "Q929",
             "obj_label": "Central African Republic",
             "obj_aliases": [],
-            "occurrences": 472
+            "occurrences": 475
         },
         "Q1861": {
             "subj_label": "Bangkok",
@@ -51658,7 +51658,7 @@
             "obj_id": "Q869",
             "obj_label": "Thailand",
             "obj_aliases": [],
-            "occurrences": 14456
+            "occurrences": 14463
         },
         "Q1563": {
             "subj_label": "Havana",
@@ -51666,7 +51666,7 @@
             "obj_id": "Q241",
             "obj_label": "Cuba",
             "obj_aliases": [],
-            "occurrences": 7564
+            "occurrences": 7578
         },
         "Q3787": {
             "subj_label": "Abuja",
@@ -51674,7 +51674,7 @@
             "obj_id": "Q1033",
             "obj_label": "Nigeria",
             "obj_aliases": [],
-            "occurrences": 1613
+            "occurrences": 1616
         },
         "Q1489": {
             "subj_label": "Mexico City",
@@ -51682,7 +51682,7 @@
             "obj_id": "Q96",
             "obj_label": "Mexico",
             "obj_aliases": [],
-            "occurrences": 40858
+            "occurrences": 40944
         },
         "Q5838": {
             "subj_label": "Kabul",
@@ -51690,7 +51690,7 @@
             "obj_id": "Q889",
             "obj_label": "Afghanistan",
             "obj_aliases": [],
-            "occurrences": 4319
+            "occurrences": 4324
         },
         "Q41295": {
             "subj_label": "Basseterre",
@@ -51698,7 +51698,7 @@
             "obj_id": "Q763",
             "obj_label": "Saint Kitts and Nevis",
             "obj_aliases": [],
-            "occurrences": 120
+            "occurrences": 121
         },
         "Q3768": {
             "subj_label": "Yamoussoukro",
@@ -51714,7 +51714,7 @@
             "obj_id": "Q244",
             "obj_label": "Barbados",
             "obj_aliases": [],
-            "occurrences": 880
+            "occurrences": 881
         },
         "Q18808": {
             "subj_label": "Pyongyang",
@@ -51730,7 +51730,7 @@
             "obj_id": "Q225",
             "obj_label": "Bosnia and Herzegovina",
             "obj_aliases": [],
-            "occurrences": 3947
+            "occurrences": 3951
         },
         "Q3825": {
             "subj_label": "Libreville",
@@ -51738,7 +51738,7 @@
             "obj_id": "Q1000",
             "obj_label": "Gabon",
             "obj_aliases": [],
-            "occurrences": 742
+            "occurrences": 743
         },
         "Q10717": {
             "subj_label": "Georgetown",
@@ -51746,7 +51746,7 @@
             "obj_id": "Q734",
             "obj_label": "Guyana",
             "obj_aliases": [],
-            "occurrences": 1089
+            "occurrences": 1091
         },
         "Q987": {
             "subj_label": "New Delhi",
@@ -51754,7 +51754,7 @@
             "obj_id": "Q668",
             "obj_label": "India",
             "obj_aliases": [],
-            "occurrences": 8701
+            "occurrences": 8718
         },
         "Q3805": {
             "subj_label": "Amman",
@@ -51762,7 +51762,7 @@
             "obj_id": "Q810",
             "obj_label": "Jordan",
             "obj_aliases": [],
-            "occurrences": 3271
+            "occurrences": 3275
         },
         "Q3915": {
             "subj_label": "Antananarivo",
@@ -51770,7 +51770,7 @@
             "obj_id": "Q1019",
             "obj_label": "Madagascar",
             "obj_aliases": [],
-            "occurrences": 818
+            "occurrences": 821
         },
         "Q1844": {
             "subj_label": "Vaduz",
@@ -51786,7 +51786,7 @@
             "obj_id": "Q953",
             "obj_label": "Zambia",
             "obj_aliases": [],
-            "occurrences": 1404
+            "occurrences": 1417
         },
         "Q1461": {
             "subj_label": "Manila",
@@ -51794,7 +51794,7 @@
             "obj_id": "Q928",
             "obj_label": "the Philippines",
             "obj_aliases": [],
-            "occurrences": 8349
+            "occurrences": 8366
         },
         "Q55115": {
             "subj_label": "Monaco City",
@@ -51818,7 +51818,7 @@
             "obj_id": "Q211",
             "obj_label": "Latvia",
             "obj_aliases": [],
-            "occurrences": 4672
+            "occurrences": 4673
         },
         "Q994": {
             "subj_label": "Tbilisi",
@@ -51826,7 +51826,7 @@
             "obj_id": "Q230",
             "obj_label": "Georgia",
             "obj_aliases": [],
-            "occurrences": 5036
+            "occurrences": 5046
         },
         "Q1780": {
             "subj_label": "Bratislava",
@@ -51834,7 +51834,7 @@
             "obj_id": "Q214",
             "obj_label": "Slovakia",
             "obj_aliases": [],
-            "occurrences": 3689
+            "occurrences": 3690
         },
         "Q3748": {
             "subj_label": "Monrovia",
@@ -51842,7 +51842,7 @@
             "obj_id": "Q1014",
             "obj_label": "Liberia",
             "obj_aliases": [],
-            "occurrences": 1143
+            "occurrences": 1149
         },
         "Q2280": {
             "subj_label": "Minsk",
@@ -51850,7 +51850,7 @@
             "obj_id": "Q184",
             "obj_label": "Belarus",
             "obj_aliases": [],
-            "occurrences": 4554
+            "occurrences": 4557
         },
         "Q1533": {
             "subj_label": "Caracas",
@@ -51858,7 +51858,7 @@
             "obj_id": "Q717",
             "obj_label": "Venezuela",
             "obj_aliases": [],
-            "occurrences": 6064
+            "occurrences": 6068
         },
         "Q3001": {
             "subj_label": "Paramaribo",
@@ -51866,7 +51866,7 @@
             "obj_id": "Q730",
             "obj_label": "Suriname",
             "obj_aliases": [],
-            "occurrences": 730
+            "occurrences": 735
         },
         "Q3561": {
             "subj_label": "Algiers",
@@ -51874,7 +51874,7 @@
             "obj_id": "Q262",
             "obj_label": "Algeria",
             "obj_aliases": [],
-            "occurrences": 2547
+            "occurrences": 2549
         },
         "Q1335": {
             "subj_label": "Montevideo",
@@ -51882,7 +51882,7 @@
             "obj_id": "Q77",
             "obj_label": "Uruguay",
             "obj_aliases": [],
-            "occurrences": 4896
+            "occurrences": 4919
         },
         "Q2467": {
             "subj_label": "Nassau",
@@ -51898,7 +51898,7 @@
             "obj_id": "Q819",
             "obj_label": "Laos",
             "obj_aliases": [],
-            "occurrences": 898
+            "occurrences": 902
         },
         "Q34261": {
             "subj_label": "Port-au-Prince",
@@ -51922,7 +51922,7 @@
             "obj_id": "Q1049",
             "obj_label": "Sudan",
             "obj_aliases": [],
-            "occurrences": 2160
+            "occurrences": 2163
         },
         "Q3703": {
             "subj_label": "Bamako",
@@ -52284,7 +52284,7 @@
             "obj_id": "Q652",
             "obj_label": "Italian",
             "obj_aliases": [],
-            "occurrences": 410
+            "occurrences": 411
         },
         "Q42323": {
             "subj_label": "Pius XI",
@@ -52308,7 +52308,7 @@
             "obj_id": "Q652",
             "obj_label": "Italian",
             "obj_aliases": [],
-            "occurrences": 102
+            "occurrences": 103
         },
         "Q4448": {
             "subj_label": "Benedict XV",
@@ -52332,7 +52332,7 @@
             "obj_id": "Q5287",
             "obj_label": "Japanese",
             "obj_aliases": [],
-            "occurrences": 444
+            "occurrences": 445
         },
         "Q8006": {
             "subj_label": "Akira Kurosawa",
@@ -52428,7 +52428,7 @@
             "obj_id": "Q9176",
             "obj_label": "Korean",
             "obj_aliases": [],
-            "occurrences": 26
+            "occurrences": 27
         },
         "Q10665": {
             "subj_label": "Kim Jong-il",
@@ -52444,7 +52444,7 @@
             "obj_id": "Q9176",
             "obj_label": "Korean",
             "obj_aliases": [],
-            "occurrences": 297
+            "occurrences": 298
         },
         "Q485784": {
             "subj_label": "Ha Seok-jin",
@@ -52796,7 +52796,7 @@
             "obj_id": "Q7737",
             "obj_label": "Russian",
             "obj_aliases": [],
-            "occurrences": 373
+            "occurrences": 374
         },
         "Q34453": {
             "subj_label": "Boris Yeltsin",
@@ -53526,7 +53526,7 @@
             "obj_id": "Q8337",
             "obj_label": "Harry Potter",
             "obj_aliases": [],
-            "occurrences": 874
+            "occurrences": 875
         },
         "Q5024523": {
             "subj_label": "Calvin Valentine",
@@ -54318,7 +54318,7 @@
             "obj_id": "Q849627",
             "obj_label": "The Young and the Restless",
             "obj_aliases": [],
-            "occurrences": 13
+            "occurrences": 14
         },
         "Q1588811": {
             "subj_label": "Sharon Newman",
@@ -54456,7 +54456,7 @@
             "obj_id": "Q155",
             "obj_label": "Brazil",
             "obj_aliases": [],
-            "occurrences": 342
+            "occurrences": 343
         },
         "Q102331": {
             "subj_label": "Sócrates",
@@ -56812,7 +56812,7 @@
             "obj_id": "Q102331",
             "obj_label": "Sócrates",
             "obj_aliases": [],
-            "occurrences": 6
+            "occurrences": 7
         },
         "Q3722901": {
             "subj_label": "Aelia Domitia Paulina",
@@ -57188,7 +57188,7 @@
             "obj_id": "Q23543",
             "obj_label": "Selena",
             "obj_aliases": [],
-            "occurrences": 123
+            "occurrences": 126
         },
         "Q199481": {
             "subj_label": "Mahmud I",
@@ -58014,7 +58014,7 @@
             "obj_id": "Q5463",
             "obj_label": "Rocky Mountains",
             "obj_aliases": [],
-            "occurrences": 80
+            "occurrences": 81
         },
         "Q331762": {
             "subj_label": "Absaroka Range",
@@ -58512,7 +58512,7 @@
             "obj_id": "Q188",
             "obj_label": "German",
             "obj_aliases": [],
-            "occurrences": 401
+            "occurrences": 402
         },
         "Q34787": {
             "subj_label": "Friedrich Engels",
@@ -58704,7 +58704,7 @@
             "obj_id": "Q652",
             "obj_label": "Italian",
             "obj_aliases": [],
-            "occurrences": 410
+            "occurrences": 411
         },
         "Q83003": {
             "subj_label": "Antonio Gramsci",
@@ -58792,7 +58792,7 @@
             "obj_id": "Q5287",
             "obj_label": "Japanese",
             "obj_aliases": [],
-            "occurrences": 444
+            "occurrences": 445
         },
         "Q3536450": {
             "subj_label": "K. Shivaram Karanth",
@@ -58840,7 +58840,7 @@
             "obj_id": "Q33673",
             "obj_label": "Kannada",
             "obj_aliases": [],
-            "occurrences": 38
+            "occurrences": 39
         },
         "Q1541": {
             "subj_label": "Cicero",
@@ -59240,7 +59240,7 @@
             "obj_id": "Q7737",
             "obj_label": "Russian",
             "obj_aliases": [],
-            "occurrences": 220
+            "occurrences": 221
         },
         "Q34474": {
             "subj_label": "Aleksandr Solzhenitsyn",
@@ -59256,7 +59256,7 @@
             "obj_id": "Q7737",
             "obj_label": "Russian",
             "obj_aliases": [],
-            "occurrences": 373
+            "occurrences": 374
         },
         "Q41223": {
             "subj_label": "Boris Pasternak",
@@ -59440,7 +59440,7 @@
             "obj_id": "Q5885",
             "obj_label": "Tamil",
             "obj_aliases": [],
-            "occurrences": 80
+            "occurrences": 81
         },
         "Q492527": {
             "subj_label": "V. O. Chidambaram Pillai",
@@ -60194,7 +60194,7 @@
             "obj_id": "Q1344",
             "obj_label": "opera",
             "obj_aliases": [],
-            "occurrences": 534
+            "occurrences": 535
         },
         "Q190237": {
             "subj_label": "Der Ring des Nibelungen",
@@ -60210,7 +60210,7 @@
             "obj_id": "Q1344",
             "obj_label": "opera",
             "obj_aliases": [],
-            "occurrences": 917
+            "occurrences": 919
         },
         "Q192941": {
             "subj_label": "Tosca",
@@ -60234,7 +60234,7 @@
             "obj_id": "Q1344",
             "obj_label": "opera",
             "obj_aliases": [],
-            "occurrences": 646
+            "occurrences": 647
         },
         "Q1329006": {
             "subj_label": "Elijah",
@@ -60386,7 +60386,7 @@
             "obj_id": "Q963099",
             "obj_label": "remix album",
             "obj_aliases": [],
-            "occurrences": 18
+            "occurrences": 19
         },
         "Q432002": {
             "subj_label": "J to tha L–O! The Remixes",
@@ -60812,7 +60812,7 @@
             "obj_id": "Q3290674",
             "obj_label": "Aberdeenshire",
             "obj_aliases": [],
-            "occurrences": 99
+            "occurrences": 100
         },
         "Q250117": {
             "subj_label": "Staffa",
@@ -60948,7 +60948,7 @@
             "obj_id": "Q23148",
             "obj_label": "Cornwall",
             "obj_aliases": [],
-            "occurrences": 718
+            "occurrences": 719
         },
         "Q1025790": {
             "subj_label": "Fowey",
@@ -60964,7 +60964,7 @@
             "obj_id": "Q189592",
             "obj_label": "County Antrim",
             "obj_aliases": [],
-            "occurrences": 101
+            "occurrences": 105
         },
         "Q106187": {
             "subj_label": "Giant's Causeway",
@@ -61060,7 +61060,7 @@
             "obj_id": "Q162475",
             "obj_label": "County Cork",
             "obj_aliases": [],
-            "occurrences": 47
+            "occurrences": 48
         },
         "Q2339141": {
             "subj_label": "Saint Fin Barre's Cathedral",
@@ -61100,7 +61100,7 @@
             "obj_id": "Q162475",
             "obj_label": "County Cork",
             "obj_aliases": [],
-            "occurrences": 67
+            "occurrences": 68
         },
         "Q212489": {
             "subj_label": "Dunfanaghy",
@@ -61132,7 +61132,7 @@
             "obj_id": "Q179424",
             "obj_label": "County Donegal",
             "obj_aliases": [],
-            "occurrences": 40
+            "occurrences": 43
         },
         "Q1432599": {
             "subj_label": "Inishowen",
@@ -61188,7 +61188,7 @@
             "obj_id": "Q190684",
             "obj_label": "County Down",
             "obj_aliases": [],
-            "occurrences": 287
+            "occurrences": 290
         },
         "Q8987": {
             "subj_label": "George Best Belfast City Airport",
@@ -61204,7 +61204,7 @@
             "obj_id": "Q173500",
             "obj_label": "County Dublin",
             "obj_aliases": [],
-            "occurrences": 32
+            "occurrences": 33
         },
         "Q745989": {
             "subj_label": "Dún Laoghaire",
@@ -61220,7 +61220,7 @@
             "obj_id": "Q173500",
             "obj_label": "County Dublin",
             "obj_aliases": [],
-            "occurrences": 84
+            "occurrences": 86
         },
         "Q1190487": {
             "subj_label": "O'Connell Street",
@@ -61244,7 +61244,7 @@
             "obj_id": "Q173500",
             "obj_label": "County Dublin",
             "obj_aliases": [],
-            "occurrences": 91
+            "occurrences": 92
         },
         "Q1366878": {
             "subj_label": "MacGillycuddy's Reeks",
@@ -61292,7 +61292,7 @@
             "obj_id": "Q184469",
             "obj_label": "County Kerry",
             "obj_aliases": [],
-            "occurrences": 246
+            "occurrences": 247
         },
         "Q631581": {
             "subj_label": "Achill Island",
@@ -61316,7 +61316,7 @@
             "obj_id": "Q178626",
             "obj_label": "County Mayo",
             "obj_aliases": [],
-            "occurrences": 43
+            "occurrences": 44
         },
         "Q2119881": {
             "subj_label": "Ballaghaderreen",
@@ -61364,7 +61364,7 @@
             "obj_id": "Q182591",
             "obj_label": "County Wicklow",
             "obj_aliases": [],
-            "occurrences": 112
+            "occurrences": 113
         },
         "Q2939135": {
             "subj_label": "Carlisle Grounds",
@@ -61396,7 +61396,7 @@
             "obj_id": "Q23360",
             "obj_label": "Cumberland",
             "obj_aliases": [],
-            "occurrences": 869
+            "occurrences": 870
         },
         "Q614836": {
             "subj_label": "Carlisle Castle",
@@ -61588,7 +61588,7 @@
             "obj_id": "Q530296",
             "obj_label": "Lanarkshire",
             "obj_aliases": [],
-            "occurrences": 21
+            "occurrences": 22
         },
         "Q1419068": {
             "subj_label": "Firhill Stadium",
@@ -61644,7 +61644,7 @@
             "obj_id": "Q19186",
             "obj_label": "Middlesex",
             "obj_aliases": [],
-            "occurrences": 348
+            "occurrences": 349
         },
         "Q173882": {
             "subj_label": "St Paul's Cathedral",
@@ -61836,7 +61836,7 @@
             "obj_id": "Q23346",
             "obj_label": "Sussex",
             "obj_aliases": [],
-            "occurrences": 287
+            "occurrences": 289
         },
         "Q1736182": {
             "subj_label": "Chichester Cathedral",
@@ -61884,7 +61884,7 @@
             "obj_id": "Q23326",
             "obj_label": "Westmorland",
             "obj_aliases": [],
-            "occurrences": 304
+            "occurrences": 305
         },
         "Q1520387": {
             "subj_label": "Tebay",
@@ -61948,7 +61948,7 @@
             "obj_id": "Q163",
             "obj_label": "Yorkshire",
             "obj_aliases": [],
-            "occurrences": 688
+            "occurrences": 689
         },
         "Q897533": {
             "subj_label": "Bramall Lane",
@@ -61964,7 +61964,7 @@
             "obj_id": "Q163",
             "obj_label": "Yorkshire",
             "obj_aliases": [],
-            "occurrences": 213
+            "occurrences": 214
         }
     }
 }

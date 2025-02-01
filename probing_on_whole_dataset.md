@@ -73,16 +73,16 @@ see for model details: [mamba2_172m](probing_on_dataset_slices.md)
 #### Aliases Stats:
 - % of subjects with alias: 0.5051875498802874
 - % of objects with alias: 0.8207317073170731
-- Overall number of instances with matches: 6763
-- Number of instances with more matches achieved due to aliases: 3500
-- Number of instances with matches achieved without the need for aliases: 3263
-- Number of instances with no matches with aliases: 968
-- Number of instances with no matches without aliases: 1464
-- % of instances with more matches having subject and object aliases: 0.638
-- % of instances with more matches having only subject aliases: 0.04742857142857143
-- % of instances with more matches having only object aliases: 0.31457142857142856
-- % of instances with more matches due to aliases (over all instances with matches): 0.5175218098477007
-- Average increase in matches (per fact) due to aliases: 131.12495149398526
+- Overall number of instances with matches: 6765
+- Number of instances with more matches achieved due to aliases: 3503
+- Number of instances with matches achieved without the need for aliases: 3262
+- Number of instances with no matches with aliases: 966
+- Number of instances with no matches without aliases: 1461
+- % of instances with more matches having subject and object aliases: 0.6383100199828718
+- % of instances with more matches having only subject aliases: 0.04738795318298601
+- % of instances with more matches having only object aliases: 0.31430202683414216
+- % of instances with more matches due to aliases (over all instances with matches): 0.5178122690317812
+- Average increase in matches (per fact) due to aliases: 131.71362048894062
 
 ### 1. gpt2_137m_off_the_shelve (for comparison)
 
