@@ -108,7 +108,7 @@ by the fact matching onm the raw data.
 
 ### 3. mamba2_172m
 - Model: Mamba2 (172M params with GPT2 tokenizer vocab size, else, 130M params if using the author config)
-- repo (model checkpoints as branches): [J4bb4wukis/mamba2_127m_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/mamba2_127m_wikipedia_en_shuffeld)
+- repo (model checkpoints as branches): [J4bb4wukis/mamba2_172m_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/mamba2_172m_wikipedia_en_shuffeld)
 - training script: [train.py](https://github.com/Jabbawukis/sample_efficiency_evaluation/blob/main/model_training_setups/Mamba2/wikimedia_wikipedia_20231101_en/train.py)
 
 
