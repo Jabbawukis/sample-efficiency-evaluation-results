@@ -59,6 +59,12 @@ low occurrences of a fact in the training data is higher.
 - save_steps: 3650 (per slice num_rows_after_tokenized avg. ≈ 934,840 → 934,840 ÷ 8 ÷ 32 ≈ 3650)
 - logging_steps: 3650
 
+Training is 3650 steps per slice, 42 slices,
+153,300 steps in total -> we approximate the fact occurrences within each slice by slicing the raw data into 42 slices
+and then running the fact matching process over the slices to get the approximate number of facts per slice. Training the model on the 
+entire dataset and saving each checkpoint at 3650 steps, we get the state of the model after seeing approximately the number of facts determined
+by the fact matching onm the raw data.
+
 ### 1. gpt2_124m
 - Model: GPT2 (124M params)
 - repo (model checkpoints as branches): [J4bb4wukis/gpt2_124m_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/gpt2_124m_wikipedia_en_shuffeld)
