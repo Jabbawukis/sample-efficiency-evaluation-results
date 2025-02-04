@@ -16,42 +16,47 @@ Workflow:
 
 Result: probing results for each model checkpoint, capturing the learning progress of the model.
 
-#### Accuracy on checkpoints
+## Accuracy on checkpoints
 
 For each checkpoint,
 we count the number of facts with specific occurrences up until the slice seen by the model at said checkpoint.
 The model checkpoint is probed and the accuracy depending on the number of occurrences up until the slice is calculated.
 
-#### Correct Answer Probability Analysis
+### Correct Answer Probability Analysis
 
 For each checkpoint, derive the probability of the model
 to answer a fact correctly given the number of occurrences of the fact in the training data up until the slice
 seen by the model at said checkpoint. 
 
-We optimize ...
+The parameters are optimized
+by minimizing the negative log-likelihood of the model's predictions up until the slice seen by the model.
+
+The following probability functions are tested:
+
+#### 1. Cumulative Distribution Function
 
 $$f(x; \lambda) = 1 - e^{-\lambda x} , x\ge 0$$
-$$mapped(i;x;\lambda) = min\_prob(i) + (max\_prob(i) - min\_prob(i)) * f(x; \lambda) $$
 
-The parameters are optimized by minimizing the negative log-likelihood of the model's predictions up until the slice seen by the model:
+$$\min_{\lambda}NLL(\lambda = -\sum_{i=1}^{N} T_i*\log(f(occur(i);\lambda)) + (1 - T_i)*\log(f(occur(i);\lambda))$$
 
-$$\min_{\lambda; max\_prob}LL(\lambda; max\_prob) -\sum_{i=1}^{N} T_i*\log(mapped(i;occur(i); \lambda)) + (1 - T_i)*\log(mapped(i;occur(i);\lambda))$$
+#### 2. Power Scaling Function
 
-Where:
+$$f(x; \alpha) = 1 - (\frac{1}{x})^\alpha$$
+
+Facts with an occurrence of 0 are excluded from the optimization process.
+
+$$\min_{\alpha}NLL(\alpha) = -\sum_{i=1}^{N} T_i*\log(f(occur(i); \alpha)) + (1 - T_i)*\log(f(occur(i);\alpha))$$
+
+
+##### Where:
+
 - $occur(i)$ is the number of occurrences of the fact $i$ in the training data up until the slice 
-seen by the model at the checkpoint. $T_i$ is the target value for the fact $i$ (1 if the model answered correctly, 0 otherwise).
-- $mapped(i;occur(i);\lambda)$ is the probability of the model to answer a fact $i$ correctly given the number of occurrences $occur(i)$ of the fact,
-mapped to the interval $[min\_prob(i), max\_prob(i)]$.
-- $min\_prob(i)$ is the minimum possible probability a model can achieve on a fact $i$.
-
-After the optimization, models with a higher ..., and thus a steeper curve for the plotted probability function
-are considered to have a better sample efficiency. The probability of the model to answer a fact correctly for
-low occurrences of a fact in the training data is higher.
+seen by the model at the checkpoint.
+  $T_i$ is the target value for the fact $i$ (1 if the model answered correctly, 0 otherwise).
 
 ## BEAR-big
 
 - fact matching results on slices: [fact_matching_results](fact_matching_results/BEAR-big/wikimedia_wikipedia_20231101_en/evaluation_on_slices/)
-- link to slice info: [evaluation_on_slices](fact_matching_results/BEAR-big/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
 - dataset shuffle seed: 42
 - number of slices: 42
 - per_device_train_batch_size: 32
@@ -149,3 +154,25 @@ by the fact matching onm the raw data.
 |pile_10k|      1|none  |     0|bits_per_byte  |↓  |    2.0620|±  |   N/A|
 |pile_10k|      1|none  |     0|byte_perplexity|↓  |    4.1758|±  |   N/A|
 |pile_10k|      1|none  |     0|word_perplexity|↓  |14389.4299|±  |   N/A|
+
+## BEAR-small
+
+- fact matching results on slices: [fact_matching_results](fact_matching_results/BEAR-small/wikimedia_wikipedia_20231101_en/evaluation_on_slices/)
+
+same as BEAR-big
+
+### 1. gpt2_124m
+- link to probing results: [probing results](probing_results/BEAR-small/gpt2_124m/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
+- link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-big/gpt2_124m/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
+
+### 2. xlstm_247m
+- link to probing results: [probing results](probing_results/BEAR-small/xlstm_247m/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
+- link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-small/xlstm_247m/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
+
+### 3. mamba2_172m
+- link to probing results: [probing results](probing_results/BEAR-small/mamba2_172m/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
+- link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-small/mamba2_172m/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
+
+### 4. gpt2_209m
+- link to probing results: [probing results](probing_results/BEAR-small/gpt2_209m/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
+- link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-small/gpt2_209m/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
