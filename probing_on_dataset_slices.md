@@ -33,13 +33,13 @@ by minimizing the negative log-likelihood of the model's predictions up until th
 
 The following probability functions are tested:
 
-#### 1. Cumulative Distribution Function
+#### 1. Cumulative Distribution Function (CDF)
 
 $$f(x; \lambda) = 1 - e^{-\lambda x} , x\ge 0$$
 
 $$\min_{\lambda}NLL(\lambda = -\sum_{i=1}^{N} T_i*\log(f(occur(i);\lambda)) + (1 - T_i)*\log(f(occur(i);\lambda))$$
 
-#### 2. Power Scaling Function
+#### 2. Power Scaling Function (PSF)
 
 $$f(x; \alpha) = 1 - (\frac{1}{x})^\alpha$$
 
