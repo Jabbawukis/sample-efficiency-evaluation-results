@@ -47,6 +47,11 @@ Facts with an occurrence of 0 are excluded from the optimization process.
 
 $$\min_{\alpha}NLL(\alpha) = -\sum_{i=1}^{N} T_i*\log(f(occur(i); \alpha)) + (1 - T_i)*\log(f(occur(i);\alpha))$$
 
+#### 3. Power Scaling Function Extended (PSF_EXT)
+
+$$f(x; \alpha) = 1 - (\frac{1}{1+x})^\alpha$$
+
+Same as PSF, but with an additional +1 in the denominator. Therefore, facts with an occurrence of 0 are included in the optimization process.
 
 ##### Where:
 
