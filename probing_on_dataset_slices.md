@@ -182,6 +182,9 @@ by the fact matching onm the raw data.
 |wsc273|       1 |none  |     0|acc   |↑  |0.5458|±  |0.0302|
 |lambada_standard|       1 |none  |     0|acc       |↑  |  0.1644|±  | 0.0052|
 |lambada_standard|       1 |none  |     0|perplexity|↓  |592.8151|±  |29.6474|
+|pile_10k|      1|none  |     0|bits_per_byte  |↓  |    2.1101|±  |   N/A|
+|pile_10k|      1|none  |     0|byte_perplexity|↓  |    4.3171|±  |   N/A|
+|pile_10k|      1|none  |     0|word_perplexity|↓  |17984.4641|±  |   N/A|
 
 ## BEAR-small
 
