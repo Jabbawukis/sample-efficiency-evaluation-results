@@ -164,9 +164,9 @@ by the fact matching on the raw data.
 |pile_10k|      1|none  |     0|byte_perplexity|↓  |    4.1758|±  |   N/A|
 |pile_10k|      1|none  |     0|word_perplexity|↓  |14389.4299|±  |   N/A|
 
-### 5. gpt2_350m
+### 5. gpt2_355m
 - Model: GPT2 (350m params)
-- repo (model checkpoints as branches): [J4bb4wukis/gpt2_350m_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/gpt2_350m_wikipedia_en_shuffeld)
+- repo (model checkpoints as branches): [J4bb4wukis/gpt2_355m_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/gpt2_355m_wikipedia_en_shuffeld)
 - training script: [train.py](https://github.com/Jabbawukis/sample_efficiency_evaluation/blob/main/model_training_setups/GPT2/wikimedia_wikipedia_20231101_en/train.py)
 
 ###### Adjusted training parameters
@@ -175,8 +175,8 @@ by the fact matching on the raw data.
 - n_layer=24
 
 
-- link to probing results: [probing results](probing_results/BEAR-big/gpt2_350m/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
-- link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-big/gpt2_350m/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
+- link to probing results: [probing results](probing_results/BEAR-big/gpt2_355m/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
+- link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-big/gpt2_355m/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
 
 #### lm-evaluation-harness scores (final model)
 |  Tasks   | Version |Filter|n-shot|Metric|   |Value |   |Stderr|
@@ -188,6 +188,34 @@ by the fact matching on the raw data.
 |pile_10k|      1|none  |     0|bits_per_byte  |↓  |    2.1101|±  |   N/A|
 |pile_10k|      1|none  |     0|byte_perplexity|↓  |    4.3171|±  |   N/A|
 |pile_10k|      1|none  |     0|word_perplexity|↓  |17984.4641|±  |   N/A|
+
+
+### 6. mamba2_432m
+- Model: Mamba2 (432m params with GPT2 tokenizer vocab size)
+- repo (model checkpoints as branches): [J4bb4wukis/mamba2_432m_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/mamba2_432m_wikipedia_en_shuffeld)
+- training script: [train.py](https://github.com/Jabbawukis/sample_efficiency_evaluation/blob/main/model_training_setups/Mamba2/wikimedia_wikipedia_20231101_en/train.py)
+
+###### Adjusted training parameters
+- hidden_size=1024
+- num_heads=32
+- num_hidden_layers=48
+- state_size=32
+- head_dim=64
+
+
+- link to probing results: [probing results](probing_results/BEAR-big/mamba2_432m/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
+- link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-big/mamba2_432m/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
+
+#### lm-evaluation-harness scores (final model)
+|  Tasks   | Version |Filter|n-shot|Metric|   |Value |   |Stderr|
+|----------|--------:|------|-----:|------|---|-----:|---|-----:|
+|winogrande|       1 |none  |     0|acc   |↑  |0.5067|±  |0.0141|
+|wsc273|       1 |none  |     0|acc   |↑  |0.5458|±  |0.0302|
+|lambada_standard|       1 |none  |     0|acc       |↑  |   0.0788|±  | 0.0038|
+|lambada_standard|       1 |none  |     0|perplexity|↓  |1594.1999|±  |77.5151|
+|pile_10k|      1|none  |     0|bits_per_byte  |↓  |   1.5115|±  |   N/A|
+|pile_10k|      1|none  |     0|byte_perplexity|↓  |   2.8511|±  |   N/A|
+|pile_10k|      1|none  |     0|word_perplexity|↓  |1116.7870|±  |   N/A|
 
 ## BEAR-small
 
@@ -211,6 +239,10 @@ same as BEAR-big
 - link to probing results: [probing results](probing_results/BEAR-small/gpt2_209m/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
 - link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-small/gpt2_209m/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
 
-### 5. gpt2_350m
-- link to probing results: [probing results](probing_results/BEAR-small/gpt2_350m/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
-- link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-small/gpt2_350m/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
+### 5. gpt2_355m
+- link to probing results: [probing results](probing_results/BEAR-small/gpt2_355m/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
+- link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-small/gpt2_355m/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
+
+### 6. mamba2_432m
+- link to probing results: [probing results](probing_results/BEAR-small/mamba2_432m/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
+- link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-small/mamba2_432m/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
