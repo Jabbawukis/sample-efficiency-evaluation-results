@@ -146,6 +146,7 @@ by the fact matching onm the raw data.
 - n_head=16
 - n_layer=24
 
+
 - link to probing results: [probing results](probing_results/BEAR-big/gpt2_209m/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
 - link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-big/gpt2_209m/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
 
@@ -159,6 +160,28 @@ by the fact matching onm the raw data.
 |pile_10k|      1|none  |     0|bits_per_byte  |↓  |    2.0620|±  |   N/A|
 |pile_10k|      1|none  |     0|byte_perplexity|↓  |    4.1758|±  |   N/A|
 |pile_10k|      1|none  |     0|word_perplexity|↓  |14389.4299|±  |   N/A|
+
+### 5. gpt2_350m
+- Model: GPT2 (350m params)
+- repo (model checkpoints as branches): [J4bb4wukis/gpt2_350m_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/gpt2_350m_wikipedia_en_shuffeld)
+- training script: [train.py](https://github.com/Jabbawukis/sample_efficiency_evaluation/blob/main/model_training_setups/GPT2/wikimedia_wikipedia_20231101_en/train.py)
+
+###### Adjusted training parameters
+- n_embd=1024
+- n_head=16
+- n_layer=24
+
+
+- link to probing results: [probing results](probing_results/BEAR-big/gpt2_350m/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
+- link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-big/gpt2_350m/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
+
+#### lm-evaluation-harness scores (final model)
+|  Tasks   | Version |Filter|n-shot|Metric|   |Value |   |Stderr|
+|----------|--------:|------|-----:|------|---|-----:|---|-----:|
+|winogrande|       1 |none  |     0|acc   |↑  |0.5162|±  | 0.014|
+|wsc273|       1 |none  |     0|acc   |↑  |0.5458|±  |0.0302|
+|lambada_standard|       1 |none  |     0|acc       |↑  |  0.1644|±  | 0.0052|
+|lambada_standard|       1 |none  |     0|perplexity|↓  |592.8151|±  |29.6474|
 
 ## BEAR-small
 
@@ -181,3 +204,7 @@ same as BEAR-big
 ### 4. gpt2_209m
 - link to probing results: [probing results](probing_results/BEAR-small/gpt2_209m/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
 - link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-small/gpt2_209m/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
+
+### 5. gpt2_350m
+- link to probing results: [probing results](probing_results/BEAR-small/gpt2_350m/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
+- link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-small/gpt2_350m/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
