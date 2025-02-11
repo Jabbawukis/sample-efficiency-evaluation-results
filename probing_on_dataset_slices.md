@@ -37,15 +37,17 @@ The following probability functions are tested:
 
 $$f(x; \lambda) = 1 - e^{-\lambda x} , x\ge 0$$
 
-$$\min_{\lambda}NLL(\lambda = -\sum_{i=1}^{N} T_i*\log(f(occur(i);\lambda)) + (1 - T_i)*\log(f(occur(i);\lambda))$$
+Facts with an occurrence of 0 are set to a probability of 0.
+
+$$\min_{\lambda}NLL(\lambda = -\frac{1}{N}\sum_{i=1}^{N} T_i*\log(f(occur(i);\lambda)) + (1 - T_i)*\log(f(occur(i);\lambda))$$
 
 #### 2. Power Scaling Function (PSF)
 
 $$f(x; \alpha) = 1 - (\frac{1}{x})^\alpha$$
 
-Facts with an occurrence of 0 are excluded from the optimization process.
+Facts with an occurrence of 0 are set to a probability of 0.
 
-$$\min_{\alpha}NLL(\alpha) = -\sum_{i=1}^{N} T_i*\log(f(occur(i); \alpha)) + (1 - T_i)*\log(f(occur(i);\alpha))$$
+$$\min_{\alpha}NLL(\alpha) = -\frac{1}{N}\sum_{i=1}^{N} T_i*\log(f(occur(i); \alpha)) + (1 - T_i)*\log(f(occur(i);\alpha))$$
 
 #### 3. Power Scaling Function Extended (PSF_EXT)
 
