@@ -39,7 +39,7 @@ $$f(x; \lambda) = 1 - e^{-\lambda x} , x\ge 0$$
 
 Facts with an occurrence of 0 are set to a probability of 0.
 
-$$\min_{\lambda}NLL(\lambda = -\frac{1}{N}\sum_{i=1}^{N} T_i*\log(f(occur(i);\lambda)) + (1 - T_i)*\log(f(occur(i);\lambda))$$
+$$\min_{\lambda}NLL(\lambda) = -\frac{1}{N}\sum_{i=1}^{N} T_i*\log(f(occur(i);\lambda)) + (1 - T_i)*\log(f(occur(i);\lambda))$$
 
 #### 2. Power Scaling Function (PSF)
 
