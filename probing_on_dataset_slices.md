@@ -66,19 +66,20 @@ Same as PSF, but with an additional +1 in the denominator. Therefore, facts with
 
 #### 4. Power Scaling Function Extended With Optimized Values (PSF_EXT2)
 
-For the PSF_EXT, we assume an $x_0$ and $L_0$ value of 0 and 1, respectively.
+$$f(x; \alpha) = 1 - L_0 + (\frac{x_0}{1+x})^\alpha$$
+
+For the PSF_EXT, we assume an $x_0$ and $L_0$ value of 1 and 0, respectively.
 However,
 we can optimize these values as well by concatenating all models predictions
-and minimizing the negative log-likelihood by optimizing a separate $\alpha$ for each model and a global $x_0$ and $L_0$ value.
-Hence, the optimized $x_0$ and $L_0$ values are used for the PSF_EXT function and are dataset-specific.
+and minimizing the negative log-likelihood
+by optimizing a separate $\alpha$ for each model and a global $x_0$ and $L_0$ value all at once.
+Hence, the optimized $x_0$ and $L_0$ values are used for the PSF_EXT2 function and are dataset-specific parameters.
 
 Optimizing the $x_0$ and $L_0$ values for every slice/checkpoint and model,
-
 we get the following results:
 
 ...
 
-for which the avg. optimized $x_0$ and $L_0$ values are used for the PSF_EXT2 function and are dataset-specific.
 
 - [Results BEAR-big](correct_answer_probability_analysis_plots/BEAR-big/power_scaling_function_extended2)
 - [Results BEAR-small](correct_answer_probability_analysis_plots/BEAR-small/power_scaling_function_extended2)
