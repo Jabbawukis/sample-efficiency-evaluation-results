@@ -8,7 +8,7 @@ Train a model on the whole dataset and probe it after training.
 ## BEAR-big
 - fact matching results: [fact_matching_results](fact_matching_results/BEAR-big/wikimedia_wikipedia_20231101_en)
 
-### Aliases Stats:
+### Aliases Stats
 
 - % of subjects with alias: 0.4271537429432166
 - % of objects with alias: 0.7703662182361734
@@ -82,7 +82,7 @@ see for model details: [gpt2_355m](probing_on_dataset_slices.md)
 ## BEAR(-small)
 - fact matching results: [fact_matching_results](/fact_matching_results/BEAR-small/wikimedia_wikipedia_20231101_en)
 
-#### Aliases Stats:
+#### Aliases Stats
 - % of subjects with alias: 0.5051875498802874
 - % of objects with alias: 0.8207317073170731
 - Overall number of instances with matches: 6765
