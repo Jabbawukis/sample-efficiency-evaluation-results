@@ -55,6 +55,14 @@ $$f(x; \alpha) = 1 - (\frac{1}{1+x})^\alpha$$
 
 Same as PSF, but with an additional +1 in the denominator. Therefore, facts with an occurrence of 0 are included in the optimization process.
 
+#### 4. Power Scaling Function Extended With Optimized Values (PSF_EXT)
+
+For the PSF_EXT, we assume an $x_0$ and $L_0$ value of 0 and 1, respectively.
+However,
+we can optimize these values as well by concatenating all models predictions
+and minimizing the negative log-likelihood by optimizing a separate $\alpha$ for each model and a global $x_0$ and $L_0$ value.
+Hence, the optimized $x_0$ and $L_0$ values are used for the PSF_EXT function and are dataset-specific.
+
 ##### Where:
 
 - $occur(i)$ is the number of occurrences of the fact $i$ in the training data up until the slice 
