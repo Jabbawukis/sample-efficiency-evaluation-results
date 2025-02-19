@@ -102,7 +102,7 @@ seen by the model at the checkpoint.
 For each model, we compare the negative log-likelihood of the model's predictions up until the slice seen by the model
 for each probability function mentioned above.
 The function with the lowest negative log-likelihood is chosen as the best fit.
-The results are found within each model director in:
+The results are found within each model directory in:
 - `probin_results/BEAR-{size}/{model}/wikimedia_wikipedia_20231101_en/evaluation_on_slices/correct_answer_probability_optimized_params`.
 
 ## BEAR-big
