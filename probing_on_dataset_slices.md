@@ -41,6 +41,9 @@ Facts with an occurrence of 0 are set to a probability of 0.
 
 $$\min_{\lambda}NLL(\lambda) = -\frac{1}{N}\sum_{i=1}^{N} T_i*\log(f(occur(i);\lambda)) + (1 - T_i)*\log(f(occur(i);\lambda))$$
 
+- [Results BEAR-big](correct_answer_probability_analysis_plots/BEAR-big/cumulative_distribution_function)
+- [Results BEAR-small](correct_answer_probability_analysis_plots/BEAR-small/cumulative_distribution_function)
+
 #### 2. Power Scaling Function (PSF)
 
 $$f(x; \alpha) = 1 - (\frac{1}{x})^\alpha$$
@@ -49,13 +52,19 @@ Facts with an occurrence of 0 are set to a probability of 0.
 
 $$\min_{\alpha}NLL(\alpha) = -\frac{1}{N}\sum_{i=1}^{N} T_i*\log(f(occur(i); \alpha)) + (1 - T_i)*\log(f(occur(i);\alpha))$$
 
+- [Results BEAR-big](correct_answer_probability_analysis_plots/BEAR-big/power_scaling_function)
+- [Results BEAR-small](correct_answer_probability_analysis_plots/BEAR-small/power_scaling_function)
+
 #### 3. Power Scaling Function Extended (PSF_EXT)
 
 $$f(x; \alpha) = 1 - (\frac{1}{1+x})^\alpha$$
 
 Same as PSF, but with an additional +1 in the denominator. Therefore, facts with an occurrence of 0 are included in the optimization process.
 
-#### 4. Power Scaling Function Extended With Optimized Values (PSF_EXT)
+- [Results BEAR-big](correct_answer_probability_analysis_plots/BEAR-big/power_scaling_function_extended)
+- [Results BEAR-small](correct_answer_probability_analysis_plots/BEAR-small/power_scaling_function_extended)
+
+#### 4. Power Scaling Function Extended With Optimized Values (PSF_EXT2)
 
 For the PSF_EXT, we assume an $x_0$ and $L_0$ value of 0 and 1, respectively.
 However,
@@ -63,11 +72,30 @@ we can optimize these values as well by concatenating all models predictions
 and minimizing the negative log-likelihood by optimizing a separate $\alpha$ for each model and a global $x_0$ and $L_0$ value.
 Hence, the optimized $x_0$ and $L_0$ values are used for the PSF_EXT function and are dataset-specific.
 
+Optimizing the $x_0$ and $L_0$ values for every slice/checkpoint and model,
+
+we get the following results:
+
+...
+
+for which the avg. optimized $x_0$ and $L_0$ values are used for the PSF_EXT2 function and are dataset-specific.
+
+- [Results BEAR-big](correct_answer_probability_analysis_plots/BEAR-big/power_scaling_function_extended2)
+- [Results BEAR-small](correct_answer_probability_analysis_plots/BEAR-small/power_scaling_function_extended2)
+
 ##### Where:
 
 - $occur(i)$ is the number of occurrences of the fact $i$ in the training data up until the slice 
 seen by the model at the checkpoint.
   $T_i$ is the target value for the fact $i$ (1 if the model answered correctly, 0 otherwise).
+
+### Probability Function Analysis
+
+For each model, we compare the negative log-likelihood of the model's predictions up until the slice seen by the model
+for each probability function mentioned above.
+The function with the lowest negative log-likelihood is chosen as the best fit.
+The results are found within each model director in:
+- `probin_results/BEAR-{size}/{model}/wikimedia_wikipedia_20231101_en/evaluation_on_slices/correct_answer_probability_optimized_params`.
 
 ## BEAR-big
 
