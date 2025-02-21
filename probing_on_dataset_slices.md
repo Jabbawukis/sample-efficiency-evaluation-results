@@ -210,6 +210,69 @@ same as BEAR-big
 - link to probing results: [probing results](probing_results/BEAR-small/mamba2_432m/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
 - link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-small/mamba2_432m/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
 
+### Weighted Accuracy on Checkpoints
+
+Here, the goal is to create a weighted accuracy score for each model checkpoint, boiling down the accuracy on the 
+occurrence buckets to a single score.
+Here, we proposed two methods:
+
+#### 1. Weighted Accuracy Score on Occurrence Buckets (WASB)
+
+$$\frac{1}{\sum_{i=1}^{N}w_i}\sum_{i=1}^{N}w_i\frac{y_i}{\widehat{y_i}}$$
+
+The main idea is
+to account for the bucket size change with increasing number of facts per bucket as the model sees more data.
+Thus, this method is more suited for a comparison of the checkpoints of one model.
+
+##### Where:
+
+- $w_i$ is the weight of the fact $i$. Here, the weights are dependent on the number of occurrences of the fact $i$ 
+where each fact is sorted into a bucket (e.g., 0, 2-4, 4-8, ... with the bucked end being exclusive).
+
+- $y_i$ is the models prediction for the fact $i$ and $\widehat{y_i}$ is the target value for the fact $i$ (1 if the model answered correctly, 0 otherwise).
+- If a fact has an occurrence of 5, the weight is calculated with the occurrence of 4 e.g., 4-8 bucket. (always the lower bound of the bucket).
+
+The weight is thus calculated as follows:
+
+$$
+w_i = 
+\begin{cases}
+exp(-\lambda x), \text{if } x\ge 1\\
+0, \text{otherwise}
+\end{cases}
+$$
+
+- with $\lambda=0.01$
+- $x$ is the occurrence of the fact $i$ (the lower bound of the bucket).
+
+
+- [Results BEAR-big](probing_results/weighted_accuracy_over_slices/wikimedia_wikipedia_20231101_en/BEAR-big/on_buckets/weighted_accuracy_on_slices_bear_big.png)
+- [Results BEAR-small](probing_results/weighted_accuracy_over_slices/wikimedia_wikipedia_20231101_en/BEAR-small/on_buckets/weighted_accuracy_on_slices_bear_small.png)
+
+#### 2. Weighted Accuracy Score Over All Facts (WAF)
+
+This method is more suited for a comparison of the different models final checkpoint.
+
+$$\frac{\sum_{i=1}^{N}\widehat{w_i}}{\sum_{i=1}^{N}w_i}$$
+
+##### Where:
+
+- $w_i$ and $\widehat{y_i}$ is the same as in the WASB method.
+
+The weight is thus calculated as follows:
+
+$$
+\widehat{w_i} =
+\begin{cases}
+w_i, \text{if } \widehat{y}=1\\
+0, \text{if } \widehat{y}=0\\
+\end{cases}
+$$
+
+- [Results BEAR-big](probing_results/weighted_accuracy_over_slices/wikimedia_wikipedia_20231101_en/BEAR-big/over_all_facts/weighted_accuracy_on_slices_bear_big.png)
+- [Results BEAR-small](probing_results/weighted_accuracy_over_slices/wikimedia_wikipedia_20231101_en/BEAR-small/over_all_facts/weighted_accuracy_on_slices_bear_small.png)
+
+
 ## Correct Answer Probability Analysis
 
 For each checkpoint, derive the probability of the model
