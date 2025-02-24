@@ -12,16 +12,16 @@ Train a model on the whole dataset and probe it after training.
 
 - % of subjects with alias: 0.4271537429432166
 - % of objects with alias: 0.7703662182361734
-- Overall number of instances with matches: 28058
-- Number of instances with more matches achieved due to aliases: 12676
-- Number of instances with matches achieved without the need for aliases: 15382
-- Number of instances with no matches with aliases: 12858
-- Number of instances with no matches without aliases: 15922
-- % of instances with more matches having subject and object aliases: 0.5915115178289682
-- % of instances with more matches having only subject aliases: 0.06405806248027769
-- % of instances with more matches having only object aliases: 0.34443041969075416
-- % of instances with more matches due to aliases (over all instances with matches): 0.4517784589065507
-- Average increase in matches (per fact) due to aliases: 55.523902629778085
+- Overall number of instances with matches: 28061
+- Number of instances with more matches achieved due to aliases: 12675
+- Number of instances with matches achieved without the need for aliases: 15386
+- Number of instances with no matches with aliases: 12855
+- Number of instances with no matches without aliases: 15917
+- % of instances with more matches having subject and object aliases: 0.5917948717948718
+- % of instances with more matches having only subject aliases: 0.06390532544378698
+- % of instances with more matches having only object aliases: 0.3442998027613412
+- % of instances with more matches due to aliases (over all instances with matches): 0.45169452264709026
+- Average increase in matches (per fact) due to aliases: 55.69720891582755
 
 ### 1. gpt2_137m_off_the_shelve (for comparison)
 

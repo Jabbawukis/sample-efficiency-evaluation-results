@@ -40,6 +40,8 @@ Training the model on the
 entire dataset and saving each checkpoint at 3650 steps,
 we get the state of the model after seeing approximately the number of facts determined
 by the fact matching on the raw data.
+We also evaluate the final model as the last checkpoint ends at 153,300 steps
+and the entire training has 153,372 in total with 72 steps deviations.
 
 #### 1. gpt2_124m
 - Model: GPT2 (124M params)
