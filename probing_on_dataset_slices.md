@@ -299,7 +299,7 @@ $$\min_{\lambda}NLL(\lambda) = -\frac{1}{N}\sum_{i=1}^{N} T_i*\log(f(occur(i);\l
 
 #### 2. Power Scaling Function (PSF)
 
-$$f(x; \alpha) = 1 - (\frac{1}{x})^\alpha$$
+$$f(x; \alpha) = 1 - \left(\frac{1}{x}\right)^\alpha$$
 
 Facts with an occurrence of 0 are set to a probability of 0.
 
@@ -310,7 +310,7 @@ $$\min_{\alpha}NLL(\alpha) = -\frac{1}{N}\sum_{i=1}^{N} T_i*\log(f(occur(i); \al
 
 #### 3. Power Scaling Function Extended (PSF_EXT)
 
-$$f(x; \alpha) = 1 - (\frac{1}{1+x})^\alpha$$
+$$f(x; \alpha) = 1 - \left(\frac{1}{1+x}\right)^\alpha$$
 
 Same as PSF, but with an additional +1 in the denominator. Therefore, facts with an occurrence of 0 are included in the optimization process.
 
@@ -319,9 +319,17 @@ Same as PSF, but with an additional +1 in the denominator. Therefore, facts with
 
 #### 4. Power Scaling Function Extended With Optimized Values (PSF_EXT2)
 
-$$f(x; \alpha) = 1 - L_0 + (\frac{x_0}{1+x})^\alpha$$
+$$f(x; \alpha) = 1 - \left(L_0 + \left(\frac{x_0}{1+x}\right)^\alpha\right)$$
 
-For the PSF_EXT, we assume an $x_0$ and $L_0$ value of 1 and 0, respectively.
+For the PSF_EXT, we assume an $x_0$ and $L_0$ value of 1 and 0, respectively. 
+$L_0$ is the constant rate of error that is potentially unavoidable given the possibility that the BEAR probe is faulty 
+(0 means the probe is correct or that the probe has no influence on the error rate).
+$x_0$ is at least influenced by the matching algorithm, an underestimation of fact occurrences could be accounted for a 
+lower $x_0$ value. 
+Values lower than one indicate an initial probability of the model to answer a fact correctly, even though the 
+occurrence is 0. This may be due to the simplicity of the fact
+matching heuristic or the learning of facts through other 
+facts that hold useful information for the fact in question or in other words, simple educated guesses.
 However,
 we can optimize these values as well by concatenating all models predictions
 and minimizing the negative log-likelihood
