@@ -292,7 +292,7 @@ $$f(x; \lambda) = 1 - e^{-\lambda x} , x\ge 0$$
 
 Facts with an occurrence of 0 are set to a probability of 0.
 
-$$\min_{\lambda}NLL(\lambda) = -\frac{1}{N}\sum_{i=1}^{N} T_i*\log(f(occur(i);\lambda)) + (1 - T_i)*\log(f(occur(i);\lambda))$$
+$$\min_{\lambda}NLL(\lambda) = -\frac{1}{N}\sum_{i=1}^{N} T_i*\log(f(occur(i);\lambda)) + (1 - T_i)*\log(1 - f(occur(i);\lambda))$$
 
 - [Results BEAR-big](correct_answer_probability_analysis_plots/BEAR-big/cumulative_distribution_function)
 - [Results BEAR-small](correct_answer_probability_analysis_plots/BEAR-small/cumulative_distribution_function)
@@ -303,7 +303,7 @@ $$f(x; \alpha) = 1 - \left(\frac{1}{x}\right)^\alpha$$
 
 Facts with an occurrence of 0 are set to a probability of 0.
 
-$$\min_{\alpha}NLL(\alpha) = -\frac{1}{N}\sum_{i=1}^{N} T_i*\log(f(occur(i); \alpha)) + (1 - T_i)*\log(f(occur(i);\alpha))$$
+$$\min_{\alpha}NLL(\alpha) = -\frac{1}{N}\sum_{i=1}^{N} T_i*\log(f(occur(i); \alpha)) + (1 - T_i)*\log(1 - f(occur(i);\alpha))$$
 
 - [Results BEAR-big](correct_answer_probability_analysis_plots/BEAR-big/power_scaling_function)
 - [Results BEAR-small](correct_answer_probability_analysis_plots/BEAR-small/power_scaling_function)
