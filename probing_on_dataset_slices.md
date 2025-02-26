@@ -347,8 +347,6 @@ BEAR-small:
 - $x_0$: 0.29
 - $L_0$: 0.0
 
-thus, the average $x_0$ to be 0.325 and $L_0$ to be 0.0 should be adequate.
-
 - [Results BEAR-big](correct_answer_probability_analysis_plots/BEAR-big/power_scaling_function_extended2)
 - [Results BEAR-small](correct_answer_probability_analysis_plots/BEAR-small/power_scaling_function_extended2)
 
