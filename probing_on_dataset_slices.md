@@ -336,17 +336,6 @@ and minimizing the negative log-likelihood
 by optimizing a separate $\alpha$ for each model and a global $x_0$ and $L_0$ value all at once.
 Hence, the optimized $x_0$ and $L_0$ values are used for the PSF_EXT2 function and are dataset-specific parameters.
 
-Optimizing the $x_0$ and $L_0$ values over all slices/checkpoints and for every model at once,
-we get the following results:
-
-BEAR-big:
-- $x_0$: 0.36
-- $L_0$: 0.0
-
-BEAR-small:
-- $x_0$: 0.29
-- $L_0$: 0.0
-
 - [Results BEAR-big](correct_answer_probability_analysis_plots/BEAR-big/power_scaling_function_extended2)
 - [Results BEAR-small](correct_answer_probability_analysis_plots/BEAR-small/power_scaling_function_extended2)
 
