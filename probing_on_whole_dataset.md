@@ -4,7 +4,6 @@
 
 Train a model on the whole dataset and probe it after training.
 
-
 ## BEAR-big
 - fact matching results: [fact_matching_results](fact_matching_results/BEAR-big/wikimedia_wikipedia_20231101_en)
 
