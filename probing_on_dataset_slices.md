@@ -220,7 +220,7 @@ Here, we proposed two methods:
 
 #### 1. Weighted Accuracy Score on Occurrence Buckets (WASB)
 
-$$\frac{1}{\sum_{i=1}^{N}w_i}\sum_{i=1}^{N}w_i\frac{y_i}{\widehat{y_i}}$$
+$$\frac{1}{\sum_{i=1}^{N}w_i}\sum_{i=1}^{N}w_i * \text{acc}_i$$
 
 The main idea is
 to account for the bucket size change with increasing number of facts per bucket as the model sees more data.
@@ -228,10 +228,10 @@ Thus, this method is more suited for a comparison of the checkpoints of one mode
 
 ##### Where:
 
-- $w_i$ is the weight of the fact $i$. Here, the weights are dependent on the number of occurrences of the fact $i$ 
+- $w_i$ is the weight of the bucket $i$.
+Here, the weights are dependent on the number of occurrences of the a fact 
 where each fact is sorted into a bucket (e.g., 0, 2-4, 4-8, ... with the bucked end being exclusive).
-
-- $y_i$ is the models prediction for the fact $i$ and $\widehat{y_i}$ is the target value for the fact $i$ (1 if the model answered correctly, 0 otherwise).
+- $acc_i$ is the accuracy of the bucket $i$.
 - If a fact has an occurrence of 5, the weight is calculated with the occurrence of 4 e.g., 4-8 bucket. (always the lower bound of the bucket).
 
 The weight is thus calculated as follows:
