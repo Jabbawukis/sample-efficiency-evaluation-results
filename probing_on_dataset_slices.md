@@ -317,7 +317,7 @@ Same as PSF, but with an additional +1 in the denominator. Therefore, facts with
 - [Results BEAR-big](correct_answer_probability_analysis_plots/BEAR-big/power_scaling_function_extended)
 - [Results BEAR-small](correct_answer_probability_analysis_plots/BEAR-small/power_scaling_function_extended)
 
-#### 4. Power Scaling Function Extended With Optimized Values (PSF_EXT2)
+#### 4. Power Scaling Function Extended 2 (PSF_EXT2)
 
 $$f(x; \alpha) = 1 - \left(L_0 + \left(\frac{x_0}{1+x}\right)^\alpha\right)$$
 
@@ -338,6 +338,19 @@ Hence, the optimized $x_0$ and $L_0$ values are used for the PSF_EXT2 function a
 
 - [Results BEAR-big](correct_answer_probability_analysis_plots/BEAR-big/power_scaling_function_extended2)
 - [Results BEAR-small](correct_answer_probability_analysis_plots/BEAR-small/power_scaling_function_extended2)
+
+
+#### 5. Power Scaling Function Extended 3 (PSF_EXT3)
+
+$$f(x; \alpha) = 1 - \left(L_0 + \frac{x_0}{(1+x)^\alpha}\right)$$
+
+Same as PSF_EXT2.
+$x_0$ close to 0 indicates
+that the model has a high probability of answering a fact correctly even though the occurrence is 0.
+
+- [Results BEAR-big](correct_answer_probability_analysis_plots/BEAR-big/power_scaling_function_extended3)
+- [Results BEAR-small](correct_answer_probability_analysis_plots/BEAR-small/power_scaling_function_extended3)
+
 
 ##### Where:
 
