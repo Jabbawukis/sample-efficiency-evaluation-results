@@ -182,6 +182,27 @@ and the entire training has 153,372 in total with 72 steps deviations.
 |pile_10k|      1|none  |     0|byte_perplexity|↓  |   2.8511|±  |   N/A|
 |pile_10k|      1|none  |     0|word_perplexity|↓  |1116.7870|±  |   N/A|
 
+
+#### 7. xlstm_406m
+
+- Model: xLSTM (406M params with GPT2 tokenizer vocab size)
+- repo (model checkpoints as branches): [J4bb4wukis/xlstm_406m_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/xlstm_406m_wikipedia_en_shuffeld)
+- training script: [train.py](https://github.com/Jabbawukis/sample_efficiency_evaluation/blob/main/model_training_setups/xLSTM/wikimedia_wikipedia_20231101_en/train.py)
+
+- link to probing results: [probing results](probing_results/BEAR-big/xlstm_406m/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
+- link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-big/xlstm_406m/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
+
+##### lm-evaluation-harness scores (final model)
+|  Tasks   |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|----------|------:|------|-----:|------|---|-----:|---|-----:|
+|winogrande|      1|none  |     0|acc   |↑  |0.5146|±  | 0.014|
+|wsc273|      1|none  |     0|acc   |↑  |0.5055|±  |0.0303|
+|lambada_standard|      1|none  |     0|acc       |↑  |  0.1197|±  | 0.0045|
+|lambada_standard|      1|none  |     0|perplexity|↓  |739.1623|±  |34.8244|
+|pile_10k|      1|none  |     0|bits_per_byte  |↓  |  1.4628|±  |   N/A|
+|pile_10k|      1|none  |     0|byte_perplexity|↓  |  2.7564|±  |   N/A|
+|pile_10k|      1|none  |     0|word_perplexity|↓  |890.4901|±  |   N/A|
+
 ### BEAR-small
 
 - fact matching results on slices: [fact_matching_results](fact_matching_results/BEAR-small/wikimedia_wikipedia_20231101_en/evaluation_on_slices/)
@@ -211,6 +232,10 @@ same as BEAR-big
 #### 6. mamba2_432m
 - link to probing results: [probing results](probing_results/BEAR-small/mamba2_432m/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
 - link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-small/mamba2_432m/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
+
+#### 7. xlstm_406m
+- link to probing results: [probing results](probing_results/BEAR-small/xlstm_406m/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
+- link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-small/xlstm_406m/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
 
 ### Weighted Accuracy on Checkpoints
 
@@ -258,10 +283,10 @@ This method is more suited for a comparison of the different models final checkp
 $$\frac{\sum_{i=1}^{N}\widehat{w_i}}{\sum_{i=1}^{N}w_i}$$
 
 ##### Where:
-
-- $w_i$ and $\widehat{y_i}$ is the same as in the WASB method.
-
 The weight is thus calculated as follows:
+
+- $w_i$ is the weight of the fact $i$.
+- $\widehat{w_i}$ is the weight of the fact $i$ with the condition that the model answered the fact correctly.
 
 $$
 \widehat{w_i} =

@@ -52,31 +52,42 @@ Train a model on the whole dataset and probe it after training.
 
 see for model details: [gpt2_124m](probing_on_dataset_slices.md)
 
-- link to probing results (final model): [probing results](probing_results/BEAR-big/gpt2_124m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_model.png)
+- link to probing results (final model): [probing results](probing_results/BEAR-big/gpt2_124m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_gpt2_124m_bear_big.png)
 
 ### 3. xlstm_247m
 
 see for model details: [xlstm_247m](probing_on_dataset_slices.md)
 
-- link to probing results (final model): [probing results](probing_results/BEAR-big/xlstm_247m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_model.png)
+- link to probing results (final model): [probing results](probing_results/BEAR-big/xlstm_247m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_xlstm_247m_bear_big.png)
 
 ### 4. mamba2_172m
 
 see for model details: [mamba2_172m](probing_on_dataset_slices.md)
 
-- link to probing results (final model): [probing results](probing_results/BEAR-big/mamba2_172m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_model.png)
+- link to probing results (final model): [probing results](probing_results/BEAR-big/mamba2_172m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_mamba2_172m_bear_big.png)
 
 ### 5. gpt2_209m
 
 see for model details: [gpt2_209m](probing_on_dataset_slices.md)
 
-- link to probing results (final model): [probing results](probing_results/BEAR-big/gpt2_209m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_model.png)
+- link to probing results (final model): [probing results](probing_results/BEAR-big/gpt2_209m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_gpt2_209m_bear_big.png)
 
 ### 6. gpt2_355m
 
 see for model details: [gpt2_355m](probing_on_dataset_slices.md)
 
-- link to probing results (final model): [probing results](probing_results/BEAR-big/gpt2_355m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_model.png)
+### 7. mamba2_432m
+
+see for model details: [mamba2_432m](probing_on_dataset_slices.md)
+
+- link to probing results (final model): [probing results](probing_results/BEAR-big/mamba2_432m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_mamba2_432m_bear_big.png)
+
+### 8. xlstm_406m
+
+see for model details: [xlstm_406m](probing_on_dataset_slices.md)
+
+- link to probing results (final model): [probing results](probing_results/BEAR-big/xlstm_406m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_xlstm_406m_bear_big.png)
+
 
 ## BEAR(-small)
 - fact matching results: [fact_matching_results](/fact_matching_results/BEAR-small/wikimedia_wikipedia_20231101_en)
@@ -106,34 +117,40 @@ see for model details: [gpt2_355m](probing_on_dataset_slices.md)
 
 see for model details: [gpt2_124m](probing_on_dataset_slices.md)
 
-- link to probing results (final model): [probing results](probing_results/BEAR-small/gpt2_124m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_model.png)
+- link to probing results (final model): [probing results](probing_results/BEAR-small/gpt2_124m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_gpt2_124m_bear_small.png)
 
 ### 3. xlstm_247m
 
 see for model details: [xlstm_247m](probing_on_dataset_slices.md)
 
-- link to probing results (final model): [probing results](probing_results/BEAR-small/xlstm_247m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_model.png)
+- link to probing results (final model): [probing results](probing_results/BEAR-small/xlstm_247m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_xlstm_247m_bear_small.png)
 
 ### 4. mamba2_172m
 
 see for model details: [mamba2_172m](probing_on_dataset_slices.md)
 
-- link to probing results (final model): [probing results](probing_results/BEAR-small/mamba2_172m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_model.png)
+- link to probing results (final model): [probing results](probing_results/BEAR-small/mamba2_172m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_mamba2_172m_bear_small.png)
 
 ### 5. gpt2_209m
 
 see for model details: [gpt2_209m](probing_on_dataset_slices.md)
 
-- link to probing results (final model): [probing results](probing_results/BEAR-small/gpt2_209m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_model.png)
+- link to probing results (final model): [probing results](probing_results/BEAR-small/gpt2_209m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_gpt2_209m_bear_small.png)
 
 ### 6. gpt2_355m
 
 see for model details: [gpt2_355m](probing_on_dataset_slices.md)
 
-- link to probing results (final model): [probing results](probing_results/BEAR-small/gpt2_355m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_model.png)
+- link to probing results (final model): [probing results](probing_results/BEAR-small/gpt2_355m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_gpt2_355m_bear_small.png)
 
 ### 7. mamba2_432m
 
 see for model details: [mamba2_432m](probing_on_dataset_slices.md)
 
-- link to probing results (final model): [probing results](probing_results/BEAR-small/mamba2_432m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_model.png)
+- link to probing results (final model): [probing results](probing_results/BEAR-small/mamba2_432m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_mamba2_432m_bear_small.png)
+
+### 8. xlstm_406m
+
+see for model details: [xlstm_406m](probing_on_dataset_slices.md)
+
+- link to probing results (final model): [probing results](probing_results/BEAR-small/xlstm_406m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_xlstm_406m_bear_small.png)
