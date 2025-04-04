@@ -269,7 +269,7 @@ exp(-\lambda x), \text{if } x\ge 1\\
 \end{cases}
 $$
 
-- with $\lambda=0.01$
+- with $\lambda=0.05$
 - $x$ is the occurrence of the fact $i$ (the lower bound of the bucket).
 
 
