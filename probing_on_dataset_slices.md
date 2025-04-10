@@ -333,17 +333,34 @@ $$F(x; \alpha) = 1 - \left(L_0 + \frac{x_0}{(1+x)^\alpha}\right)$$
 
 $$p_{m,i} = T_{m,i} F(x_i) + (1 - T_{i,m})\left(1 - F(x_i)\right)$$
 
-and for PSF
+for $log()$ =>
+
+$$p_{m,i} = T_{m,i}*log(F(x_i)) + (1 - T_{i,m})*log(1 - F(x_i)$$
+
+
+PSF:
 
 $$P\left(L_0, x_0, \alpha_{m} \right) = \prod_{m \in [M]} \prod_{i \in [N]} p_{m,i}$$
 
-or CDF
+for $log()$ =>
+
+$$P\left(L_0, x_0, \alpha_{m} \right) = \sum_{m \in [M]} \sum_{i \in [N]} p_{m,i}$$
+
+
+CDF:
 
 $$P\left(\lambda_{m} \right) = \prod_{i \in [N]} p_{m,i}$$
+
+for $log()$ =>
+
+$$P\left(\lambda_{m} \right) = \sum_{i \in [N]} p_{m,i}$$
+
+Where:
 
 #### Where:
  
 - $T_i$ is the target value for the fact $i$ (1 if the model answered correctly, 0 otherwise).
+- Summation is normalized by -1/num_samples
 
 ### Probability Function Analysis
 
