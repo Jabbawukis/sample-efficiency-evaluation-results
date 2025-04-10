@@ -313,75 +313,37 @@ The following probability functions are tested:
 
 #### 1. Cumulative Distribution Function (CDF)
 
-$$f(x; \lambda) = 1 - e^{-\lambda x} , x\ge 0$$
+$$F(x; \lambda) = 1 - e^{-\lambda x} , x\ge 0$$
 
 Facts with an occurrence of 0 are set to a probability of 0.
-
-$$\min_{\lambda}NLL(\lambda) = -\frac{1}{N}\sum_{i=1}^{N} T_i*\log(f(occur(i);\lambda)) + (1 - T_i)*\log(1 - f(occur(i);\lambda))$$
 
 - [Results BEAR-big](correct_answer_probability_analysis_plots/BEAR-big/cumulative_distribution_function)
 - [Results BEAR-small](correct_answer_probability_analysis_plots/BEAR-small/cumulative_distribution_function)
 
+
 #### 2. Power Scaling Function (PSF)
 
-$$f(x; \alpha) = 1 - \left(\frac{1}{x}\right)^\alpha$$
-
-Facts with an occurrence of 0 are set to a probability of 0.
-
-$$\min_{\alpha}NLL(\alpha) = -\frac{1}{N}\sum_{i=1}^{N} T_i*\log(f(occur(i); \alpha)) + (1 - T_i)*\log(1 - f(occur(i);\alpha))$$
+$$F(x; \alpha) = 1 - \left(L_0 + \frac{x_0}{(1+x)^\alpha}\right)$$
 
 - [Results BEAR-big](correct_answer_probability_analysis_plots/BEAR-big/power_scaling_function)
 - [Results BEAR-small](correct_answer_probability_analysis_plots/BEAR-small/power_scaling_function)
 
-#### 3. Power Scaling Function Extended (PSF_EXT)
 
-$$f(x; \alpha) = 1 - \left(\frac{1}{1+x}\right)^\alpha$$
+#### Optimization
 
-Same as PSF, but with an additional +1 in the denominator. Therefore, facts with an occurrence of 0 are included in the optimization process.
+$$p_{m,i} = T_{m,i} F(x_i) + (1 - T_{i,m})\left(1 - F(x_i)\right)$$
 
-- [Results BEAR-big](correct_answer_probability_analysis_plots/BEAR-big/power_scaling_function_extended)
-- [Results BEAR-small](correct_answer_probability_analysis_plots/BEAR-small/power_scaling_function_extended)
+and for PSF
 
-#### 4. Power Scaling Function Extended 2 (PSF_EXT2)
+$$P\left(L_0, x_0, \alpha_{m} \right) = \prod_{m \in [M]} \prod_{i \in [N]} p_{m,i}$$
 
-$$f(x; \alpha) = 1 - \left(L_0 + \left(\frac{x_0}{1+x}\right)^\alpha\right)$$
+or CDF
 
-For the PSF_EXT, we assume an $x_0$ and $L_0$ value of 1 and 0, respectively. 
-$L_0$ is the constant rate of error that is potentially unavoidable given the possibility that the BEAR probe is faulty 
-(0 means the probe is correct or that the probe has no influence on the error rate).
-$x_0$ is at least influenced by the matching algorithm, an underestimation of fact occurrences could be accounted for a 
-lower $x_0$ value. 
-Values lower than one indicate an initial probability of the model to answer a fact correctly, even though the 
-occurrence is 0. This may be due to the simplicity of the fact
-matching heuristic or the learning of facts through other 
-facts that hold useful information for the fact in question or in other words, simple educated guesses.
-However,
-we can optimize these values as well by concatenating all models predictions
-and minimizing the negative log-likelihood
-by optimizing a separate $\alpha$ for each model and a global $x_0$ and $L_0$ value all at once.
-Hence, the optimized $x_0$ and $L_0$ values are used for the PSF_EXT2 function and are dataset-specific parameters.
+$$P\left(\lambda_{m} \right) = \prod_{i \in [N]} p_{m,i}$$
 
-- [Results BEAR-big](correct_answer_probability_analysis_plots/BEAR-big/power_scaling_function_extended2)
-- [Results BEAR-small](correct_answer_probability_analysis_plots/BEAR-small/power_scaling_function_extended2)
-
-
-#### 5. Power Scaling Function Extended 3 (PSF_EXT3)
-
-$$f(x; \alpha) = 1 - \left(L_0 + \frac{x_0}{(1+x)^\alpha}\right)$$
-
-Same as PSF_EXT2.
-$x_0$ close to 0 indicates
-that the model has a high probability of answering a fact correctly even though the occurrence is 0.
-
-- [Results BEAR-big](correct_answer_probability_analysis_plots/BEAR-big/power_scaling_function_extended3)
-- [Results BEAR-small](correct_answer_probability_analysis_plots/BEAR-small/power_scaling_function_extended3)
-
-
-##### Where:
-
-- $occur(i)$ is the number of occurrences of the fact $i$ in the training data up until the slice 
-seen by the model at the checkpoint.
-  $T_i$ is the target value for the fact $i$ (1 if the model answered correctly, 0 otherwise).
+#### Where:
+ 
+- $T_i$ is the target value for the fact $i$ (1 if the model answered correctly, 0 otherwise).
 
 ### Probability Function Analysis
 
