@@ -203,6 +203,47 @@ and the entire training has 153,372 in total with 72 steps deviations.
 |pile_10k|      1|none  |     0|byte_perplexity|↓  |  2.7564|±  |   N/A|
 |pile_10k|      1|none  |     0|word_perplexity|↓  |890.4901|±  |   N/A|
 
+
+#### 8. llama_360m
+
+- Model: LLaMA (360m params with GPT2 tokenizer vocab size)
+- repo (model checkpoints as branches): [J4bb4wukis/llama_360m_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/llama_360m_wikipedia_en_shuffeld)
+- training script: trained by [PatrickHaller](https://huggingface.co/PatrickHaller)
+
+- link to probing results: [probing results](probing_results/BEAR-big/llama_360m/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
+- link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-big/llama_360m/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
+
+##### lm-evaluation-harness scores (final model)
+|  Tasks   |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|----------|------:|------|-----:|------|---|-----:|---|-----:|
+|winogrande|      1|none  |     0|acc   |↑  |0.5185|±  | 0.014|
+|wsc273|      1|none  |     0|acc   |↑  |0.5458|±  |0.0302|
+|lambada_standard|      1|none  |     0|acc       |↑  |  0.1576|±  | 0.0051|
+|lambada_standard| 1|none  |     0|perplexity|↓  |508.1769|±  |23.8731|
+|pile_10k|      1|none  |     0|bits_per_byte  |↓  |    2.3870|±  |   N/A|
+|pile_10k|      1|none  |     0|byte_perplexity|↓  |    5.2307|±  |   N/A|
+|pile_10k|      1|none  |     0|word_perplexity|↓  |65059.5665|±  |   N/A|
+
+#### 8. llama_208m
+
+- Model: LLaMA (208m params with GPT2 tokenizer vocab size)
+- repo (model checkpoints as branches): [J4bb4wukis/llama_208m_wikipedia_en_shuffeld](https://huggingface.co/J4bb4wukis/llama_208m_wikipedia_en_shuffeld)
+- training script: trained by [PatrickHaller](https://huggingface.co/PatrickHaller)
+
+- link to probing results: [probing results](probing_results/BEAR-big/llama_208m/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
+- link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-big/llama_208m/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
+
+##### lm-evaluation-harness scores (final model)
+|  Tasks   |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|----------|------:|------|-----:|------|---|-----:|---|-----:|
+|winogrande|      1|none  |     0|acc   |↑  |0.5059|±  |0.0141|
+|wsc273|      1|none  |     0|acc   |↑  |0.5568|±  |0.0301|
+|lambada_standard|      1|none  |     0|acc       |↑  |  0.1558|±  | 0.0051|
+|lambada_standard|1|none  |     0|perplexity|↓  |694.1146|±  |34.3843|
+|pile_10k|      1|none  |     0|bits_per_byte  |↓  |     2.6462|±  |   N/A|
+|pile_10k|      1|none  |     0|byte_perplexity|↓  |     6.2600|±  |   N/A|
+|pile_10k|      1|none  |     0|word_perplexity|↓  |216732.2782|±  |   N/A|
+
 ### BEAR-small
 
 - fact matching results on slices: [fact_matching_results](fact_matching_results/BEAR-small/wikimedia_wikipedia_20231101_en/evaluation_on_slices/)
@@ -236,6 +277,14 @@ same as BEAR-big
 #### 7. xlstm_406m
 - link to probing results: [probing results](probing_results/BEAR-small/xlstm_406m/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
 - link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-small/xlstm_406m/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
+
+#### 8. llama_360m
+- link to probing results: [probing results](probing_results/BEAR-small/llama_360m/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
+- link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-small/llama_360m/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
+
+#### 9. llama_208m
+- link to probing results: [probing results](probing_results/BEAR-small/llama_208m/wikimedia_wikipedia_20231101_en/evaluation_on_slices)
+- link to accuracy diagrams on checkpoints: [accuracy_on_checkpoints](probing_results/BEAR-small/llama_208m/wikimedia_wikipedia_20231101_en/evaluation_on_slices/combined_accuracy_plots_grid.png)
 
 ### Weighted Accuracy on Checkpoints
 

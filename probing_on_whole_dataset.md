@@ -88,6 +88,13 @@ see for model details: [xlstm_406m](probing_on_dataset_slices.md)
 
 - link to probing results (final model): [probing results](probing_results/BEAR-big/xlstm_406m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_xlstm_406m_bear_big.png)
 
+### 9. llama_360m
+see for model details: [llama_360m](probing_on_dataset_slices.md)
+- link to probing results (final model): [probing results](probing_results/BEAR-big/llama_360m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_llama_360m_bear_big.png)
+
+### 10. llama_208m
+see for model details: [llama_208m](probing_on_dataset_slices.md)
+- link to probing results (final model): [probing results](probing_results/BEAR-big/llama_208m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_llama_208m_bear_big.png)
 
 ## BEAR(-small)
 - fact matching results: [fact_matching_results](/fact_matching_results/BEAR-small/wikimedia_wikipedia_20231101_en)
@@ -154,3 +161,13 @@ see for model details: [mamba2_432m](probing_on_dataset_slices.md)
 see for model details: [xlstm_406m](probing_on_dataset_slices.md)
 
 - link to probing results (final model): [probing results](probing_results/BEAR-small/xlstm_406m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_xlstm_406m_bear_small.png)
+
+### 9. llama_360m
+see for model details: [llama_360m](probing_on_dataset_slices.md)
+
+- link to probing results (final model): [probing results](probing_results/BEAR-small/llama_360m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_llama_360m_bear_small.png)
+
+### 10. llama_208m
+see for model details: [llama_208m](probing_on_dataset_slices.md)
+
+- link to probing results (final model): [probing results](probing_results/BEAR-small/llama_208m/wikimedia_wikipedia_20231101_en/accuracy_statistics_final_llama_208m_bear_small.png)
