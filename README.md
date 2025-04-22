@@ -9,22 +9,18 @@ parent directory (only on BEAR-big)
 
 Example:
 ```
-gpt2_124m
+gpt2_209m
 └── wikimedia_wikipedia_20231101_en
-    ├── accuracy_statistics_final_model.png
+    ├── accuracy_statistics_final_gpt2_209m_bear_big.png
+    ├── accuracy_statistics_final_gpt2_209m_bear_big.pdf
     ├── evaluation_on_slices
     │   ├── combined_accuracy_plots_grid.png
     │   ├── correct_answer_probability_optimized_params
     │   │   ├── nll_on_slices_bear_big.png
+    │   │   ├── nll_on_slices_bear_big.pdf
     │   │   ├── nll_on_slices.json
     │   │   └── optimized_params
-    │   │       ├── cdf_optimized_lambda_over_all_slices.json
     │   │       ├── cdf_optimized_lambdas.json
-    │   │       ├── psf-ext2_optimized_alpha_over_all_slices.json
-    │   │       ├── psf-ext2_optimized_alphas.json
-    │   │       ├── psf-ext_optimized_alpha_over_all_slices.json
-    │   │       ├── psf-ext_optimized_alphas.json
-    │   │       ├── psf_optimized_alpha_over_all_slices.json
     │   │       └── psf_optimized_alphas.json
     │   ├── increasing_occurrences_in_slices.json  <--- extracted from increasing_occurrences_in_slices.tar.xz
     │   ├── increasing_occurrences_in_slices.tar.xz
