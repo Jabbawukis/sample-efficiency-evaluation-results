@@ -322,8 +322,8 @@ $$
 - $x$ is the occurrence of the fact $i$ (the lower bound of the bucket).
 
 
-- [Results BEAR-big](probing_results/weighted_accuracy_over_slices/wikimedia_wikipedia_20231101_en/BEAR-big/on_buckets/weighted_accuracy_on_slices_bear_big.png)
-- [Results BEAR-small](probing_results/weighted_accuracy_over_slices/wikimedia_wikipedia_20231101_en/BEAR-small/on_buckets/weighted_accuracy_on_slices_bear_small.png)
+- [Results BEAR-big](sample_efficiency_measures/weighted_accuracy_over_slices/wikimedia_wikipedia_20231101_en/BEAR-big/on_buckets/weighted_accuracy_on_slices_bear_big.png)
+- [Results BEAR-small](sample_efficiency_measures/weighted_accuracy_over_slices/wikimedia_wikipedia_20231101_en/BEAR-small/on_buckets/weighted_accuracy_on_slices_bear_small.png)
 
 #### 2. Weighted Accuracy Score Over All Facts (WAF)
 
@@ -345,8 +345,8 @@ w_i, \text{if } \widehat{y}=1\\
 \end{cases}
 $$
 
-- [Results BEAR-big](probing_results/weighted_accuracy_over_slices/wikimedia_wikipedia_20231101_en/BEAR-big/over_all_facts/weighted_accuracy_on_slices_bear_big.png)
-- [Results BEAR-small](probing_results/weighted_accuracy_over_slices/wikimedia_wikipedia_20231101_en/BEAR-small/over_all_facts/weighted_accuracy_on_slices_bear_small.png)
+- [Results BEAR-big](sample_efficiency_measures/weighted_accuracy_over_slices/wikimedia_wikipedia_20231101_en/BEAR-big/over_all_facts/weighted_accuracy_on_slices_bear_big.png)
+- [Results BEAR-small](sample_efficiency_measures/weighted_accuracy_over_slices/wikimedia_wikipedia_20231101_en/BEAR-small/over_all_facts/weighted_accuracy_on_slices_bear_small.png)
 
 
 ## Correct Answer Probability Analysis
@@ -366,16 +366,16 @@ $$F(x; \lambda) = 1 - e^{-\lambda x} , x\ge 0$$
 
 Facts with an occurrence of 0 are set to a probability of 0.
 
-- [Results BEAR-big](correct_answer_probability_analysis_plots/BEAR-big/cumulative_distribution_function)
-- [Results BEAR-small](correct_answer_probability_analysis_plots/BEAR-small/cumulative_distribution_function)
+- [Results BEAR-big](sample_efficiency_measures/correct_answer_probability_analysis/BEAR-big/cumulative_distribution_function)
+- [Results BEAR-small](sample_efficiency_measures/correct_answer_probability_analysis/BEAR-small/cumulative_distribution_function)
 
 
 #### 2. Power Scaling Function (PSF)
 
 $$F(x; \alpha) = 1 - \left(L_0 + \frac{x_0}{(1+x)^\alpha}\right)$$
 
-- [Results BEAR-big](correct_answer_probability_analysis_plots/BEAR-big/power_scaling_function)
-- [Results BEAR-small](correct_answer_probability_analysis_plots/BEAR-small/power_scaling_function)
+- [Results BEAR-big](sample_efficiency_measures/correct_answer_probability_analysis/BEAR-big/power_scaling_function)
+- [Results BEAR-small](sample_efficiency_measures/correct_answer_probability_analysis/BEAR-small/power_scaling_function)
 
 
 #### Optimization
