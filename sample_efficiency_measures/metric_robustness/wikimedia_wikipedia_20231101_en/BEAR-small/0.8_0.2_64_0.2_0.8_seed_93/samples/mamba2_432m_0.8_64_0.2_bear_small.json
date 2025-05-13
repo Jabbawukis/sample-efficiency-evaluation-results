@@ -107,6 +107,69 @@
                 }
             ],
             "obj_id": "Q37137"
+        },
+        "Q545464": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q810480"
+        },
+        "Q322211": {
+            "occurrences_increase": [
+                {
+                    "total": 28,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q810480"
+        },
+        "Q546509": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q58192"
+        },
+        "Q131433": {
+            "occurrences_increase": [
+                {
+                    "total": 2,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q37137"
+        },
+        "Q249107": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q810480"
+        },
+        "Q16201274": {
+            "occurrences_increase": [
+                {
+                    "total": 2,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q1601762"
+        },
+        "Q3242577": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q223166"
         }
     },
     "P509": {
@@ -190,6 +253,69 @@
                 }
             ],
             "obj_id": "Q181257"
+        },
+        "Q5685": {
+            "occurrences_increase": [
+                {
+                    "total": 18,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q12204"
+        },
+        "Q232475": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q128581"
+        },
+        "Q303": {
+            "occurrences_increase": [
+                {
+                    "total": 22,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q12152"
+        },
+        "Q217771": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q623031"
+        },
+        "Q235381": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q193840"
+        },
+        "Q176222": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q188605"
+        },
+        "Q102341": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q188874"
         }
     },
     "P4552": {
@@ -264,6 +390,78 @@
                 }
             ],
             "obj_id": "Q186547"
+        },
+        "Q1285832": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q486986"
+        },
+        "Q1509963": {
+            "occurrences_increase": [
+                {
+                    "total": 11,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q190695"
+        },
+        "Q116999": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q48719"
+        },
+        "Q1153188": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q48719"
+        },
+        "Q390831": {
+            "occurrences_increase": [
+                {
+                    "total": 5,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q4527"
+        },
+        "Q2725470": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q48719"
+        },
+        "Q5960978": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q167021"
+        },
+        "Q603574": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q486986"
         }
     },
     "P178": {
@@ -384,6 +582,78 @@
             ],
             "obj_id": "Q780528"
         },
+        "Q3005567": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q149947"
+        },
+        "Q1814981": {
+            "occurrences_increase": [
+                {
+                    "total": 4,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q903621"
+        },
+        "Q483544": {
+            "occurrences_increase": [
+                {
+                    "total": 7,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q485593"
+        },
+        "Q1688483": {
+            "occurrences_increase": [
+                {
+                    "total": 14,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q642707"
+        },
+        "Q4053202": {
+            "occurrences_increase": [
+                {
+                    "total": 9,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q494614"
+        },
+        "Q836690": {
+            "occurrences_increase": [
+                {
+                    "total": 2,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q1515682"
+        },
+        "Q1141946": {
+            "occurrences_increase": [
+                {
+                    "total": 99,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q14428"
+        },
+        "Q956303": {
+            "occurrences_increase": [
+                {
+                    "total": 67,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q14428"
+        },
         "Q48263": {
             "occurrences_increase": [
                 {
@@ -392,6 +662,15 @@
                 }
             ],
             "obj_id": "Q2283"
+        },
+        "Q181596": {
+            "occurrences_increase": [
+                {
+                    "total": 74,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q37156"
         }
     },
     "P58": {
@@ -476,10 +755,100 @@
             ],
             "obj_id": "Q55171"
         },
-        "Q45602": {
+        "Q879204": {
             "occurrences_increase": [
                 {
-                    "total": 82,
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q381477"
+        },
+        "Q485932": {
+            "occurrences_increase": [
+                {
+                    "total": 9,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q212990"
+        },
+        "Q18754959": {
+            "occurrences_increase": [
+                {
+                    "total": 20,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q299194"
+        },
+        "Q1677306": {
+            "occurrences_increase": [
+                {
+                    "total": 8,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q23728"
+        },
+        "Q72397975": {
+            "occurrences_increase": [
+                {
+                    "total": 30,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q299194"
+        },
+        "Q1067409": {
+            "occurrences_increase": [
+                {
+                    "total": 15,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q44131"
+        },
+        "Q1779486": {
+            "occurrences_increase": [
+                {
+                    "total": 8,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q50764"
+        },
+        "Q165651": {
+            "occurrences_increase": [
+                {
+                    "total": 55,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q7546"
+        },
+        "Q400101": {
+            "occurrences_increase": [
+                {
+                    "total": 24,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q882"
+        },
+        "Q5066084": {
+            "occurrences_increase": [
+                {
+                    "total": 8,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q381477"
+        },
+        "Q109116": {
+            "occurrences_increase": [
+                {
+                    "total": 117,
                     "correct": false
                 }
             ],
@@ -613,6 +982,51 @@
             ],
             "obj_id": "Q269876"
         },
+        "Q44319": {
+            "occurrences_increase": [
+                {
+                    "total": 8,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q131621"
+        },
+        "Q231693": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q20737645"
+        },
+        "Q590227": {
+            "occurrences_increase": [
+                {
+                    "total": 19,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q81589"
+        },
+        "Q297278": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q269876"
+        },
+        "Q7244169": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q20737645"
+        },
         "Q157098": {
             "occurrences_increase": [
                 {
@@ -621,15 +1035,6 @@
                 }
             ],
             "obj_id": "Q65968"
-        },
-        "Q12536": {
-            "occurrences_increase": [
-                {
-                    "total": 1707,
-                    "correct": true
-                }
-            ],
-            "obj_id": "Q4437641"
         }
     },
     "P87": {
@@ -677,6 +1082,105 @@
                 }
             ],
             "obj_id": "Q192668"
+        },
+        "Q60775008": {
+            "occurrences_increase": [
+                {
+                    "total": 4,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q48184"
+        },
+        "Q7262483": {
+            "occurrences_increase": [
+                {
+                    "total": 24,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q153579"
+        },
+        "Q1428601": {
+            "occurrences_increase": [
+                {
+                    "total": 23,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q213355"
+        },
+        "Q471240": {
+            "occurrences_increase": [
+                {
+                    "total": 16,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q51513"
+        },
+        "Q1440309": {
+            "occurrences_increase": [
+                {
+                    "total": 8,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q319261"
+        },
+        "Q4534600": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q236619"
+        },
+        "Q664500": {
+            "occurrences_increase": [
+                {
+                    "total": 14,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q154770"
+        },
+        "Q56354523": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q529925"
+        },
+        "Q1196783": {
+            "occurrences_increase": [
+                {
+                    "total": 62,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q184933"
+        },
+        "Q2164246": {
+            "occurrences_increase": [
+                {
+                    "total": 12,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q315808"
+        },
+        "Q210211": {
+            "occurrences_increase": [
+                {
+                    "total": 123,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q357301"
         }
     },
     "P105": {
@@ -751,6 +1255,123 @@
                 }
             ],
             "obj_id": "Q164280"
+        },
+        "Q3325926": {
+            "occurrences_increase": [
+                {
+                    "total": 5,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q164280"
+        },
+        "Q190115": {
+            "occurrences_increase": [
+                {
+                    "total": 27,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q38348"
+        },
+        "Q10879444": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q4886"
+        },
+        "Q273997": {
+            "occurrences_increase": [
+                {
+                    "total": 60,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q164280"
+        },
+        "Q200848": {
+            "occurrences_increase": [
+                {
+                    "total": 3,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q68947"
+        },
+        "Q425636": {
+            "occurrences_increase": [
+                {
+                    "total": 9,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q2136103"
+        },
+        "Q135051": {
+            "occurrences_increase": [
+                {
+                    "total": 61,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q2136103"
+        },
+        "Q1200941": {
+            "occurrences_increase": [
+                {
+                    "total": 7,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q38348"
+        },
+        "Q69581": {
+            "occurrences_increase": [
+                {
+                    "total": 9,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q68947"
+        },
+        "Q542987": {
+            "occurrences_increase": [
+                {
+                    "total": 719,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q2136103"
+        },
+        "Q58949": {
+            "occurrences_increase": [
+                {
+                    "total": 420,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q2136103"
+        },
+        "Q840750": {
+            "occurrences_increase": [
+                {
+                    "total": 100,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q164280"
+        },
+        "Q5559352": {
+            "occurrences_increase": [
+                {
+                    "total": 199,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q164280"
         }
     },
     "P206": {
@@ -799,14 +1420,113 @@
             ],
             "obj_id": "Q41735"
         },
-        "Q206493": {
+        "Q954281": {
             "occurrences_increase": [
                 {
-                    "total": 141,
+                    "total": 15,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q44725"
+        },
+        "Q737624": {
+            "occurrences_increase": [
+                {
+                    "total": 45,
                     "correct": true
                 }
             ],
-            "obj_id": "Q1471"
+            "obj_id": "Q1247"
+        },
+        "Q61304": {
+            "occurrences_increase": [
+                {
+                    "total": 51,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q12630"
+        },
+        "Q541157": {
+            "occurrences_increase": [
+                {
+                    "total": 4,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q13924"
+        },
+        "Q19483": {
+            "occurrences_increase": [
+                {
+                    "total": 6,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q37660"
+        },
+        "Q3138": {
+            "occurrences_increase": [
+                {
+                    "total": 197,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q1667"
+        },
+        "Q185111": {
+            "occurrences_increase": [
+                {
+                    "total": 1030,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q1247"
+        },
+        "Q62408": {
+            "occurrences_increase": [
+                {
+                    "total": 88,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q19686"
+        },
+        "Q5689": {
+            "occurrences_increase": [
+                {
+                    "total": 81,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q545"
+        },
+        "Q274388": {
+            "occurrences_increase": [
+                {
+                    "total": 93,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q37660"
+        },
+        "Q38022": {
+            "occurrences_increase": [
+                {
+                    "total": 2056,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q1497"
+        },
+        "Q385085": {
+            "occurrences_increase": [
+                {
+                    "total": 267,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q1062"
         }
     },
     "P103": {
@@ -855,95 +1575,77 @@
             ],
             "obj_id": "Q1568"
         },
-        "Q164714": {
+        "Q161089": {
             "occurrences_increase": [
                 {
-                    "total": 2477,
+                    "total": 8,
                     "correct": true
                 }
             ],
-            "obj_id": "Q9035"
+            "obj_id": "Q256"
         },
-        "Q125731": {
+        "Q313085": {
             "occurrences_increase": [
                 {
-                    "total": 80,
-                    "correct": true
-                }
-            ],
-            "obj_id": "Q9288"
-        },
-        "Q157": {
-            "occurrences_increase": [
-                {
-                    "total": 691,
-                    "correct": true
-                }
-            ],
-            "obj_id": "Q150"
-        },
-        "Q23559": {
-            "occurrences_increase": [
-                {
-                    "total": 3686,
-                    "correct": true
-                }
-            ],
-            "obj_id": "Q652"
-        },
-        "Q2754": {
-            "occurrences_increase": [
-                {
-                    "total": 65,
-                    "correct": true
-                }
-            ],
-            "obj_id": "Q9056"
-        },
-        "Q539": {
-            "occurrences_increase": [
-                {
-                    "total": 1211,
-                    "correct": true
-                }
-            ],
-            "obj_id": "Q652"
-        },
-        "Q138048": {
-            "occurrences_increase": [
-                {
-                    "total": 172,
-                    "correct": true
-                }
-            ],
-            "obj_id": "Q9176"
-        },
-        "Q21075020": {
-            "occurrences_increase": [
-                {
-                    "total": 107,
+                    "total": 1,
                     "correct": false
                 }
             ],
+            "obj_id": "Q34311"
+        },
+        "Q4177928": {
+            "occurrences_increase": [
+                {
+                    "total": 79,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q9027"
+        },
+        "Q495980": {
+            "occurrences_increase": [
+                {
+                    "total": 87,
+                    "correct": true
+                }
+            ],
             "obj_id": "Q9176"
         },
-        "Q12908": {
+        "Q383541": {
             "occurrences_increase": [
                 {
-                    "total": 75,
+                    "total": 88,
                     "correct": true
                 }
             ],
-            "obj_id": "Q9067"
+            "obj_id": "Q9027"
         },
-        "Q5593": {
+        "Q151803": {
             "occurrences_increase": [
                 {
-                    "total": 383,
+                    "total": 108,
                     "correct": true
                 }
             ],
-            "obj_id": "Q1321"
+            "obj_id": "Q7411"
+        },
+        "Q23810": {
+            "occurrences_increase": [
+                {
+                    "total": 1369,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q9027"
+        },
+        "Q3518013": {
+            "occurrences_increase": [
+                {
+                    "total": 77,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q8097"
         }
     },
     "P610": {
@@ -974,14 +1676,32 @@
             ],
             "obj_id": "Q739484"
         },
-        "Q159": {
+        "Q804": {
             "occurrences_increase": [
                 {
-                    "total": 98,
-                    "correct": true
+                    "total": 30,
+                    "correct": false
                 }
             ],
-            "obj_id": "Q43105"
+            "obj_id": "Q594726"
+        },
+        "Q970": {
+            "occurrences_increase": [
+                {
+                    "total": 17,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q527548"
+        },
+        "Q25": {
+            "occurrences_increase": [
+                {
+                    "total": 236,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q217142"
         }
     },
     "P20": {
@@ -1101,6 +1821,78 @@
                 }
             ],
             "obj_id": "Q258"
+        },
+        "Q461096": {
+            "occurrences_increase": [
+                {
+                    "total": 10,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q79"
+        },
+        "Q2226775": {
+            "occurrences_increase": [
+                {
+                    "total": 4,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q801"
+        },
+        "Q1397264": {
+            "occurrences_increase": [
+                {
+                    "total": 2,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q183"
+        },
+        "Q274568": {
+            "occurrences_increase": [
+                {
+                    "total": 7,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q235"
+        },
+        "Q1045405": {
+            "occurrences_increase": [
+                {
+                    "total": 5,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q796"
+        },
+        "Q4821913": {
+            "occurrences_increase": [
+                {
+                    "total": 22,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q836"
+        },
+        "Q707869": {
+            "occurrences_increase": [
+                {
+                    "total": 2,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q16"
+        },
+        "Q18935559": {
+            "occurrences_increase": [
+                {
+                    "total": 13,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q858"
         }
     },
     "P676": {
@@ -1158,29 +1950,101 @@
             ],
             "obj_id": "Q2831"
         },
-        "Q214430": {
+        "Q2237831": {
             "occurrences_increase": [
                 {
-                    "total": 214,
+                    "total": 17,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q47447"
+        },
+        "Q1952215": {
+            "occurrences_increase": [
+                {
+                    "total": 36,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q2599"
+        },
+        "Q891196": {
+            "occurrences_increase": [
+                {
+                    "total": 12,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q8446"
+        },
+        "Q1698590": {
+            "occurrences_increase": [
+                {
+                    "total": 26,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q1203"
+        },
+        "Q536336": {
+            "occurrences_increase": [
+                {
+                    "total": 12,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q834621"
+        },
+        "Q1933481": {
+            "occurrences_increase": [
+                {
+                    "total": 40,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q6078"
+        },
+        "Q178905": {
+            "occurrences_increase": [
+                {
+                    "total": 24,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q15869"
+        },
+        "Q566949": {
+            "occurrences_increase": [
+                {
+                    "total": 82,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q128746"
+        },
+        "Q653794": {
+            "occurrences_increase": [
+                {
+                    "total": 154,
                     "correct": true
                 }
             ],
             "obj_id": "Q392"
         },
-        "Q1573997": {
+        "Q666856": {
             "occurrences_increase": [
                 {
-                    "total": 132,
+                    "total": 102,
                     "correct": false
                 }
             ],
             "obj_id": "Q180453"
         },
-        "Q701655": {
+        "Q581952": {
             "occurrences_increase": [
                 {
-                    "total": 447,
-                    "correct": false
+                    "total": 288,
+                    "correct": true
                 }
             ],
             "obj_id": "Q5383"
@@ -1258,6 +2122,87 @@
                 }
             ],
             "obj_id": "Q337531"
+        },
+        "Q57689": {
+            "occurrences_increase": [
+                {
+                    "total": 61,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q504628"
+        },
+        "Q216266": {
+            "occurrences_increase": [
+                {
+                    "total": 3,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q161806"
+        },
+        "Q191798": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q337531"
+        },
+        "Q3502346": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q372899"
+        },
+        "Q290441": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q208242"
+        },
+        "Q443395": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q482421"
+        },
+        "Q2280893": {
+            "occurrences_increase": [
+                {
+                    "total": 12,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q166400"
+        },
+        "Q684808": {
+            "occurrences_increase": [
+                {
+                    "total": 5,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q901677"
+        },
+        "Q78931": {
+            "occurrences_increase": [
+                {
+                    "total": 22,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q44687"
         }
     },
     "P1532": {
@@ -1342,14 +2287,95 @@
             ],
             "obj_id": "Q29"
         },
-        "Q132147": {
+        "Q3526023": {
             "occurrences_increase": [
                 {
-                    "total": 359,
+                    "total": 63,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q159"
+        },
+        "Q673702": {
+            "occurrences_increase": [
+                {
+                    "total": 10,
                     "correct": false
                 }
             ],
-            "obj_id": "Q668"
+            "obj_id": "Q39"
+        },
+        "Q23759917": {
+            "occurrences_increase": [
+                {
+                    "total": 9,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q34"
+        },
+        "Q211996": {
+            "occurrences_increase": [
+                {
+                    "total": 12,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q45"
+        },
+        "Q365077": {
+            "occurrences_increase": [
+                {
+                    "total": 7,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q35"
+        },
+        "Q16648816": {
+            "occurrences_increase": [
+                {
+                    "total": 10,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q739"
+        },
+        "Q18551518": {
+            "occurrences_increase": [
+                {
+                    "total": 18,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q884"
+        },
+        "Q436987": {
+            "occurrences_increase": [
+                {
+                    "total": 14,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q739"
+        },
+        "Q313936": {
+            "occurrences_increase": [
+                {
+                    "total": 6,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q20"
+        },
+        "Q10738": {
+            "occurrences_increase": [
+                {
+                    "total": 1606,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q30"
         }
     },
     "P179": {
@@ -1433,6 +2459,105 @@
                 }
             ],
             "obj_id": "Q478360"
+        },
+        "Q3487403": {
+            "occurrences_increase": [
+                {
+                    "total": 17,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q1077"
+        },
+        "Q5048869": {
+            "occurrences_increase": [
+                {
+                    "total": 13,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q23831"
+        },
+        "Q7774125": {
+            "occurrences_increase": [
+                {
+                    "total": 5,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q23594"
+        },
+        "Q930486": {
+            "occurrences_increase": [
+                {
+                    "total": 22,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q16538"
+        },
+        "Q3029071": {
+            "occurrences_increase": [
+                {
+                    "total": 18,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q183513"
+        },
+        "Q27877347": {
+            "occurrences_increase": [
+                {
+                    "total": 4,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q17572811"
+        },
+        "Q20020608": {
+            "occurrences_increase": [
+                {
+                    "total": 7,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q1079"
+        },
+        "Q5621864": {
+            "occurrences_increase": [
+                {
+                    "total": 6,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q232737"
+        },
+        "Q4657093": {
+            "occurrences_increase": [
+                {
+                    "total": 9,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q23572"
+        },
+        "Q27877345": {
+            "occurrences_increase": [
+                {
+                    "total": 17,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q17572811"
+        },
+        "Q2406406": {
+            "occurrences_increase": [
+                {
+                    "total": 17,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q5930"
         }
     },
     "P1412": {
@@ -1535,14 +2660,113 @@
             ],
             "obj_id": "Q9610"
         },
-        "Q189575": {
+        "Q7876965": {
             "occurrences_increase": [
                 {
-                    "total": 114,
+                    "total": 21,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q8097"
+        },
+        "Q57373": {
+            "occurrences_increase": [
+                {
+                    "total": 19,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q1617"
+        },
+        "Q224033": {
+            "occurrences_increase": [
+                {
+                    "total": 25,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q9056"
+        },
+        "Q334059": {
+            "occurrences_increase": [
+                {
+                    "total": 3,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q1617"
+        },
+        "Q3631344": {
+            "occurrences_increase": [
+                {
+                    "total": 82,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q58635"
+        },
+        "Q134456": {
+            "occurrences_increase": [
+                {
+                    "total": 214,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q5287"
+        },
+        "Q8409": {
+            "occurrences_increase": [
+                {
+                    "total": 321,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q35497"
+        },
+        "Q3765059": {
+            "occurrences_increase": [
+                {
+                    "total": 163,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q8097"
+        },
+        "Q5208551": {
+            "occurrences_increase": [
+                {
+                    "total": 233,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q8097"
+        },
+        "Q615": {
+            "occurrences_increase": [
+                {
+                    "total": 74,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q1321"
+        },
+        "Q152030": {
+            "occurrences_increase": [
+                {
+                    "total": 156,
                     "correct": true
                 }
             ],
             "obj_id": "Q7913"
+        },
+        "Q3765029": {
+            "occurrences_increase": [
+                {
+                    "total": 129,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q8097"
         }
     },
     "P50": {
@@ -1600,32 +2824,149 @@
             ],
             "obj_id": "Q1512"
         },
-        "Q1142149": {
+        "Q534991": {
             "occurrences_increase": [
                 {
-                    "total": 65,
+                    "total": 10,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q892"
+        },
+        "Q2631465": {
+            "occurrences_increase": [
+                {
+                    "total": 34,
                     "correct": false
                 }
             ],
             "obj_id": "Q9711"
         },
-        "Q883305": {
+        "Q2548168": {
             "occurrences_increase": [
                 {
-                    "total": 247,
+                    "total": 16,
                     "correct": false
                 }
             ],
-            "obj_id": "Q5686"
+            "obj_id": "Q5879"
         },
-        "Q1130762": {
+        "Q7715415": {
             "occurrences_increase": [
                 {
-                    "total": 124,
+                    "total": 14,
                     "correct": false
                 }
             ],
-            "obj_id": "Q859"
+            "obj_id": "Q34743"
+        },
+        "Q1195114": {
+            "occurrences_increase": [
+                {
+                    "total": 7,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q5879"
+        },
+        "Q4742808": {
+            "occurrences_increase": [
+                {
+                    "total": 14,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q41513"
+        },
+        "Q7757110": {
+            "occurrences_increase": [
+                {
+                    "total": 8,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q9204"
+        },
+        "Q485217": {
+            "occurrences_increase": [
+                {
+                    "total": 89,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q868"
+        },
+        "Q1054239": {
+            "occurrences_increase": [
+                {
+                    "total": 212,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q868"
+        },
+        "Q15228": {
+            "occurrences_increase": [
+                {
+                    "total": 1796,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q892"
+        },
+        "Q630530": {
+            "occurrences_increase": [
+                {
+                    "total": 133,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q41513"
+        },
+        "Q649562": {
+            "occurrences_increase": [
+                {
+                    "total": 452,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q692"
+        },
+        "Q215894": {
+            "occurrences_increase": [
+                {
+                    "total": 249,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q9068"
+        },
+        "Q845889": {
+            "occurrences_increase": [
+                {
+                    "total": 114,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q35064"
+        },
+        "Q1218620": {
+            "occurrences_increase": [
+                {
+                    "total": 105,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q19185"
+        },
+        "Q615383": {
+            "occurrences_increase": [
+                {
+                    "total": 71,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q16867"
         }
     },
     "P7959": {
@@ -1674,41 +3015,176 @@
             ],
             "obj_id": "Q181862"
         },
-        "Q2347528": {
+        "Q514648": {
             "occurrences_increase": [
                 {
-                    "total": 97,
+                    "total": 30,
                     "correct": false
                 }
             ],
-            "obj_id": "Q870815"
+            "obj_id": "Q182591"
         },
-        "Q631581": {
+        "Q250115": {
             "occurrences_increase": [
                 {
-                    "total": 110,
+                    "total": 4,
                     "correct": true
-                }
-            ],
-            "obj_id": "Q178626"
-        },
-        "Q1009261": {
-            "occurrences_increase": [
-                {
-                    "total": 72,
-                    "correct": false
                 }
             ],
             "obj_id": "Q1245075"
         },
-        "Q1190487": {
+        "Q1120695": {
             "occurrences_increase": [
                 {
-                    "total": 211,
+                    "total": 6,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q3290674"
+        },
+        "Q3400769": {
+            "occurrences_increase": [
+                {
+                    "total": 2,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q731669"
+        },
+        "Q1025821": {
+            "occurrences_increase": [
+                {
+                    "total": 28,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q731669"
+        },
+        "Q1124736": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q1247390"
+        },
+        "Q748777": {
+            "occurrences_increase": [
+                {
+                    "total": 212,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q23148"
+        },
+        "Q918947": {
+            "occurrences_increase": [
+                {
+                    "total": 277,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q189592"
+        },
+        "Q805401": {
+            "occurrences_increase": [
+                {
+                    "total": 77,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q179424"
+        },
+        "Q180209": {
+            "occurrences_increase": [
+                {
+                    "total": 595,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q23148"
+        },
+        "Q990099": {
+            "occurrences_increase": [
+                {
+                    "total": 488,
                     "correct": true
                 }
             ],
             "obj_id": "Q173500"
+        },
+        "Q745989": {
+            "occurrences_increase": [
+                {
+                    "total": 950,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q173500"
+        },
+        "Q1640242": {
+            "occurrences_increase": [
+                {
+                    "total": 443,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q23346"
+        },
+        "Q241684": {
+            "occurrences_increase": [
+                {
+                    "total": 174,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q23360"
+        },
+        "Q994575": {
+            "occurrences_increase": [
+                {
+                    "total": 332,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q23326"
+        },
+        "Q990112": {
+            "occurrences_increase": [
+                {
+                    "total": 245,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q23346"
+        },
+        "Q1529978": {
+            "occurrences_increase": [
+                {
+                    "total": 136,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q1245075"
+        },
+        "Q805403": {
+            "occurrences_increase": [
+                {
+                    "total": 126,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q189592"
+        },
+        "Q1141148": {
+            "occurrences_increase": [
+                {
+                    "total": 145,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q870815"
         }
     },
     "P1303": {
@@ -1847,23 +3323,131 @@
             ],
             "obj_id": "Q80019"
         },
-        "Q192936": {
+        "Q509285": {
             "occurrences_increase": [
                 {
-                    "total": 205,
+                    "total": 7,
                     "correct": false
                 }
             ],
-            "obj_id": "Q128309"
+            "obj_id": "Q302497"
         },
-        "Q954614": {
+        "Q2038634": {
             "occurrences_increase": [
                 {
-                    "total": 109,
+                    "total": 34,
                     "correct": false
                 }
             ],
-            "obj_id": "Q8350"
+            "obj_id": "Q302497"
+        },
+        "Q4990581": {
+            "occurrences_increase": [
+                {
+                    "total": 3,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q31561"
+        },
+        "Q548428": {
+            "occurrences_increase": [
+                {
+                    "total": 35,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q191000"
+        },
+        "Q6832226": {
+            "occurrences_increase": [
+                {
+                    "total": 3,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q61285"
+        },
+        "Q433734": {
+            "occurrences_increase": [
+                {
+                    "total": 13,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q8371"
+        },
+        "Q6287369": {
+            "occurrences_increase": [
+                {
+                    "total": 17,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q191000"
+        },
+        "Q380639": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q1343007"
+        },
+        "Q13003": {
+            "occurrences_increase": [
+                {
+                    "total": 13,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q8371"
+        },
+        "Q469383": {
+            "occurrences_increase": [
+                {
+                    "total": 3,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q1684562"
+        },
+        "Q7149198": {
+            "occurrences_increase": [
+                {
+                    "total": 4,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q31561"
+        },
+        "Q6437384": {
+            "occurrences_increase": [
+                {
+                    "total": 7,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q229205"
+        },
+        "Q74032": {
+            "occurrences_increase": [
+                {
+                    "total": 158,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q258896"
+        },
+        "Q1174604": {
+            "occurrences_increase": [
+                {
+                    "total": 147,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q302497"
         }
     },
     "P115": {
@@ -1893,6 +3477,78 @@
                 }
             ],
             "obj_id": "Q401643"
+        },
+        "Q929772": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q683493"
+        },
+        "Q460724": {
+            "occurrences_increase": [
+                {
+                    "total": 15,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q2701834"
+        },
+        "Q162990": {
+            "occurrences_increase": [
+                {
+                    "total": 58,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q387157"
+        },
+        "Q18736": {
+            "occurrences_increase": [
+                {
+                    "total": 235,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q500922"
+        },
+        "Q191477": {
+            "occurrences_increase": [
+                {
+                    "total": 200,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q1067148"
+        },
+        "Q223507": {
+            "occurrences_increase": [
+                {
+                    "total": 136,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q1046135"
+        },
+        "Q19568": {
+            "occurrences_increase": [
+                {
+                    "total": 85,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q619094"
+        },
+        "Q192081": {
+            "occurrences_increase": [
+                {
+                    "total": 171,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q849027"
         }
     },
     "P7937": {
@@ -1959,10 +3615,109 @@
             ],
             "obj_id": "Q178122"
         },
-        "Q192941": {
+        "Q1459719": {
             "occurrences_increase": [
                 {
-                    "total": 875,
+                    "total": 4,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q217295"
+        },
+        "Q1124334": {
+            "occurrences_increase": [
+                {
+                    "total": 2,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q188285"
+        },
+        "Q2335785": {
+            "occurrences_increase": [
+                {
+                    "total": 18,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q8701407"
+        },
+        "Q2033442": {
+            "occurrences_increase": [
+                {
+                    "total": 3,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q217295"
+        },
+        "Q732949": {
+            "occurrences_increase": [
+                {
+                    "total": 13,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q203005"
+        },
+        "Q6529845": {
+            "occurrences_increase": [
+                {
+                    "total": 25,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q8701407"
+        },
+        "Q2117942": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q271802"
+        },
+        "Q3051034": {
+            "occurrences_increase": [
+                {
+                    "total": 12,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q893466"
+        },
+        "Q6412295": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q3046922"
+        },
+        "Q1194515": {
+            "occurrences_increase": [
+                {
+                    "total": 28,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q178122"
+        },
+        "Q153520": {
+            "occurrences_increase": [
+                {
+                    "total": 401,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q2743"
+        },
+        "Q324319": {
+            "occurrences_increase": [
+                {
+                    "total": 354,
                     "correct": true
                 }
             ],
@@ -2051,14 +3806,158 @@
             ],
             "obj_id": "Q287617"
         },
-        "Q3046048": {
+        "Q3014295": {
             "occurrences_increase": [
                 {
-                    "total": 96,
+                    "total": 7,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q1044059"
+        },
+        "Q777179": {
+            "occurrences_increase": [
+                {
+                    "total": 2,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q1044059"
+        },
+        "Q3595265": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
                     "correct": true
                 }
             ],
-            "obj_id": "Q724759"
+            "obj_id": "Q819425"
+        },
+        "Q2633139": {
+            "occurrences_increase": [
+                {
+                    "total": 5,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q229058"
+        },
+        "Q5639456": {
+            "occurrences_increase": [
+                {
+                    "total": 2,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q308439"
+        },
+        "Q1154847": {
+            "occurrences_increase": [
+                {
+                    "total": 18,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q160746"
+        },
+        "Q950970": {
+            "occurrences_increase": [
+                {
+                    "total": 6,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q936287"
+        },
+        "Q7480253": {
+            "occurrences_increase": [
+                {
+                    "total": 5,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q2283"
+        },
+        "Q7075969": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q730587"
+        },
+        "Q1416812": {
+            "occurrences_increase": [
+                {
+                    "total": 8,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q308439"
+        },
+        "Q801228": {
+            "occurrences_increase": [
+                {
+                    "total": 8,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q9322"
+        },
+        "Q2054400": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q730587"
+        },
+        "Q3987033": {
+            "occurrences_increase": [
+                {
+                    "total": 8,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q287617"
+        },
+        "Q5331102": {
+            "occurrences_increase": [
+                {
+                    "total": 3,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q12857502"
+        },
+        "Q28993": {
+            "occurrences_increase": [
+                {
+                    "total": 3016,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q81965"
+        },
+        "Q29281": {
+            "occurrences_increase": [
+                {
+                    "total": 525,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q81965"
+        },
+        "Q40984": {
+            "occurrences_increase": [
+                {
+                    "total": 286,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q2283"
         }
     },
     "P403": {
@@ -2151,6 +4050,105 @@
                 }
             ],
             "obj_id": "Q166"
+        },
+        "Q2154356": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q1247"
+        },
+        "Q666291": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q34640"
+        },
+        "Q1139679": {
+            "occurrences_increase": [
+                {
+                    "total": 12,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q12630"
+        },
+        "Q747929": {
+            "occurrences_increase": [
+                {
+                    "total": 12,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q13924"
+        },
+        "Q1084625": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q38882"
+        },
+        "Q2385642": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q166"
+        },
+        "Q765836": {
+            "occurrences_increase": [
+                {
+                    "total": 9,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q33254"
+        },
+        "Q4860645": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q171846"
+        },
+        "Q3348721": {
+            "occurrences_increase": [
+                {
+                    "total": 4,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q12630"
+        },
+        "Q2390594": {
+            "occurrences_increase": [
+                {
+                    "total": 3,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q41735"
+        },
+        "Q14087": {
+            "occurrences_increase": [
+                {
+                    "total": 20,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q13924"
         }
     },
     "P611": {
@@ -2270,6 +4268,96 @@
                 }
             ],
             "obj_id": "Q220979"
+        },
+        "Q44490": {
+            "occurrences_increase": [
+                {
+                    "total": 7,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q247132"
+        },
+        "Q316731": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q124862"
+        },
+        "Q459032": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q849726"
+        },
+        "Q1358473": {
+            "occurrences_increase": [
+                {
+                    "total": 8,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q138579"
+        },
+        "Q1336892": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q615923"
+        },
+        "Q1344575": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q692799"
+        },
+        "Q966044": {
+            "occurrences_increase": [
+                {
+                    "total": 2,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q339332"
+        },
+        "Q1019464": {
+            "occurrences_increase": [
+                {
+                    "total": 2,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q138579"
+        },
+        "Q16785": {
+            "occurrences_increase": [
+                {
+                    "total": 5,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q124862"
+        },
+        "Q44281": {
+            "occurrences_increase": [
+                {
+                    "total": 343,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q36380"
         }
     },
     "P175": {
@@ -2345,50 +4433,95 @@
             ],
             "obj_id": "Q2831"
         },
-        "Q220092": {
+        "Q24885628": {
             "occurrences_increase": [
                 {
-                    "total": 89,
+                    "total": 8,
                     "correct": false
                 }
             ],
-            "obj_id": "Q396"
+            "obj_id": "Q15935"
         },
-        "Q152873": {
+        "Q1415550": {
             "occurrences_increase": [
                 {
-                    "total": 229,
+                    "total": 54,
                     "correct": false
                 }
             ],
-            "obj_id": "Q396"
+            "obj_id": "Q1744"
         },
-        "Q208521": {
+        "Q860054": {
             "occurrences_increase": [
                 {
-                    "total": 126,
+                    "total": 44,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q5383"
+        },
+        "Q1125104": {
+            "occurrences_increase": [
+                {
+                    "total": 18,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q42455"
+        },
+        "Q2730330": {
+            "occurrences_increase": [
+                {
+                    "total": 17,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q42482"
+        },
+        "Q1997881": {
+            "occurrences_increase": [
+                {
+                    "total": 2,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q1203"
+        },
+        "Q767632": {
+            "occurrences_increase": [
+                {
+                    "total": 44,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q26876"
+        },
+        "Q129684": {
+            "occurrences_increase": [
+                {
+                    "total": 123,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q162202"
+        },
+        "Q17319538": {
+            "occurrences_increase": [
+                {
+                    "total": 68,
                     "correct": false
                 }
             ],
             "obj_id": "Q2306"
         },
-        "Q2418659": {
+        "Q547624": {
             "occurrences_increase": [
                 {
-                    "total": 97,
+                    "total": 130,
                     "correct": false
                 }
             ],
-            "obj_id": "Q11036"
-        },
-        "Q1046717": {
-            "occurrences_increase": [
-                {
-                    "total": 111,
-                    "correct": false
-                }
-            ],
-            "obj_id": "Q11036"
+            "obj_id": "Q15935"
         }
     },
     "P177": {
@@ -2454,6 +4587,114 @@
                 }
             ],
             "obj_id": "Q19686"
+        },
+        "Q3566417": {
+            "occurrences_increase": [
+                {
+                    "total": 2,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q131574"
+        },
+        "Q337830": {
+            "occurrences_increase": [
+                {
+                    "total": 3,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q269710"
+        },
+        "Q24993510": {
+            "occurrences_increase": [
+                {
+                    "total": 3,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q19714"
+        },
+        "Q1324578": {
+            "occurrences_increase": [
+                {
+                    "total": 24,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q19686"
+        },
+        "Q4883919": {
+            "occurrences_increase": [
+                {
+                    "total": 5,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q5419"
+        },
+        "Q290355": {
+            "occurrences_increase": [
+                {
+                    "total": 9,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q1471"
+        },
+        "Q3396470": {
+            "occurrences_increase": [
+                {
+                    "total": 27,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q143762"
+        },
+        "Q13528033": {
+            "occurrences_increase": [
+                {
+                    "total": 9,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q19714"
+        },
+        "Q5150981": {
+            "occurrences_increase": [
+                {
+                    "total": 2,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q4915"
+        },
+        "Q2008430": {
+            "occurrences_increase": [
+                {
+                    "total": 3,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q269710"
+        },
+        "Q22059035": {
+            "occurrences_increase": [
+                {
+                    "total": 8,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q4915"
+        },
+        "Q125821": {
+            "occurrences_increase": [
+                {
+                    "total": 144,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q3140"
         }
     },
     "P27": {
@@ -2502,14 +4743,140 @@
             ],
             "obj_id": "Q739"
         },
-        "Q315633": {
+        "Q254122": {
             "occurrences_increase": [
                 {
-                    "total": 136,
+                    "total": 39,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q843"
+        },
+        "Q296222": {
+            "occurrences_increase": [
+                {
+                    "total": 46,
                     "correct": false
                 }
             ],
-            "obj_id": "Q96"
+            "obj_id": "Q298"
+        },
+        "Q211151": {
+            "occurrences_increase": [
+                {
+                    "total": 28,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q117"
+        },
+        "Q312164": {
+            "occurrences_increase": [
+                {
+                    "total": 15,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q77"
+        },
+        "Q172775": {
+            "occurrences_increase": [
+                {
+                    "total": 14,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q258"
+        },
+        "Q5642345": {
+            "occurrences_increase": [
+                {
+                    "total": 92,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q334"
+        },
+        "Q313868": {
+            "occurrences_increase": [
+                {
+                    "total": 91,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q1033"
+        },
+        "Q357984": {
+            "occurrences_increase": [
+                {
+                    "total": 78,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q31"
+        },
+        "Q23434": {
+            "occurrences_increase": [
+                {
+                    "total": 1168,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q30"
+        },
+        "Q312015": {
+            "occurrences_increase": [
+                {
+                    "total": 206,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q41"
+        },
+        "Q23481": {
+            "occurrences_increase": [
+                {
+                    "total": 87,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q39"
+        },
+        "Q184351": {
+            "occurrences_increase": [
+                {
+                    "total": 105,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q801"
+        },
+        "Q105428": {
+            "occurrences_increase": [
+                {
+                    "total": 78,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q39"
+        },
+        "Q319346": {
+            "occurrences_increase": [
+                {
+                    "total": 73,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q833"
+        },
+        "Q9960": {
+            "occurrences_increase": [
+                {
+                    "total": 4955,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q30"
         },
         "Q125133": {
             "occurrences_increase": [
@@ -2520,50 +4887,32 @@
             ],
             "obj_id": "Q298"
         },
-        "Q52985": {
+        "Q187413": {
             "occurrences_increase": [
                 {
-                    "total": 210,
+                    "total": 543,
                     "correct": true
                 }
             ],
-            "obj_id": "Q31"
+            "obj_id": "Q739"
         },
-        "Q306": {
+        "Q214473": {
             "occurrences_increase": [
                 {
-                    "total": 239,
+                    "total": 68,
                     "correct": false
                 }
             ],
-            "obj_id": "Q298"
+            "obj_id": "Q258"
         },
-        "Q180280": {
+        "Q151976": {
             "occurrences_increase": [
                 {
-                    "total": 88,
+                    "total": 174,
                     "correct": true
                 }
             ],
-            "obj_id": "Q43"
-        },
-        "Q244338": {
-            "occurrences_increase": [
-                {
-                    "total": 109,
-                    "correct": true
-                }
-            ],
-            "obj_id": "Q843"
-        },
-        "Q128604": {
-            "occurrences_increase": [
-                {
-                    "total": 352,
-                    "correct": true
-                }
-            ],
-            "obj_id": "Q16"
+            "obj_id": "Q41"
         }
     },
     "P57": {
@@ -2611,6 +4960,141 @@
                 }
             ],
             "obj_id": "Q51114"
+        },
+        "Q918111": {
+            "occurrences_increase": [
+                {
+                    "total": 13,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q7546"
+        },
+        "Q1068968": {
+            "occurrences_increase": [
+                {
+                    "total": 14,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q882"
+        },
+        "Q1002100": {
+            "occurrences_increase": [
+                {
+                    "total": 32,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q51566"
+        },
+        "Q2534007": {
+            "occurrences_increase": [
+                {
+                    "total": 39,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q51566"
+        },
+        "Q179215": {
+            "occurrences_increase": [
+                {
+                    "total": 42,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q8877"
+        },
+        "Q698111": {
+            "occurrences_increase": [
+                {
+                    "total": 52,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q44131"
+        },
+        "Q898213": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q44414"
+        },
+        "Q2698650": {
+            "occurrences_increase": [
+                {
+                    "total": 5,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q95111"
+        },
+        "Q3822789": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q318292"
+        },
+        "Q1750424": {
+            "occurrences_increase": [
+                {
+                    "total": 5,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q290962"
+        },
+        "Q1258295": {
+            "occurrences_increase": [
+                {
+                    "total": 4,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q103788"
+        },
+        "Q271281": {
+            "occurrences_increase": [
+                {
+                    "total": 58,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q8877"
+        },
+        "Q2032599": {
+            "occurrences_increase": [
+                {
+                    "total": 3,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q51491"
+        },
+        "Q45602": {
+            "occurrences_increase": [
+                {
+                    "total": 82,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q882"
+        },
+        "Q220780": {
+            "occurrences_increase": [
+                {
+                    "total": 70,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q41148"
         }
     },
     "P171": {
@@ -2686,23 +5170,122 @@
             ],
             "obj_id": "Q200989"
         },
-        "Q748220": {
+        "Q7782990": {
             "occurrences_increase": [
                 {
-                    "total": 174,
+                    "total": 1,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q25324"
+        },
+        "Q157180": {
+            "occurrences_increase": [
+                {
+                    "total": 43,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q46299"
+        },
+        "Q4035873": {
+            "occurrences_increase": [
+                {
+                    "total": 28,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q7386"
+        },
+        "Q1088873": {
+            "occurrences_increase": [
+                {
+                    "total": 24,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q35047"
+        },
+        "Q255035": {
+            "occurrences_increase": [
+                {
+                    "total": 8,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q25510"
+        },
+        "Q134522": {
+            "occurrences_increase": [
+                {
+                    "total": 27,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q15872"
+        },
+        "Q1207000": {
+            "occurrences_increase": [
+                {
+                    "total": 19,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q7386"
+        },
+        "Q211601": {
+            "occurrences_increase": [
+                {
+                    "total": 138,
                     "correct": false
                 }
             ],
             "obj_id": "Q25341"
         },
-        "Q6408": {
+        "Q1137291": {
             "occurrences_increase": [
                 {
-                    "total": 459,
+                    "total": 261,
                     "correct": false
                 }
             ],
-            "obj_id": "Q53636"
+            "obj_id": "Q26623"
+        },
+        "Q10642": {
+            "occurrences_increase": [
+                {
+                    "total": 68,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q1357"
+        },
+        "Q1060265": {
+            "occurrences_increase": [
+                {
+                    "total": 414,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q7386"
+        },
+        "Q869404": {
+            "occurrences_increase": [
+                {
+                    "total": 106,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q26623"
+        },
+        "Q688188": {
+            "occurrences_increase": [
+                {
+                    "total": 100,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q26623"
         }
     },
     "P19": {
@@ -2814,6 +5397,87 @@
             ],
             "obj_id": "Q31"
         },
+        "Q4946251": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q822"
+        },
+        "Q47086605": {
+            "occurrences_increase": [
+                {
+                    "total": 5,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q837"
+        },
+        "Q4922451": {
+            "occurrences_increase": [
+                {
+                    "total": 10,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q869"
+        },
+        "Q465200": {
+            "occurrences_increase": [
+                {
+                    "total": 4,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q664"
+        },
+        "Q1364913": {
+            "occurrences_increase": [
+                {
+                    "total": 13,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q189"
+        },
+        "Q17045813": {
+            "occurrences_increase": [
+                {
+                    "total": 3,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q117"
+        },
+        "Q26255809": {
+            "occurrences_increase": [
+                {
+                    "total": 3,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q39"
+        },
+        "Q536837": {
+            "occurrences_increase": [
+                {
+                    "total": 2,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q79"
+        },
+        "Q19649388": {
+            "occurrences_increase": [
+                {
+                    "total": 8,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q889"
+        },
         "Q43600": {
             "occurrences_increase": [
                 {
@@ -2905,6 +5569,105 @@
                 }
             ],
             "obj_id": "Q740308"
+        },
+        "Q692100": {
+            "occurrences_increase": [
+                {
+                    "total": 2,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q165980"
+        },
+        "Q1835": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q740308"
+        },
+        "Q64088": {
+            "occurrences_increase": [
+                {
+                    "total": 13,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q312"
+        },
+        "Q1064777": {
+            "occurrences_increase": [
+                {
+                    "total": 6,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q131252"
+        },
+        "Q44274": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q165980"
+        },
+        "Q26923187": {
+            "occurrences_increase": [
+                {
+                    "total": 14,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q48340"
+        },
+        "Q216726": {
+            "occurrences_increase": [
+                {
+                    "total": 25,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q23548"
+        },
+        "Q705525": {
+            "occurrences_increase": [
+                {
+                    "total": 12,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q41506"
+        },
+        "Q128633": {
+            "occurrences_increase": [
+                {
+                    "total": 12,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q13371"
+        },
+        "Q347461": {
+            "occurrences_increase": [
+                {
+                    "total": 4,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q49108"
+        },
+        "Q2555754": {
+            "occurrences_increase": [
+                {
+                    "total": 149,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q37230"
         }
     },
     "P190": {
@@ -2943,6 +5706,15 @@
                 }
             ],
             "obj_id": "Q16567"
+        },
+        "Q888971": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q226"
         }
     },
     "P98": {
@@ -2964,14 +5736,32 @@
             ],
             "obj_id": "Q39829"
         },
-        "Q150820": {
+        "Q564423": {
             "occurrences_increase": [
                 {
-                    "total": 424,
+                    "total": 0,
                     "correct": false
                 }
             ],
-            "obj_id": "Q194280"
+            "obj_id": "Q60815"
+        },
+        "Q3289325": {
+            "occurrences_increase": [
+                {
+                    "total": 2,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q213562"
+        },
+        "Q351179": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q123238"
         }
     },
     "P344": {
@@ -3028,6 +5818,132 @@
                 }
             ],
             "obj_id": "Q497075"
+        },
+        "Q753141": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q312290"
+        },
+        "Q548303": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q750718"
+        },
+        "Q1164779": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q279100"
+        },
+        "Q735383": {
+            "occurrences_increase": [
+                {
+                    "total": 3,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q750718"
+        },
+        "Q901217": {
+            "occurrences_increase": [
+                {
+                    "total": 2,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q312290"
+        },
+        "Q470916": {
+            "occurrences_increase": [
+                {
+                    "total": 2,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q62547"
+        },
+        "Q278550": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q750718"
+        },
+        "Q177374": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q1551917"
+        },
+        "Q318766": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q365230"
+        },
+        "Q478780": {
+            "occurrences_increase": [
+                {
+                    "total": 2,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q1366385"
+        },
+        "Q41483": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q1567717"
+        },
+        "Q3211562": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q365230"
+        },
+        "Q386164": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q349588"
+        },
+        "Q651722": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q62547"
         }
     },
     "P6886": {
@@ -3067,59 +5983,86 @@
             ],
             "obj_id": "Q9067"
         },
-        "Q107000": {
+        "Q380234": {
             "occurrences_increase": [
                 {
-                    "total": 293,
-                    "correct": false
-                }
-            ],
-            "obj_id": "Q1617"
-        },
-        "Q9575": {
-            "occurrences_increase": [
-                {
-                    "total": 358,
+                    "total": 8,
                     "correct": true
                 }
             ],
-            "obj_id": "Q1568"
+            "obj_id": "Q11059"
         },
-        "Q55400": {
+        "Q2355413": {
             "occurrences_increase": [
                 {
-                    "total": 179,
+                    "total": 33,
                     "correct": true
                 }
             ],
-            "obj_id": "Q5287"
+            "obj_id": "Q36236"
         },
-        "Q121235": {
+        "Q2075562": {
             "occurrences_increase": [
                 {
-                    "total": 72,
-                    "correct": false
+                    "total": 28,
+                    "correct": true
                 }
             ],
             "obj_id": "Q8097"
         },
-        "Q6240": {
+        "Q5246375": {
             "occurrences_increase": [
                 {
-                    "total": 426,
+                    "total": 40,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q33673"
+        },
+        "Q3632609": {
+            "occurrences_increase": [
+                {
+                    "total": 8,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q1571"
+        },
+        "Q1413": {
+            "occurrences_increase": [
+                {
+                    "total": 301,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q397"
+        },
+        "Q400678": {
+            "occurrences_increase": [
+                {
+                    "total": 68,
                     "correct": true
                 }
             ],
             "obj_id": "Q9168"
         },
-        "Q146183": {
+        "Q680": {
             "occurrences_increase": [
                 {
-                    "total": 244,
+                    "total": 70,
                     "correct": true
                 }
             ],
             "obj_id": "Q652"
+        },
+        "Q9235": {
+            "occurrences_increase": [
+                {
+                    "total": 537,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q188"
         }
     },
     "P69": {
@@ -3258,14 +6201,86 @@
             ],
             "obj_id": "Q160302"
         },
-        "Q679861": {
+        "Q512382": {
             "occurrences_increase": [
                 {
-                    "total": 137,
+                    "total": 1,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q21578"
+        },
+        "Q723014": {
+            "occurrences_increase": [
+                {
+                    "total": 10,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q49114"
+        },
+        "Q5598": {
+            "occurrences_increase": [
+                {
+                    "total": 3,
                     "correct": true
                 }
             ],
-            "obj_id": "Q160302"
+            "obj_id": "Q156598"
+        },
+        "Q287316": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q223429"
+        },
+        "Q436002": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q503473"
+        },
+        "Q538532": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q34433"
+        },
+        "Q234428": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q486156"
+        },
+        "Q218575": {
+            "occurrences_increase": [
+                {
+                    "total": 12,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q13371"
+        },
+        "Q503095": {
+            "occurrences_increase": [
+                {
+                    "total": 8,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q49114"
         }
     },
     "P449": {
@@ -3350,19 +6365,118 @@
             ],
             "obj_id": "Q333424"
         },
-        "Q18790": {
+        "Q61981835": {
             "occurrences_increase": [
                 {
-                    "total": 97,
-                    "correct": true
+                    "total": 7,
+                    "correct": false
                 }
             ],
-            "obj_id": "Q154958"
+            "obj_id": "Q333424"
         },
-        "Q23614": {
+        "Q55012468": {
             "occurrences_increase": [
                 {
-                    "total": 87,
+                    "total": 22,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q1630304"
+        },
+        "Q16911674": {
+            "occurrences_increase": [
+                {
+                    "total": 33,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q212252"
+        },
+        "Q749673": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q131439"
+        },
+        "Q27670382": {
+            "occurrences_increase": [
+                {
+                    "total": 8,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q213097"
+        },
+        "Q16913682": {
+            "occurrences_increase": [
+                {
+                    "total": 57,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q212252"
+        },
+        "Q55632932": {
+            "occurrences_increase": [
+                {
+                    "total": 123,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q907311"
+        },
+        "Q1050603": {
+            "occurrences_increase": [
+                {
+                    "total": 199,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q23633"
+        },
+        "Q7847400": {
+            "occurrences_increase": [
+                {
+                    "total": 160,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q23633"
+        },
+        "Q217250": {
+            "occurrences_increase": [
+                {
+                    "total": 152,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q178837"
+        },
+        "Q824192": {
+            "occurrences_increase": [
+                {
+                    "total": 282,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q131439"
+        },
+        "Q232737": {
+            "occurrences_increase": [
+                {
+                    "total": 834,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q294660"
+        },
+        "Q326731": {
+            "occurrences_increase": [
+                {
+                    "total": 140,
                     "correct": false
                 }
             ],
@@ -3433,14 +6547,86 @@
             ],
             "obj_id": "Q15935"
         },
-        "Q547624": {
+        "Q30598066": {
             "occurrences_increase": [
                 {
-                    "total": 130,
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q14313"
+        },
+        "Q1982928": {
+            "occurrences_increase": [
+                {
+                    "total": 2,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q569003"
+        },
+        "Q1783363": {
+            "occurrences_increase": [
+                {
+                    "total": 12,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q165467"
+        },
+        "Q934211": {
+            "occurrences_increase": [
+                {
+                    "total": 8,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q569003"
+        },
+        "Q845040": {
+            "occurrences_increase": [
+                {
+                    "total": 101,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q714"
+        },
+        "Q2628090": {
+            "occurrences_increase": [
+                {
+                    "total": 90,
                     "correct": false
                 }
             ],
             "obj_id": "Q15935"
+        },
+        "Q14654427": {
+            "occurrences_increase": [
+                {
+                    "total": 130,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q5608"
+        },
+        "Q288437": {
+            "occurrences_increase": [
+                {
+                    "total": 124,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q5383"
+        },
+        "Q1137622": {
+            "occurrences_increase": [
+                {
+                    "total": 92,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q1744"
         }
     },
     "P2632": {
@@ -3506,6 +6692,105 @@
                 }
             ],
             "obj_id": "Q819159"
+        },
+        "Q315600": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q318861"
+        },
+        "Q76664": {
+            "occurrences_increase": [
+                {
+                    "total": 2,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q152658"
+        },
+        "Q219946": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q323420"
+        },
+        "Q334302": {
+            "occurrences_increase": [
+                {
+                    "total": 7,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q443620"
+        },
+        "Q12017742": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q318861"
+        },
+        "Q3608072": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q323420"
+        },
+        "Q7528593": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q1427716"
+        },
+        "Q828105": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q152658"
+        },
+        "Q121885": {
+            "occurrences_increase": [
+                {
+                    "total": 6,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q192493"
+        },
+        "Q1396109": {
+            "occurrences_increase": [
+                {
+                    "total": 16,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q192493"
+        },
+        "Q7207": {
+            "occurrences_increase": [
+                {
+                    "total": 149,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q62378"
         }
     },
     "P641": {
@@ -3554,6 +6839,69 @@
             ],
             "obj_id": "Q120931"
         },
+        "Q82652": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q5386"
+        },
+        "Q1844358": {
+            "occurrences_increase": [
+                {
+                    "total": 27,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q83462"
+        },
+        "Q506204": {
+            "occurrences_increase": [
+                {
+                    "total": 19,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q124100"
+        },
+        "Q44349": {
+            "occurrences_increase": [
+                {
+                    "total": 29,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q131359"
+        },
+        "Q236537": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q4543"
+        },
+        "Q554549": {
+            "occurrences_increase": [
+                {
+                    "total": 12,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q83462"
+        },
+        "Q10993": {
+            "occurrences_increase": [
+                {
+                    "total": 617,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q5377"
+        },
         "Q723336": {
             "occurrences_increase": [
                 {
@@ -3562,6 +6910,33 @@
                 }
             ],
             "obj_id": "Q187916"
+        },
+        "Q483244": {
+            "occurrences_increase": [
+                {
+                    "total": 103,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q7291"
+        },
+        "Q612758": {
+            "occurrences_increase": [
+                {
+                    "total": 230,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q187916"
+        },
+        "Q334634": {
+            "occurrences_increase": [
+                {
+                    "total": 8901,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q5369"
         }
     },
     "P413": {
@@ -3628,41 +7003,149 @@
             ],
             "obj_id": "Q1153176"
         },
-        "Q14027": {
+        "Q471841": {
             "occurrences_increase": [
                 {
-                    "total": 242,
+                    "total": 55,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q528145"
+        },
+        "Q362872": {
+            "occurrences_increase": [
+                {
+                    "total": 2,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q308879"
+        },
+        "Q455117": {
+            "occurrences_increase": [
+                {
+                    "total": 17,
                     "correct": true
                 }
             ],
-            "obj_id": "Q622747"
+            "obj_id": "Q1149560"
         },
-        "Q2859108": {
+        "Q641569": {
             "occurrences_increase": [
                 {
-                    "total": 67,
+                    "total": 48,
                     "correct": false
                 }
             ],
             "obj_id": "Q869161"
         },
-        "Q148726": {
+        "Q2699194": {
             "occurrences_increase": [
                 {
-                    "total": 66,
+                    "total": 6,
                     "correct": false
                 }
             ],
-            "obj_id": "Q1326154"
+            "obj_id": "Q1149868"
         },
-        "Q16729768": {
+        "Q3014492": {
             "occurrences_increase": [
                 {
-                    "total": 72,
+                    "total": 46,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q1368195"
+        },
+        "Q1151501": {
+            "occurrences_increase": [
+                {
+                    "total": 22,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q2550304"
+        },
+        "Q726226": {
+            "occurrences_increase": [
+                {
+                    "total": 7,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q869161"
+        },
+        "Q345004": {
+            "occurrences_increase": [
+                {
+                    "total": 16,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q5059480"
+        },
+        "Q1486575": {
+            "occurrences_increase": [
+                {
+                    "total": 11,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q1368195"
+        },
+        "Q213512": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
                     "correct": false
                 }
             ],
             "obj_id": "Q912985"
+        },
+        "Q127494": {
+            "occurrences_increase": [
+                {
+                    "total": 93,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q1143358"
+        },
+        "Q1523516": {
+            "occurrences_increase": [
+                {
+                    "total": 75,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q912985"
+        },
+        "Q1374970": {
+            "occurrences_increase": [
+                {
+                    "total": 107,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q912985"
+        },
+        "Q731168": {
+            "occurrences_increase": [
+                {
+                    "total": 98,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q1143358"
+        },
+        "Q150268": {
+            "occurrences_increase": [
+                {
+                    "total": 70,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q201330"
         }
     },
     "P6": {
@@ -3693,23 +7176,77 @@
             ],
             "obj_id": "Q28650390"
         },
-        "Q574": {
+        "Q71234": {
             "occurrences_increase": [
                 {
-                    "total": 68,
-                    "correct": false
-                }
-            ],
-            "obj_id": "Q57519"
-        },
-        "Q4426244": {
-            "occurrences_increase": [
-                {
-                    "total": 128,
+                    "total": 24,
                     "correct": true
                 }
             ],
-            "obj_id": "Q1394"
+            "obj_id": "Q152346"
+        },
+        "Q921": {
+            "occurrences_increase": [
+                {
+                    "total": 479,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q57327"
+        },
+        "Q252": {
+            "occurrences_increase": [
+                {
+                    "total": 522,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q3318231"
+        },
+        "Q258": {
+            "occurrences_increase": [
+                {
+                    "total": 237,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q1148669"
+        },
+        "Q22": {
+            "occurrences_increase": [
+                {
+                    "total": 462,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q467112"
+        },
+        "Q1005": {
+            "occurrences_increase": [
+                {
+                    "total": 90,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q27917049"
+        },
+        "Q649": {
+            "occurrences_increase": [
+                {
+                    "total": 106,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q319497"
+        },
+        "Q334": {
+            "occurrences_increase": [
+                {
+                    "total": 394,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q57643"
         }
     },
     "P291": {
@@ -3821,6 +7358,69 @@
             ],
             "obj_id": "Q17"
         },
+        "Q686091": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q38"
+        },
+        "Q1022166": {
+            "occurrences_increase": [
+                {
+                    "total": 2,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q252"
+        },
+        "Q3282344": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q96"
+        },
+        "Q1032190": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q38"
+        },
+        "Q26059": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q33"
+        },
+        "Q1824576": {
+            "occurrences_increase": [
+                {
+                    "total": 4,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q16"
+        },
+        "Q813031": {
+            "occurrences_increase": [
+                {
+                    "total": 314,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q17"
+        },
         "Q15830912": {
             "occurrences_increase": [
                 {
@@ -3829,6 +7429,15 @@
                 }
             ],
             "obj_id": "Q34"
+        },
+        "Q1043104": {
+            "occurrences_increase": [
+                {
+                    "total": 109,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q142"
         }
     },
     "P37": {
@@ -3859,23 +7468,50 @@
             ],
             "obj_id": "Q1186896"
         },
-        "Q163798": {
+        "Q680997": {
             "occurrences_increase": [
                 {
-                    "total": 508,
-                    "correct": true
-                }
-            ],
-            "obj_id": "Q36236"
-        },
-        "Q1355": {
-            "occurrences_increase": [
-                {
-                    "total": 1145,
+                    "total": 0,
                     "correct": false
                 }
             ],
-            "obj_id": "Q33673"
+            "obj_id": "Q747537"
+        },
+        "Q466551": {
+            "occurrences_increase": [
+                {
+                    "total": 72,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q13218"
+        },
+        "Q902": {
+            "occurrences_increase": [
+                {
+                    "total": 3733,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q9610"
+        },
+        "Q102679": {
+            "occurrences_increase": [
+                {
+                    "total": 69,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q535958"
+        },
+        "Q38": {
+            "occurrences_increase": [
+                {
+                    "total": 70856,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q652"
         }
     },
     "P272": {
@@ -3896,6 +7532,96 @@
                 }
             ],
             "obj_id": "Q500088"
+        },
+        "Q911775": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q465449"
+        },
+        "Q487978": {
+            "occurrences_increase": [
+                {
+                    "total": 4,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q79202"
+        },
+        "Q19626781": {
+            "occurrences_increase": [
+                {
+                    "total": 5,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q652390"
+        },
+        "Q908577": {
+            "occurrences_increase": [
+                {
+                    "total": 8,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q287218"
+        },
+        "Q1746750": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q622848"
+        },
+        "Q17075453": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q7667850"
+        },
+        "Q743258": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q465449"
+        },
+        "Q7845294": {
+            "occurrences_increase": [
+                {
+                    "total": 79,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q500088"
+        },
+        "Q189505": {
+            "occurrences_increase": [
+                {
+                    "total": 76,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q168383"
+        },
+        "Q132863": {
+            "occurrences_increase": [
+                {
+                    "total": 205,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q127552"
         }
     },
     "P170": {
@@ -3961,6 +7687,114 @@
                 }
             ],
             "obj_id": "Q181900"
+        },
+        "Q646166": {
+            "occurrences_increase": [
+                {
+                    "total": 4,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q43994"
+        },
+        "Q325267": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q5598"
+        },
+        "Q1783187": {
+            "occurrences_increase": [
+                {
+                    "total": 22,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q5686"
+        },
+        "Q1923232": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q7836"
+        },
+        "Q1982051": {
+            "occurrences_increase": [
+                {
+                    "total": 6,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q181900"
+        },
+        "Q1215982": {
+            "occurrences_increase": [
+                {
+                    "total": 21,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q35064"
+        },
+        "Q206818": {
+            "occurrences_increase": [
+                {
+                    "total": 22,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q892"
+        },
+        "Q2252345": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q5598"
+        },
+        "Q712548": {
+            "occurrences_increase": [
+                {
+                    "total": 25,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q34660"
+        },
+        "Q1503373": {
+            "occurrences_increase": [
+                {
+                    "total": 3,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q43994"
+        },
+        "Q2528145": {
+            "occurrences_increase": [
+                {
+                    "total": 5,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q47551"
+        },
+        "Q5232561": {
+            "occurrences_increase": [
+                {
+                    "total": 280,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q5686"
         }
     },
     "P131": {
@@ -4000,77 +7834,95 @@
             ],
             "obj_id": "Q79"
         },
-        "Q2012583": {
+        "Q2291560": {
             "occurrences_increase": [
                 {
-                    "total": 119,
+                    "total": 13,
                     "correct": true
                 }
             ],
-            "obj_id": "Q219"
+            "obj_id": "Q237"
         },
-        "Q2012589": {
+        "Q120730": {
             "occurrences_increase": [
                 {
-                    "total": 71,
+                    "total": 6170,
                     "correct": true
                 }
             ],
-            "obj_id": "Q219"
+            "obj_id": "Q17"
         },
-        "Q1061076": {
+        "Q178861": {
             "occurrences_increase": [
                 {
-                    "total": 90,
+                    "total": 308,
                     "correct": true
                 }
             ],
-            "obj_id": "Q403"
+            "obj_id": "Q218"
         },
-        "Q1456": {
+        "Q58146": {
             "occurrences_increase": [
                 {
-                    "total": 22953,
+                    "total": 255,
                     "correct": true
                 }
             ],
-            "obj_id": "Q30"
+            "obj_id": "Q224"
         },
-        "Q41283": {
+        "Q191604": {
             "occurrences_increase": [
                 {
-                    "total": 1270,
+                    "total": 228,
                     "correct": true
                 }
             ],
-            "obj_id": "Q884"
+            "obj_id": "Q28"
         },
-        "Q2336399": {
+        "Q231331": {
             "occurrences_increase": [
                 {
-                    "total": 414,
+                    "total": 822,
                     "correct": true
                 }
             ],
-            "obj_id": "Q843"
+            "obj_id": "Q262"
         },
-        "Q272747": {
+        "Q183036": {
             "occurrences_increase": [
                 {
-                    "total": 80,
+                    "total": 93,
                     "correct": true
                 }
             ],
-            "obj_id": "Q739"
+            "obj_id": "Q889"
         },
-        "Q5094": {
+        "Q1823": {
             "occurrences_increase": [
                 {
-                    "total": 235,
+                    "total": 1135,
                     "correct": true
                 }
             ],
             "obj_id": "Q252"
+        },
+        "Q161808": {
+            "occurrences_increase": [
+                {
+                    "total": 424,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q212"
+        },
+        "Q1527": {
+            "occurrences_increase": [
+                {
+                    "total": 33130,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q30"
         }
     },
     "P26": {
@@ -4100,6 +7952,33 @@
                 }
             ],
             "obj_id": "Q9215"
+        },
+        "Q255809": {
+            "occurrences_increase": [
+                {
+                    "total": 38,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q8474"
+        },
+        "Q717669": {
+            "occurrences_increase": [
+                {
+                    "total": 4,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q36970"
+        },
+        "Q404341": {
+            "occurrences_increase": [
+                {
+                    "total": 9,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q36949"
         },
         "Q17132": {
             "occurrences_increase": [
@@ -4138,6 +8017,96 @@
                 }
             ],
             "obj_id": "Q133001"
+        },
+        "Q316987": {
+            "occurrences_increase": [
+                {
+                    "total": 10,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q57373"
+        },
+        "Q448983": {
+            "occurrences_increase": [
+                {
+                    "total": 19,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q14441"
+        },
+        "Q4793115": {
+            "occurrences_increase": [
+                {
+                    "total": 2,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q57385"
+        },
+        "Q140001": {
+            "occurrences_increase": [
+                {
+                    "total": 47,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q40901"
+        },
+        "Q312895": {
+            "occurrences_increase": [
+                {
+                    "total": 7,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q102331"
+        },
+        "Q26536": {
+            "occurrences_increase": [
+                {
+                    "total": 13,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q503137"
+        },
+        "Q118422": {
+            "occurrences_increase": [
+                {
+                    "total": 5,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q1817"
+        },
+        "Q3722901": {
+            "occurrences_increase": [
+                {
+                    "total": 10,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q1427"
+        },
+        "Q459441": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q168691"
+        },
+        "Q20029978": {
+            "occurrences_increase": [
+                {
+                    "total": 141,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q29564107"
         }
     },
     "P176": {
@@ -4185,6 +8154,87 @@
                 }
             ],
             "obj_id": "Q181114"
+        },
+        "Q238461": {
+            "occurrences_increase": [
+                {
+                    "total": 21,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q747353"
+        },
+        "Q2558622": {
+            "occurrences_increase": [
+                {
+                    "total": 20,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q66"
+        },
+        "Q619002": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q181114"
+        },
+        "Q5323449": {
+            "occurrences_increase": [
+                {
+                    "total": 4,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q568501"
+        },
+        "Q210349": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q1227511"
+        },
+        "Q420929": {
+            "occurrences_increase": [
+                {
+                    "total": 14,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q81965"
+        },
+        "Q521076": {
+            "occurrences_increase": [
+                {
+                    "total": 2,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q181114"
+        },
+        "Q214314": {
+            "occurrences_increase": [
+                {
+                    "total": 1070,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q248"
+        },
+        "Q1187536": {
+            "occurrences_increase": [
+                {
+                    "total": 129,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q7240"
         }
     },
     "P1441": {
@@ -4215,23 +8265,86 @@
             ],
             "obj_id": "Q945030"
         },
-        "Q844904": {
+        "Q27805693": {
             "occurrences_increase": [
                 {
-                    "total": 137,
+                    "total": 7,
                     "correct": false
                 }
             ],
-            "obj_id": "Q622435"
+            "obj_id": "Q82729"
         },
-        "Q51333": {
+        "Q6024816": {
             "occurrences_increase": [
                 {
-                    "total": 74,
+                    "total": 0,
                     "correct": false
                 }
             ],
-            "obj_id": "Q23567"
+            "obj_id": "Q1324189"
+        },
+        "Q1588811": {
+            "occurrences_increase": [
+                {
+                    "total": 16,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q849627"
+        },
+        "Q12327639": {
+            "occurrences_increase": [
+                {
+                    "total": 7,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q5930"
+        },
+        "Q2892336": {
+            "occurrences_increase": [
+                {
+                    "total": 47,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q34316"
+        },
+        "Q2048657": {
+            "occurrences_increase": [
+                {
+                    "total": 22,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q288035"
+        },
+        "Q19881110": {
+            "occurrences_increase": [
+                {
+                    "total": 5,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q232737"
+        },
+        "Q5046216": {
+            "occurrences_increase": [
+                {
+                    "total": 11,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q185059"
+        },
+        "Q890529": {
+            "occurrences_increase": [
+                {
+                    "total": 95,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q8276"
         }
     },
     "P185": {
@@ -4279,6 +8392,15 @@
                 }
             ],
             "obj_id": "Q186391"
+        },
+        "Q247486": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q906529"
         }
     },
     "P364": {
@@ -4335,6 +8457,114 @@
                 }
             ],
             "obj_id": "Q9610"
+        },
+        "Q17486221": {
+            "occurrences_increase": [
+                {
+                    "total": 8,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q5137"
+        },
+        "Q3073772": {
+            "occurrences_increase": [
+                {
+                    "total": 11,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q33673"
+        },
+        "Q626101": {
+            "occurrences_increase": [
+                {
+                    "total": 15,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q9610"
+        },
+        "Q106819": {
+            "occurrences_increase": [
+                {
+                    "total": 14,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q1568"
+        },
+        "Q2301516": {
+            "occurrences_increase": [
+                {
+                    "total": 8,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q9027"
+        },
+        "Q918111": {
+            "occurrences_increase": [
+                {
+                    "total": 13,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q9027"
+        },
+        "Q53105": {
+            "occurrences_increase": [
+                {
+                    "total": 16,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q7737"
+        },
+        "Q14298247": {
+            "occurrences_increase": [
+                {
+                    "total": 3,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q1617"
+        },
+        "Q153677": {
+            "occurrences_increase": [
+                {
+                    "total": 25,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q652"
+        },
+        "Q2725900": {
+            "occurrences_increase": [
+                {
+                    "total": 3,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q5137"
+        },
+        "Q1310362": {
+            "occurrences_increase": [
+                {
+                    "total": 92,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q809"
+        },
+        "Q917248": {
+            "occurrences_increase": [
+                {
+                    "total": 91,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q9027"
         }
     },
     "P36": {
@@ -4347,14 +8577,41 @@
             ],
             "obj_id": "Q1842"
         },
-        "Q30": {
+        "Q3177715": {
             "occurrences_increase": [
                 {
-                    "total": 115556,
+                    "total": 20,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q3492"
+        },
+        "Q1256": {
+            "occurrences_increase": [
+                {
+                    "total": 807,
                     "correct": true
                 }
             ],
-            "obj_id": "Q61"
+            "obj_id": "Q1449"
+        },
+        "Q1356": {
+            "occurrences_increase": [
+                {
+                    "total": 4692,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q1348"
+        },
+        "Q1185": {
+            "occurrences_increase": [
+                {
+                    "total": 3819,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q1355"
         },
         "Q962": {
             "occurrences_increase": [
@@ -4364,6 +8621,60 @@
                 }
             ],
             "obj_id": "Q3799"
+        },
+        "Q865": {
+            "occurrences_increase": [
+                {
+                    "total": 13959,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q1867"
+        },
+        "Q217230": {
+            "occurrences_increase": [
+                {
+                    "total": 138,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q8678"
+        },
+        "Q347": {
+            "occurrences_increase": [
+                {
+                    "total": 712,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q1844"
+        },
+        "Q843": {
+            "occurrences_increase": [
+                {
+                    "total": 3545,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q1362"
+        },
+        "Q1009": {
+            "occurrences_increase": [
+                {
+                    "total": 1084,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q3808"
+        },
+        "Q211": {
+            "occurrences_increase": [
+                {
+                    "total": 4923,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q1773"
         }
     },
     "P137": {
@@ -4411,6 +8722,60 @@
                 }
             ],
             "obj_id": "Q819425"
+        },
+        "Q1058502": {
+            "occurrences_increase": [
+                {
+                    "total": 1,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q217406"
+        },
+        "Q1209066": {
+            "occurrences_increase": [
+                {
+                    "total": 2,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q755179"
+        },
+        "Q764804": {
+            "occurrences_increase": [
+                {
+                    "total": 14,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q936287"
+        },
+        "Q2106205": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q1479375"
+        },
+        "Q1634912": {
+            "occurrences_increase": [
+                {
+                    "total": 0,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q731647"
+        },
+        "Q154532": {
+            "occurrences_increase": [
+                {
+                    "total": 80,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q2564009"
         }
     },
     "P427": {
@@ -4432,23 +8797,23 @@
             ],
             "obj_id": "Q217129"
         },
-        "Q1293045": {
+        "Q158502": {
             "occurrences_increase": [
                 {
-                    "total": 162,
+                    "total": 56,
                     "correct": false
                 }
             ],
-            "obj_id": "Q188446"
+            "obj_id": "Q256508"
         },
-        "Q7375": {
+        "Q1928709": {
             "occurrences_increase": [
                 {
-                    "total": 209,
+                    "total": 7,
                     "correct": false
                 }
             ],
-            "obj_id": "Q132922"
+            "obj_id": "Q1474934"
         }
     },
     "P466": {
@@ -4460,9 +8825,198 @@
                 }
             ],
             "obj_id": "Q7785"
+        },
+        "Q5118815": {
+            "occurrences_increase": [
+                {
+                    "total": 4,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q76483"
+        },
+        "Q4877966": {
+            "occurrences_increase": [
+                {
+                    "total": 24,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q162269"
+        },
+        "Q1347442": {
+            "occurrences_increase": [
+                {
+                    "total": 27,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q167253"
         }
     },
     "P30": {
+        "Q334738": {
+            "occurrences_increase": [
+                {
+                    "total": 17,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q18"
+        },
+        "Q1001339": {
+            "occurrences_increase": [
+                {
+                    "total": 2,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q18"
+        },
+        "Q179997": {
+            "occurrences_increase": [
+                {
+                    "total": 304,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q49"
+        },
+        "Q774": {
+            "occurrences_increase": [
+                {
+                    "total": 727,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q49"
+        },
+        "Q200255": {
+            "occurrences_increase": [
+                {
+                    "total": 154,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q51"
+        },
+        "Q228": {
+            "occurrences_increase": [
+                {
+                    "total": 901,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q46"
+        },
+        "Q155": {
+            "occurrences_increase": [
+                {
+                    "total": 8779,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q18"
+        },
+        "Q1014": {
+            "occurrences_increase": [
+                {
+                    "total": 2423,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q15"
+        },
+        "Q403": {
+            "occurrences_increase": [
+                {
+                    "total": 3167,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q46"
+        },
+        "Q3783": {
+            "occurrences_increase": [
+                {
+                    "total": 1441,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q18"
+        },
+        "Q39": {
+            "occurrences_increase": [
+                {
+                    "total": 7766,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q46"
+        },
+        "Q14773": {
+            "occurrences_increase": [
+                {
+                    "total": 941,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q48"
+        },
+        "Q958": {
+            "occurrences_increase": [
+                {
+                    "total": 1249,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q15"
+        },
+        "Q962": {
+            "occurrences_increase": [
+                {
+                    "total": 2149,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q15"
+        },
+        "Q5705": {
+            "occurrences_increase": [
+                {
+                    "total": 554,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q46"
+        },
+        "Q1166": {
+            "occurrences_increase": [
+                {
+                    "total": 1165,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q49"
+        },
+        "Q118771": {
+            "occurrences_increase": [
+                {
+                    "total": 87,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q18"
+        },
+        "Q1973": {
+            "occurrences_increase": [
+                {
+                    "total": 2873,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q49"
+        },
         "Q1027": {
             "occurrences_increase": [
                 {
@@ -4472,116 +9026,44 @@
             ],
             "obj_id": "Q15"
         },
-        "Q183": {
+        "Q1445": {
             "occurrences_increase": [
                 {
-                    "total": 33551,
-                    "correct": false
-                }
-            ],
-            "obj_id": "Q46"
-        },
-        "Q38872": {
-            "occurrences_increase": [
-                {
-                    "total": 622,
-                    "correct": false
-                }
-            ],
-            "obj_id": "Q46"
-        },
-        "Q41": {
-            "occurrences_increase": [
-                {
-                    "total": 8632,
-                    "correct": false
-                }
-            ],
-            "obj_id": "Q46"
-        },
-        "Q771": {
-            "occurrences_increase": [
-                {
-                    "total": 1234,
+                    "total": 331,
                     "correct": true
                 }
             ],
-            "obj_id": "Q49"
-        },
-        "Q131198": {
-            "occurrences_increase": [
-                {
-                    "total": 85,
-                    "correct": true
-                }
-            ],
-            "obj_id": "Q51"
-        },
-        "Q1408": {
-            "occurrences_increase": [
-                {
-                    "total": 1110,
-                    "correct": true
-                }
-            ],
-            "obj_id": "Q49"
-        },
-        "Q244": {
-            "occurrences_increase": [
-                {
-                    "total": 302,
-                    "correct": false
-                }
-            ],
-            "obj_id": "Q49"
-        },
-        "Q571430": {
-            "occurrences_increase": [
-                {
-                    "total": 77,
-                    "correct": true
-                }
-            ],
-            "obj_id": "Q51"
-        },
-        "Q790": {
-            "occurrences_increase": [
-                {
-                    "total": 411,
-                    "correct": false
-                }
-            ],
-            "obj_id": "Q49"
-        },
-        "Q1036": {
-            "occurrences_increase": [
-                {
-                    "total": 6571,
-                    "correct": true
-                }
-            ],
-            "obj_id": "Q15"
-        },
-        "Q965": {
-            "occurrences_increase": [
-                {
-                    "total": 1841,
-                    "correct": true
-                }
-            ],
-            "obj_id": "Q15"
-        },
-        "Q189999": {
-            "occurrences_increase": [
-                {
-                    "total": 713,
-                    "correct": true
-                }
-            ],
-            "obj_id": "Q51"
+            "obj_id": "Q48"
         }
     },
     "P1376": {
+        "Q1461": {
+            "occurrences_increase": [
+                {
+                    "total": 8682,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q928"
+        },
+        "Q9248": {
+            "occurrences_increase": [
+                {
+                    "total": 6907,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q227"
+        },
+        "Q1490": {
+            "occurrences_increase": [
+                {
+                    "total": 41505,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q17"
+        },
         "Q35381": {
             "occurrences_increase": [
                 {
@@ -4591,32 +9073,50 @@
             ],
             "obj_id": "Q854"
         },
-        "Q5838": {
+        "Q3844": {
             "occurrences_increase": [
                 {
-                    "total": 4342,
-                    "correct": true
+                    "total": 1757,
+                    "correct": false
                 }
             ],
-            "obj_id": "Q889"
+            "obj_id": "Q971"
         },
-        "Q3820": {
+        "Q1489": {
             "occurrences_increase": [
                 {
-                    "total": 5982,
+                    "total": 353702,
                     "correct": true
                 }
             ],
-            "obj_id": "Q822"
+            "obj_id": "Q96"
         },
-        "Q1844": {
+        "Q41547": {
             "occurrences_increase": [
                 {
-                    "total": 711,
+                    "total": 227,
+                    "correct": false
+                }
+            ],
+            "obj_id": "Q769"
+        },
+        "Q1780": {
+            "occurrences_increase": [
+                {
+                    "total": 3873,
                     "correct": true
                 }
             ],
-            "obj_id": "Q347"
+            "obj_id": "Q214"
+        },
+        "Q987": {
+            "occurrences_increase": [
+                {
+                    "total": 17912,
+                    "correct": true
+                }
+            ],
+            "obj_id": "Q668"
         }
     }
 }
