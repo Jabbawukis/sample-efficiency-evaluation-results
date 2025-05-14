@@ -41,12 +41,17 @@ Train a model on the whole dataset and probe it after training.
 |pile_10k|       1 |none  |     0|word_perplexity|↓  |233.5492|±  |   N/A|
 
 
-- Model: gpt2-large (812M params)
+- Model: gpt2-medium (380M params)
 
 |     Tasks      | Version |Filter|n-shot|  Metric  |   | Value |   |Stderr|
 |----------------|--------:|------|-----:|----------|---|------:|---|-----:|
-|lambada_standard|       1 |none  |     0|acc       |↑  | 0.4040|±  |0.0068|
-|lambada_standard|       1 |none  |     0|perplexity|↓  |22.1789|±  |0.7740|
+|winogrande|      1|none  |     0|acc   |↑  |0.5312|±  | 0.014|
+|wsc273|      1|none  |     0|acc   |↑  |0.6117|±  |0.0296|
+|lambada_standard|      1|none  |     0|acc       |↑  | 0.3769|±  |0.0068|
+|lambada_standard|      1|none  |     0|perplexity|↓  |29.6928|±  |1.0742|
+|pile_10k| 1|none  |     0|bits_per_byte  |↓  |  1.0493|±  |   N/A|
+|pile_10k| 1|none  |     0|byte_perplexity|↓  |  2.0695|±  |   N/A|
+|pile_10k| 1|none  |     0|word_perplexity|↓  |130.5904|±  |   N/A|
 
 ### 2. gpt2_124m
 
