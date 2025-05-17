@@ -1,7 +1,7 @@
 {
     "llama_208m": [
         {
-            "Function": "Cumulative Distribution Function",
+            "Function": "EDF",
             "NLL_values": [
                 {
                     "slice": "0",
@@ -158,7 +158,7 @@
             ]
         },
         {
-            "Function": "Power Scaling Function",
+            "Function": "PSF",
             "NLL_values": [
                 {
                     "slice": "0",
@@ -331,7 +331,7 @@
             ]
         },
         {
-            "Function": "Power Scaling Function (Default)",
+            "Function": "$PSF_{0,1}$",
             "NLL_values": [
                 {
                     "slice": "0",
