@@ -37,3 +37,16 @@ gpt2_209m
         ├── P101_results.jsonl
         ├── P103_results.jsonl
         ...
+
+## Citation
+
+```
+@inproceedings{
+anonymous2025from,
+title={From Data to Knowledge: Evaluating How Efficiently Language Models Learn Facts},
+author={Anonymous},
+booktitle={First Workshop on Large Language Model Memorization},
+year={2025},
+url={https://openreview.net/forum?id=iXHpdSGd8o}
+}
+```
