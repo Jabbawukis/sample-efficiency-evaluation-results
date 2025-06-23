@@ -42,11 +42,13 @@ gpt2_209m
 ## Citation
 
 ```
-    @inproceedings{
-    anonymous2025from,
-    title={From Data to Knowledge: Evaluating How Efficiently Language Models Learn Facts},
-    author={Anonymous},
-    booktitle={First Workshop on Large Language Model Memorization},
-    year={2025},
-    url={https://openreview.net/forum?id=iXHpdSGd8o}
-    }
+@misc{christoph2025dataknowledgeevaluatingefficiently,
+      title={From Data to Knowledge: Evaluating How Efficiently Language Models Learn Facts}, 
+      author={Daniel Christoph and Max Ploner and Patrick Haller and Alan Akbik},
+      year={2025},
+      eprint={2506.16912},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2506.16912}, 
+}
+```
